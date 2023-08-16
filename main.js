@@ -10240,7 +10240,7 @@ const environment = {
   production: false,
   stripe_token: 'STRIPE_TOKEN',
   paypal_token: 'PAYPAL_TOKEN',
-  urlWeb: 'http://localhost:4000/eyedmx/',
+  urlWeb: 'http://3.140.44.227:4000/eyedmx/',
   secrectKey: 'secret',
   pagination_limit: 15
 };

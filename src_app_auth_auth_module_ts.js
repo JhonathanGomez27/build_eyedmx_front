@@ -635,7 +635,7 @@ LoginComponent.ɵcmp = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_2__["
       _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](39, "Create una cuenta");
       _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
       _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](40, "p");
-      _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](41, "Registrate en nuestra aplicacion para obtener tu manilla EyeD. El registro es rapido y facil.");
+      _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](41, "Registrate en nuestra aplicacion para obtener tu pulsera EyeD. El registro es rapido y facil.");
       _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
       _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](42, "button", 27);
       _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](43, "Crear una cuenta");
