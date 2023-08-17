@@ -66432,7 +66432,7 @@ table tbody .border-bottom-warning td {
     width: 150px !important;
   }
   .needs-validation .form-group .form-control, .needs-validation .form-group select {
-    width: 95%;
+    width: 100%;
     margin: 0 auto;
   }
   .needs-validation .form-group .checkbox {

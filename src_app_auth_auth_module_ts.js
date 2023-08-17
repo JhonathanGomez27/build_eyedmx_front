@@ -446,9 +446,9 @@ __webpack_require__.r(__webpack_exports__);
 
 
 const _c0 = ["signInNgForm"];
-function LoginComponent_div_8_Template(rf, ctx) {
+function LoginComponent_div_11_Template(rf, ctx) {
   if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](0, "div", 28);
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](0, "div", 29);
     _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](1);
     _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
   }
@@ -458,33 +458,33 @@ function LoginComponent_div_8_Template(rf, ctx) {
     _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtextInterpolate1"](" ", ctx_r0.messageAlert, " ");
   }
 }
-function LoginComponent_div_15_Template(rf, ctx) {
+function LoginComponent_div_18_Template(rf, ctx) {
   if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](0, "div", 29);
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](0, "div", 30);
     _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](1, " Ingresa un correo electronico valido ");
     _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
   }
 }
-function LoginComponent_div_16_Template(rf, ctx) {
+function LoginComponent_div_19_Template(rf, ctx) {
   if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](0, "div", 29);
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](0, "div", 30);
     _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](1, " El correo electronico es requerido ");
     _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
   }
 }
-function LoginComponent_i_24_Template(rf, ctx) {
-  if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](0, "i", 30);
-  }
-}
-function LoginComponent_i_25_Template(rf, ctx) {
+function LoginComponent_i_27_Template(rf, ctx) {
   if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](0, "i", 31);
   }
 }
-function LoginComponent_div_27_Template(rf, ctx) {
+function LoginComponent_i_28_Template(rf, ctx) {
   if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](0, "div", 29);
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](0, "i", 32);
+  }
+}
+function LoginComponent_div_30_Template(rf, ctx) {
+  if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](0, "div", 30);
     _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](1, " La contrase\u00F1a es requerida ");
     _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
   }
@@ -591,9 +591,9 @@ LoginComponent.ɵcmp = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_2__["
       _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵqueryRefresh"](_t = _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵloadQuery"]()) && (ctx.signInNgForm = _t.first);
     }
   },
-  decls: 55,
+  decls: 58,
   vars: 23,
-  consts: [[3, "title", "breadcrumb"], [1, "login-page", "section-b-space"], [1, "container"], [1, "row"], [1, "col-lg-6"], [1, "theme-card"], ["class", "alert alert-danger", "role", "alert", 4, "ngIf"], ["novalidate", "", 1, "login-form-theme", "needs-validation", 3, "formGroup", "ngSubmit"], ["signInNgForm", "ngForm"], [1, "form-group"], ["for", "email"], ["id", "email", "placeholder", "Correo electronico", "autocomplete", "on", 1, "form-control", 3, "ngClass", "formControlName"], ["class", "error-login-form", 4, "ngIf"], ["for", "password"], [1, "input-group"], ["type", "password", "id", "password", "placeholder", "Ingresa tu contrase\u00F1a", "autocomplete", "on", "aria-label", "password", "aria-describedby", "basic-addon1", 1, "form-control", 3, "ngClass", "formControlName"], ["passwordField", ""], ["id", "basic-addon1", 1, "input-group-text", 3, "click"], ["class", "fa fa-eye", "aria-hidden", "true", 4, "ngIf"], ["class", "fa fa-eye-slash", "aria-hidden", "true", 4, "ngIf"], [1, "border-bottom-login-form"], [1, "recuperar-contrasenia"], [3, "routerLink"], ["type", "submit", 1, "btn", "btn-solid"], [1, "col-lg-6", "right-login"], [1, "theme-card", "authentication-right"], [1, "title-font"], [1, "btn", "btn-solid", 3, "routerLink"], ["role", "alert", 1, "alert", "alert-danger"], [1, "error-login-form"], ["aria-hidden", "true", 1, "fa", "fa-eye"], ["aria-hidden", "true", 1, "fa", "fa-eye-slash"]],
+  consts: [[3, "title", "breadcrumb"], [1, "login-page", "section-b-space"], [1, "container"], [1, "row"], [1, "col-lg-6"], [2, "font-size", "12px"], [1, "theme-card"], ["class", "alert alert-danger", "role", "alert", 4, "ngIf"], ["novalidate", "", 1, "login-form-theme", "needs-validation", 3, "formGroup", "ngSubmit"], ["signInNgForm", "ngForm"], [1, "form-group"], ["for", "email"], ["id", "email", "placeholder", "Correo electronico", "autocomplete", "on", 1, "form-control", 3, "ngClass", "formControlName"], ["class", "error-login-form", 4, "ngIf"], ["for", "password"], [1, "input-group"], ["type", "password", "id", "password", "placeholder", "Ingresa tu contrase\u00F1a", "autocomplete", "on", "aria-label", "password", "aria-describedby", "basic-addon1", 1, "form-control", 3, "ngClass", "formControlName"], ["passwordField", ""], ["id", "basic-addon1", 1, "input-group-text", 3, "click"], ["class", "fa fa-eye", "aria-hidden", "true", 4, "ngIf"], ["class", "fa fa-eye-slash", "aria-hidden", "true", 4, "ngIf"], [1, "border-bottom-login-form"], [1, "recuperar-contrasenia"], [3, "routerLink"], ["type", "submit", 1, "btn", "btn-solid"], [1, "col-lg-6", "right-login"], [1, "theme-card", "authentication-right"], [1, "title-font"], [1, "btn", "btn-solid", 3, "routerLink"], ["role", "alert", 1, "alert", "alert-danger"], [1, "error-login-form"], ["aria-hidden", "true", 1, "fa", "fa-eye"], ["aria-hidden", "true", 1, "fa", "fa-eye-slash"]],
   template: function LoginComponent_Template(rf, ctx) {
     if (rf & 1) {
       const _r8 = _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵgetCurrentView"]();
@@ -601,73 +601,77 @@ LoginComponent.ɵcmp = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_2__["
       _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](1, "section", 1)(2, "div", 2)(3, "div", 3)(4, "div", 4)(5, "h3");
       _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](6, "Iniciar sesi\u00F3n");
       _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
-      _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](7, "div", 5);
-      _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtemplate"](8, LoginComponent_div_8_Template, 2, 1, "div", 6);
-      _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](9, "form", 7, 8);
-      _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵlistener"]("ngSubmit", function LoginComponent_Template_form_ngSubmit_9_listener() {
+      _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](7, "br");
+      _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](8, "p", 5);
+      _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](9, "Los campos marcados con * son obligatorios");
+      _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
+      _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](10, "div", 6);
+      _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtemplate"](11, LoginComponent_div_11_Template, 2, 1, "div", 7);
+      _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](12, "form", 8, 9);
+      _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵlistener"]("ngSubmit", function LoginComponent_Template_form_ngSubmit_12_listener() {
         return ctx.onSubmit();
       });
-      _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](11, "div", 9)(12, "label", 10);
-      _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](13, "Correo electronico");
+      _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](14, "div", 10)(15, "label", 11);
+      _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](16, "Correo electronico *");
       _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
-      _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](14, "input", 11);
-      _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtemplate"](15, LoginComponent_div_15_Template, 2, 0, "div", 12);
-      _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtemplate"](16, LoginComponent_div_16_Template, 2, 0, "div", 12);
+      _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](17, "input", 12);
+      _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtemplate"](18, LoginComponent_div_18_Template, 2, 0, "div", 13);
+      _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtemplate"](19, LoginComponent_div_19_Template, 2, 0, "div", 13);
       _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
-      _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](17, "div")(18, "label", 13);
-      _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](19, "Contrase\u00F1a");
+      _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](20, "div")(21, "label", 14);
+      _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](22, "Contrase\u00F1a *");
       _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]()();
-      _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](20, "div", 14);
-      _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](21, "input", 15, 16);
-      _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](23, "span", 17);
-      _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵlistener"]("click", function LoginComponent_Template_span_click_23_listener() {
+      _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](23, "div", 15);
+      _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](24, "input", 16, 17);
+      _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](26, "span", 18);
+      _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵlistener"]("click", function LoginComponent_Template_span_click_26_listener() {
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵrestoreView"](_r8);
-        const _r4 = _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵreference"](22);
+        const _r4 = _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵreference"](25);
         return _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵresetView"](_r4.type === "password" ? _r4.type = "text" : _r4.type = "password");
       });
-      _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtemplate"](24, LoginComponent_i_24_Template, 1, 0, "i", 18);
-      _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtemplate"](25, LoginComponent_i_25_Template, 1, 0, "i", 19);
+      _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtemplate"](27, LoginComponent_i_27_Template, 1, 0, "i", 19);
+      _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtemplate"](28, LoginComponent_i_28_Template, 1, 0, "i", 20);
       _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]()();
-      _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](26, "div", 20);
-      _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtemplate"](27, LoginComponent_div_27_Template, 2, 0, "div", 12);
+      _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](29, "div", 21);
+      _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtemplate"](30, LoginComponent_div_30_Template, 2, 0, "div", 13);
       _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
-      _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](28, "div", 21)(29, "a", 22);
-      _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](30, "\u00BFOlvidaste la contrase\u00F1a?");
+      _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](31, "div", 22)(32, "a", 23);
+      _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](33, "\u00BFOlvidaste la contrase\u00F1a?");
       _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]()();
-      _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](31, "br");
-      _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](32, "button", 23);
-      _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](33, "Iniciar ses\u00EDon");
+      _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](34, "br");
+      _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](35, "button", 24);
+      _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](36, "Iniciar ses\u00EDon");
       _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]()()()();
-      _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](34, "div", 24)(35, "h3");
-      _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](36, "Nuevo cliente");
+      _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](37, "div", 25)(38, "h3");
+      _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](39, "Nuevo cliente");
       _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
-      _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](37, "div", 25)(38, "h6", 26);
-      _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](39, "Create una cuenta");
+      _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](40, "div", 26)(41, "h6", 27);
+      _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](42, "Create una cuenta");
       _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
-      _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](40, "p");
-      _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](41, "Registrate en nuestra aplicacion para obtener tu pulsera EyeD. El registro es rapido y facil.");
+      _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](43, "p");
+      _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](44, "Registrate en nuestra aplicacion para obtener tu pulsera EyeD. El registro es rapido y facil.");
       _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
-      _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](42, "button", 27);
-      _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](43, "Crear una cuenta");
+      _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](45, "button", 28);
+      _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](46, "Crear una cuenta");
       _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]()()();
-      _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](44, "div", 4);
-      _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](45, "div", 4)(46, "h3");
-      _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](47, "\u00BFEres un taller?");
+      _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](47, "div", 4);
+      _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](48, "div", 4)(49, "h3");
+      _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](50, "\u00BFEres un taller?");
       _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
-      _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](48, "div", 25)(49, "h6", 26);
-      _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](50, "Create una cuenta");
+      _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](51, "div", 26)(52, "h6", 27);
+      _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](53, "Create una cuenta");
       _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
-      _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](51, "p");
-      _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](52, "Registrate en nuestra aplicacion.");
+      _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](54, "p");
+      _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](55, "Registrate en nuestra aplicacion.");
       _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
-      _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](53, "button", 27);
-      _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](54, "Crear cuenta taller");
+      _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](56, "button", 28);
+      _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](57, "Crear cuenta taller");
       _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]()()()()()();
     }
     if (rf & 2) {
-      const _r4 = _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵreference"](22);
+      const _r4 = _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵreference"](25);
       _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵproperty"]("title", "Inicio ses\u00EDon")("breadcrumb", "Inicio ses\u00EDon");
-      _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵadvance"](8);
+      _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵadvance"](11);
       _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵproperty"]("ngIf", ctx.showAlert);
       _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵadvance"](1);
       _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵproperty"]("formGroup", ctx.signInForm);
@@ -731,9 +735,9 @@ __webpack_require__.r(__webpack_exports__);
 
 
 const _c0 = ["signUpNgForm"];
-function RegisterTallerComponent_div_8_Template(rf, ctx) {
+function RegisterTallerComponent_div_11_Template(rf, ctx) {
   if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](0, "div", 38);
+    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](0, "div", 36);
     _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtext"](1);
     _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementEnd"]();
   }
@@ -743,110 +747,110 @@ function RegisterTallerComponent_div_8_Template(rf, ctx) {
     _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtextInterpolate1"](" ", ctx_r0.messageAlert, " ");
   }
 }
-function RegisterTallerComponent_div_16_Template(rf, ctx) {
+function RegisterTallerComponent_div_19_Template(rf, ctx) {
   if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](0, "div", 39);
+    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](0, "div", 37);
     _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtext"](1, " La Razon social (Nombre) es requerido ");
     _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementEnd"]();
   }
 }
-function RegisterTallerComponent_div_21_Template(rf, ctx) {
+function RegisterTallerComponent_div_24_Template(rf, ctx) {
   if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](0, "div", 39);
+    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](0, "div", 37);
     _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtext"](1, " Ingresa un correo electronico valido ");
     _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementEnd"]();
   }
 }
-function RegisterTallerComponent_div_22_Template(rf, ctx) {
+function RegisterTallerComponent_div_25_Template(rf, ctx) {
   if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](0, "div", 39);
+    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](0, "div", 37);
     _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtext"](1, " El correo electronico es requerido ");
     _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementEnd"]();
   }
 }
-function RegisterTallerComponent_i_30_Template(rf, ctx) {
+function RegisterTallerComponent_i_33_Template(rf, ctx) {
   if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelement"](0, "i", 40);
+    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelement"](0, "i", 38);
   }
 }
-function RegisterTallerComponent_i_31_Template(rf, ctx) {
+function RegisterTallerComponent_i_34_Template(rf, ctx) {
   if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelement"](0, "i", 41);
-  }
-}
-function RegisterTallerComponent_div_33_Template(rf, ctx) {
-  if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](0, "div", 39);
-    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtext"](1, " La contrase\u00F1a es requerida ");
-    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementEnd"]();
-  }
-}
-function RegisterTallerComponent_div_34_Template(rf, ctx) {
-  if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](0, "div", 39);
-    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtext"](1, " La contrase\u00F1a no cuenta con la longitud minima(8). ");
-    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementEnd"]();
-  }
-}
-function RegisterTallerComponent_div_35_Template(rf, ctx) {
-  if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](0, "div", 39);
-    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtext"](1, " La contrase\u00F1a debe contener al menos 1 numero. ");
-    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelement"](0, "i", 39);
   }
 }
 function RegisterTallerComponent_div_36_Template(rf, ctx) {
   if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](0, "div", 39);
-    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtext"](1, " La contrase\u00F1a debe contener al menos 1 letra mayuscula. ");
+    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](0, "div", 37);
+    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtext"](1, " La contrase\u00F1a es requerida ");
     _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementEnd"]();
   }
 }
 function RegisterTallerComponent_div_37_Template(rf, ctx) {
   if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](0, "div", 39);
-    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtext"](1, " La contrase\u00F1a debe contener al menos 1 letra minuscula. ");
+    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](0, "div", 37);
+    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtext"](1, " La contrase\u00F1a no cuenta con la longitud minima(8). ");
     _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementEnd"]();
   }
 }
 function RegisterTallerComponent_div_38_Template(rf, ctx) {
   if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](0, "div", 39);
+    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](0, "div", 37);
+    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtext"](1, " La contrase\u00F1a debe contener al menos 1 numero. ");
+    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementEnd"]();
+  }
+}
+function RegisterTallerComponent_div_39_Template(rf, ctx) {
+  if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](0, "div", 37);
+    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtext"](1, " La contrase\u00F1a debe contener al menos 1 letra mayuscula. ");
+    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementEnd"]();
+  }
+}
+function RegisterTallerComponent_div_40_Template(rf, ctx) {
+  if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](0, "div", 37);
+    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtext"](1, " La contrase\u00F1a debe contener al menos 1 letra minuscula. ");
+    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementEnd"]();
+  }
+}
+function RegisterTallerComponent_div_41_Template(rf, ctx) {
+  if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](0, "div", 37);
     _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtext"](1, " La contrase\u00F1a debe contener al menos 1 caracter especial. ");
     _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementEnd"]();
   }
 }
-function RegisterTallerComponent_div_43_Template(rf, ctx) {
+function RegisterTallerComponent_div_46_Template(rf, ctx) {
   if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](0, "div", 39);
+    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](0, "div", 37);
     _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtext"](1, " El campo: Direccion es requerido ");
     _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementEnd"]();
   }
 }
-function RegisterTallerComponent_div_48_Template(rf, ctx) {
+function RegisterTallerComponent_div_51_Template(rf, ctx) {
   if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](0, "div", 39);
+    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](0, "div", 37);
     _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtext"](1, " El campo: Telefono es requerido ");
     _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementEnd"]();
   }
 }
-function RegisterTallerComponent_div_49_Template(rf, ctx) {
+function RegisterTallerComponent_div_52_Template(rf, ctx) {
   if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](0, "div", 39);
+    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](0, "div", 37);
     _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtext"](1, " Ingrese un Telefono valido ");
     _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementEnd"]();
   }
 }
-function RegisterTallerComponent_span_61_Template(rf, ctx) {
+function RegisterTallerComponent_span_60_Template(rf, ctx) {
   if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](0, "span");
     _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtext"](1, "Crear cuenta taller");
     _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementEnd"]();
   }
 }
-function RegisterTallerComponent_div_62_Template(rf, ctx) {
+function RegisterTallerComponent_div_61_Template(rf, ctx) {
   if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](0, "div", 42)(1, "span", 43);
+    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](0, "div", 40)(1, "span", 41);
     _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtext"](2, "Loading...");
     _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementEnd"]()();
   }
@@ -1028,9 +1032,9 @@ RegisterTallerComponent.ɵcmp = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MOD
       _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵqueryRefresh"](_t = _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵloadQuery"]()) && (ctx.signUpNgForm = _t.first);
     }
   },
-  decls: 68,
+  decls: 67,
   vars: 43,
-  consts: [[3, "breadcrumb"], [1, "register-page", "section-b-space"], [1, "container"], [1, "row"], [1, "col-lg-12"], [1, "theme-card"], ["class", "alert alert-danger", "role", "alert", 4, "ngIf"], ["novalidate", "", 1, "register-form-theme", "needs-validation", 3, "formGroup", "ngSubmit"], ["signUpNgForm", "ngForm"], [1, "col-md-6", "mb-4"], ["for", "name"], ["id", "name", "placeholder", "Nombre completo", 1, "form-control", 3, "ngClass", "formControlName"], ["class", "error-login-form", 4, "ngIf"], ["for", "email"], ["id", "email", "placeholder", "Correo electronico", 1, "form-control", 3, "ngClass", "formControlName"], ["for", "password"], [1, "input-group"], ["type", "password", "id", "password", "placeholder", "Ingresa tu contrase\u00F1a", "autocomplete", "on", "aria-label", "password", "aria-describedby", "basic-addon1", 1, "form-control", 3, "ngClass", "formControlName"], ["passwordField", ""], ["id", "basic-addon1", 1, "input-group-text", 3, "click"], ["class", "fa fa-eye", "aria-hidden", "true", 4, "ngIf"], ["class", "fa fa-eye-slash", "aria-hidden", "true", 4, "ngIf"], [1, "border-bottom-login-form"], ["for", "direccion"], ["id", "direccion", "placeholder", "Direccion", 1, "form-control", 3, "ngClass", "formControlName"], ["for", "telefono"], ["type", "text", "prefix", "(+52) ", "mask", "000-000-0000", "id", "telefono", "placeholder", "Telefono", 1, "form-control", 3, "ngClass", "formControlName"], [1, "col-md-6", "mb-4", "taller-logo"], ["for", "logoTaller"], ["id", "logoTaller", "type", "file", 1, "form-control", 3, "formControlName", "change"], [1, "form-check"], ["type", "checkbox", "value", "", "id", "flexCheckDefault", 1, "form-check-input"], ["for", "flexCheckDefault", 1, "form-check-label"], ["type", "submit", 1, "btn", "btn-solid", 3, "disabled"], [4, "ngIf"], ["class", "spinner-border", "role", "status", 4, "ngIf"], [1, "already-account"], [3, "routerLink"], ["role", "alert", 1, "alert", "alert-danger"], [1, "error-login-form"], ["aria-hidden", "true", 1, "fa", "fa-eye"], ["aria-hidden", "true", 1, "fa", "fa-eye-slash"], ["role", "status", 1, "spinner-border"], [1, "visually-hidden"]],
+  consts: [[3, "breadcrumb"], [1, "register-page", "section-b-space"], [1, "container"], [1, "row"], [1, "col-lg-12"], [2, "font-size", "12px"], [1, "theme-card"], ["class", "alert alert-danger", "role", "alert", 4, "ngIf"], ["novalidate", "", 1, "register-form-theme", "needs-validation", 3, "formGroup", "ngSubmit"], ["signUpNgForm", "ngForm"], [1, "col-md-6", "mb-4"], ["for", "name"], ["id", "name", "placeholder", "Nombre completo", 1, "form-control", 3, "ngClass", "formControlName"], ["class", "error-login-form", 4, "ngIf"], ["for", "email"], ["id", "email", "placeholder", "Correo electronico", 1, "form-control", 3, "ngClass", "formControlName"], ["for", "password"], [1, "input-group"], ["type", "password", "id", "password", "placeholder", "Ingresa tu contrase\u00F1a", "autocomplete", "on", "aria-label", "password", "aria-describedby", "basic-addon1", 1, "form-control", 3, "ngClass", "formControlName"], ["passwordField", ""], ["id", "basic-addon1", 1, "input-group-text", 3, "click"], ["class", "fa fa-eye", "aria-hidden", "true", 4, "ngIf"], ["class", "fa fa-eye-slash", "aria-hidden", "true", 4, "ngIf"], [1, "border-bottom-login-form"], ["for", "direccion"], ["id", "direccion", "placeholder", "Direccion", 1, "form-control", 3, "ngClass", "formControlName"], ["for", "telefono"], ["type", "text", "prefix", "(+52) ", "mask", "000-000-0000", "id", "telefono", "placeholder", "Telefono", 1, "form-control", 3, "ngClass", "formControlName"], [1, "col-md-6", "mb-4", "taller-logo"], ["for", "logoTaller"], ["id", "logoTaller", "type", "file", 1, "form-control", 3, "formControlName", "change"], ["type", "submit", 1, "btn", "btn-solid", 3, "disabled"], [4, "ngIf"], ["class", "spinner-border", "role", "status", 4, "ngIf"], [1, "already-account"], [3, "routerLink"], ["role", "alert", 1, "alert", "alert-danger"], [1, "error-login-form"], ["aria-hidden", "true", 1, "fa", "fa-eye"], ["aria-hidden", "true", 1, "fa", "fa-eye-slash"], ["role", "status", 1, "spinner-border"], [1, "visually-hidden"]],
   template: function RegisterTallerComponent_Template(rf, ctx) {
     if (rf & 1) {
       const _r19 = _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵgetCurrentView"]();
@@ -1038,88 +1042,86 @@ RegisterTallerComponent.ɵcmp = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MOD
       _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](1, "section", 1)(2, "div", 2)(3, "div", 3)(4, "div", 4)(5, "h3");
       _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtext"](6, "Crear cuenta taller");
       _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementEnd"]();
-      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](7, "div", 5);
-      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtemplate"](8, RegisterTallerComponent_div_8_Template, 2, 1, "div", 6);
-      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](9, "form", 7, 8);
-      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵlistener"]("ngSubmit", function RegisterTallerComponent_Template_form_ngSubmit_9_listener() {
+      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelement"](7, "br");
+      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](8, "p", 5);
+      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtext"](9, "Los campos marcados con * son obligatorios");
+      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementEnd"]();
+      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](10, "div", 6);
+      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtemplate"](11, RegisterTallerComponent_div_11_Template, 2, 1, "div", 7);
+      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](12, "form", 8, 9);
+      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵlistener"]("ngSubmit", function RegisterTallerComponent_Template_form_ngSubmit_12_listener() {
         return ctx.onSubmit();
       });
-      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](11, "div", 3)(12, "div", 9)(13, "label", 10);
-      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtext"](14, "Razon social (Nombre)");
+      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](14, "div", 3)(15, "div", 10)(16, "label", 11);
+      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtext"](17, "Razon social (Nombre) *");
       _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementEnd"]();
-      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelement"](15, "input", 11);
-      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtemplate"](16, RegisterTallerComponent_div_16_Template, 2, 0, "div", 12);
+      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelement"](18, "input", 12);
+      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtemplate"](19, RegisterTallerComponent_div_19_Template, 2, 0, "div", 13);
       _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementEnd"]();
-      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](17, "div", 9)(18, "label", 13);
-      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtext"](19, "Correo electronico");
+      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](20, "div", 10)(21, "label", 14);
+      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtext"](22, "Correo electronico *");
       _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementEnd"]();
-      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelement"](20, "input", 14);
-      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtemplate"](21, RegisterTallerComponent_div_21_Template, 2, 0, "div", 12);
-      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtemplate"](22, RegisterTallerComponent_div_22_Template, 2, 0, "div", 12);
+      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelement"](23, "input", 15);
+      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtemplate"](24, RegisterTallerComponent_div_24_Template, 2, 0, "div", 13);
+      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtemplate"](25, RegisterTallerComponent_div_25_Template, 2, 0, "div", 13);
       _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementEnd"]();
-      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](23, "div", 9)(24, "label", 15);
-      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtext"](25, "Contrase\u00F1a");
+      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](26, "div", 10)(27, "label", 16);
+      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtext"](28, "Contrase\u00F1a *");
       _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementEnd"]();
-      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](26, "div", 16);
-      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelement"](27, "input", 17, 18);
-      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](29, "span", 19);
-      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵlistener"]("click", function RegisterTallerComponent_Template_span_click_29_listener() {
+      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](29, "div", 17);
+      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelement"](30, "input", 18, 19);
+      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](32, "span", 20);
+      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵlistener"]("click", function RegisterTallerComponent_Template_span_click_32_listener() {
         _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵrestoreView"](_r19);
-        const _r5 = _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵreference"](28);
+        const _r5 = _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵreference"](31);
         return _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵresetView"](_r5.type === "password" ? _r5.type = "text" : _r5.type = "password");
       });
-      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtemplate"](30, RegisterTallerComponent_i_30_Template, 1, 0, "i", 20);
-      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtemplate"](31, RegisterTallerComponent_i_31_Template, 1, 0, "i", 21);
+      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtemplate"](33, RegisterTallerComponent_i_33_Template, 1, 0, "i", 21);
+      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtemplate"](34, RegisterTallerComponent_i_34_Template, 1, 0, "i", 22);
       _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementEnd"]()();
-      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](32, "div", 22);
-      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtemplate"](33, RegisterTallerComponent_div_33_Template, 2, 0, "div", 12);
-      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtemplate"](34, RegisterTallerComponent_div_34_Template, 2, 0, "div", 12);
-      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtemplate"](35, RegisterTallerComponent_div_35_Template, 2, 0, "div", 12);
-      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtemplate"](36, RegisterTallerComponent_div_36_Template, 2, 0, "div", 12);
-      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtemplate"](37, RegisterTallerComponent_div_37_Template, 2, 0, "div", 12);
-      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtemplate"](38, RegisterTallerComponent_div_38_Template, 2, 0, "div", 12);
+      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](35, "div", 23);
+      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtemplate"](36, RegisterTallerComponent_div_36_Template, 2, 0, "div", 13);
+      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtemplate"](37, RegisterTallerComponent_div_37_Template, 2, 0, "div", 13);
+      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtemplate"](38, RegisterTallerComponent_div_38_Template, 2, 0, "div", 13);
+      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtemplate"](39, RegisterTallerComponent_div_39_Template, 2, 0, "div", 13);
+      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtemplate"](40, RegisterTallerComponent_div_40_Template, 2, 0, "div", 13);
+      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtemplate"](41, RegisterTallerComponent_div_41_Template, 2, 0, "div", 13);
       _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementEnd"]()();
-      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](39, "div", 9)(40, "label", 23);
-      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtext"](41, "Direccion");
+      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](42, "div", 10)(43, "label", 24);
+      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtext"](44, "Direccion *");
       _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementEnd"]();
-      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelement"](42, "input", 24);
-      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtemplate"](43, RegisterTallerComponent_div_43_Template, 2, 0, "div", 12);
+      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelement"](45, "input", 25);
+      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtemplate"](46, RegisterTallerComponent_div_46_Template, 2, 0, "div", 13);
       _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementEnd"]();
-      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](44, "div", 9)(45, "label", 25);
-      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtext"](46, "Telefono");
+      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](47, "div", 10)(48, "label", 26);
+      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtext"](49, "Telefono *");
       _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementEnd"]();
-      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelement"](47, "input", 26);
-      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtemplate"](48, RegisterTallerComponent_div_48_Template, 2, 0, "div", 12);
-      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtemplate"](49, RegisterTallerComponent_div_49_Template, 2, 0, "div", 12);
+      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelement"](50, "input", 27);
+      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtemplate"](51, RegisterTallerComponent_div_51_Template, 2, 0, "div", 13);
+      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtemplate"](52, RegisterTallerComponent_div_52_Template, 2, 0, "div", 13);
       _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementEnd"]();
-      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](50, "div", 27)(51, "label", 28);
-      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtext"](52, "Logo taller :");
+      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](53, "div", 28)(54, "label", 29);
+      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtext"](55, "Logo taller");
       _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementEnd"]();
-      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](53, "input", 29);
-      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵlistener"]("change", function RegisterTallerComponent_Template_input_change_53_listener($event) {
+      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](56, "input", 30);
+      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵlistener"]("change", function RegisterTallerComponent_Template_input_change_56_listener($event) {
         return ctx.onFileSelected($event);
       });
       _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementEnd"]()()();
-      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelement"](54, "br");
-      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](55, "div", 30);
-      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelement"](56, "input", 31);
-      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](57, "label", 32);
-      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtext"](58, " Al crear mi cuenta acepto los terminos y condiciones de Eyedmx ");
-      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementEnd"]()();
-      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelement"](59, "br");
-      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](60, "button", 33);
-      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtemplate"](61, RegisterTallerComponent_span_61_Template, 2, 0, "span", 34);
-      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtemplate"](62, RegisterTallerComponent_div_62_Template, 3, 0, "div", 35);
+      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelement"](57, "br")(58, "br");
+      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](59, "button", 31);
+      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtemplate"](60, RegisterTallerComponent_span_60_Template, 2, 0, "span", 32);
+      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtemplate"](61, RegisterTallerComponent_div_61_Template, 3, 0, "div", 33);
       _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementEnd"]();
-      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelement"](63, "br")(64, "br");
-      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](65, "div", 36)(66, "a", 37);
-      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtext"](67, "\u00BFYa tienes una cuenta? Inicia ses\u00EDon");
+      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelement"](62, "br")(63, "br");
+      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](64, "div", 34)(65, "a", 35);
+      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtext"](66, "\u00BFYa tienes una cuenta? Inicia ses\u00EDon");
       _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementEnd"]()()()()()()()();
     }
     if (rf & 2) {
-      const _r5 = _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵreference"](28);
+      const _r5 = _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵreference"](31);
       _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵproperty"]("breadcrumb", "Registrar taller");
-      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵadvance"](8);
+      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵadvance"](11);
       _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵproperty"]("ngIf", ctx.showAlert);
       _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵadvance"](1);
       _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵproperty"]("formGroup", ctx.signUpForm);
@@ -1163,7 +1165,7 @@ RegisterTallerComponent.ɵcmp = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MOD
       _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵproperty"]("ngIf", !ctx.signUpForm.get("telefono").hasError("required") && ctx.signUpForm.get("telefono").invalid);
       _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵadvance"](4);
       _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵproperty"]("formControlName", "fotoBase");
-      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵadvance"](7);
+      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵadvance"](3);
       _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵproperty"]("disabled", ctx.signUpForm.disabled);
       _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵadvance"](1);
       _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵproperty"]("ngIf", !ctx.signUpForm.disabled);
@@ -1214,9 +1216,9 @@ __webpack_require__.r(__webpack_exports__);
 
 
 const _c0 = ["signUpNgForm"];
-function RegisterComponent_div_8_Template(rf, ctx) {
+function RegisterComponent_div_12_Template(rf, ctx) {
   if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](0, "div", 45);
+    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](0, "div", 43);
     _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtext"](1);
     _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementEnd"]();
   }
@@ -1226,110 +1228,110 @@ function RegisterComponent_div_8_Template(rf, ctx) {
     _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtextInterpolate1"](" ", ctx_r0.messageAlert, " ");
   }
 }
-function RegisterComponent_div_16_Template(rf, ctx) {
+function RegisterComponent_div_20_Template(rf, ctx) {
   if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](0, "div", 46);
+    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](0, "div", 44);
     _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtext"](1, " El nombre es requerido ");
     _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementEnd"]();
   }
 }
-function RegisterComponent_div_21_Template(rf, ctx) {
+function RegisterComponent_div_25_Template(rf, ctx) {
   if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](0, "div", 46);
+    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](0, "div", 44);
     _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtext"](1, " Ingresa un correo electronico valido ");
     _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementEnd"]();
   }
 }
-function RegisterComponent_div_22_Template(rf, ctx) {
+function RegisterComponent_div_26_Template(rf, ctx) {
   if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](0, "div", 46);
+    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](0, "div", 44);
     _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtext"](1, " El correo electronico es requerido ");
     _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementEnd"]();
   }
 }
-function RegisterComponent_i_30_Template(rf, ctx) {
+function RegisterComponent_i_34_Template(rf, ctx) {
   if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelement"](0, "i", 47);
+    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelement"](0, "i", 45);
   }
 }
-function RegisterComponent_i_31_Template(rf, ctx) {
+function RegisterComponent_i_35_Template(rf, ctx) {
   if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelement"](0, "i", 48);
-  }
-}
-function RegisterComponent_div_33_Template(rf, ctx) {
-  if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](0, "div", 46);
-    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtext"](1, " La contrase\u00F1a es requerida ");
-    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementEnd"]();
-  }
-}
-function RegisterComponent_div_34_Template(rf, ctx) {
-  if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](0, "div", 46);
-    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtext"](1, " La contrase\u00F1a no cuenta con la longitud minima(8). ");
-    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementEnd"]();
-  }
-}
-function RegisterComponent_div_35_Template(rf, ctx) {
-  if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](0, "div", 46);
-    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtext"](1, " La contrase\u00F1a debe contener al menos 1 numero. ");
-    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementEnd"]();
-  }
-}
-function RegisterComponent_div_36_Template(rf, ctx) {
-  if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](0, "div", 46);
-    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtext"](1, " La contrase\u00F1a debe contener al menos 1 letra mayuscula. ");
-    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelement"](0, "i", 46);
   }
 }
 function RegisterComponent_div_37_Template(rf, ctx) {
   if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](0, "div", 46);
-    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtext"](1, " La contrase\u00F1a debe contener al menos 1 letra minuscula. ");
+    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](0, "div", 44);
+    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtext"](1, " La contrase\u00F1a es requerida ");
     _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementEnd"]();
   }
 }
 function RegisterComponent_div_38_Template(rf, ctx) {
   if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](0, "div", 46);
+    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](0, "div", 44);
+    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtext"](1, " La contrase\u00F1a no cuenta con la longitud minima(8). ");
+    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementEnd"]();
+  }
+}
+function RegisterComponent_div_39_Template(rf, ctx) {
+  if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](0, "div", 44);
+    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtext"](1, " La contrase\u00F1a debe contener al menos 1 numero. ");
+    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementEnd"]();
+  }
+}
+function RegisterComponent_div_40_Template(rf, ctx) {
+  if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](0, "div", 44);
+    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtext"](1, " La contrase\u00F1a debe contener al menos 1 letra mayuscula. ");
+    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementEnd"]();
+  }
+}
+function RegisterComponent_div_41_Template(rf, ctx) {
+  if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](0, "div", 44);
+    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtext"](1, " La contrase\u00F1a debe contener al menos 1 letra minuscula. ");
+    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementEnd"]();
+  }
+}
+function RegisterComponent_div_42_Template(rf, ctx) {
+  if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](0, "div", 44);
     _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtext"](1, " La contrase\u00F1a debe contener al menos 1 caracter especial. ");
     _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementEnd"]();
   }
 }
-function RegisterComponent_div_43_Template(rf, ctx) {
+function RegisterComponent_div_47_Template(rf, ctx) {
   if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](0, "div", 46);
+    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](0, "div", 44);
     _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtext"](1, " El campo: Direccion es requerido ");
     _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementEnd"]();
   }
 }
-function RegisterComponent_div_48_Template(rf, ctx) {
+function RegisterComponent_div_52_Template(rf, ctx) {
   if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](0, "div", 46);
+    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](0, "div", 44);
     _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtext"](1, " El campo: Telefono es requerido ");
     _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementEnd"]();
   }
 }
-function RegisterComponent_div_49_Template(rf, ctx) {
+function RegisterComponent_div_53_Template(rf, ctx) {
   if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](0, "div", 46);
+    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](0, "div", 44);
     _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtext"](1, " Ingrese un Telefono valido ");
     _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementEnd"]();
   }
 }
-function RegisterComponent_div_54_Template(rf, ctx) {
+function RegisterComponent_div_58_Template(rf, ctx) {
   if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](0, "div", 46);
+    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](0, "div", 44);
     _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtext"](1, " El campo: Documento es requerido ");
     _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementEnd"]();
   }
 }
-function RegisterComponent_div_63_Template(rf, ctx) {
+function RegisterComponent_div_67_Template(rf, ctx) {
   if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](0, "div", 46);
+    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](0, "div", 44);
     _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtext"](1, " El campo: Fecha de nacimiento es requerido ");
     _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementEnd"]();
   }
@@ -1343,7 +1345,7 @@ function RegisterComponent_span_75_Template(rf, ctx) {
 }
 function RegisterComponent_div_76_Template(rf, ctx) {
   if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](0, "div", 49)(1, "span", 50);
+    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](0, "div", 47)(1, "span", 48);
     _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtext"](2, "Loading...");
     _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementEnd"]()();
   }
@@ -1601,7 +1603,7 @@ RegisterComponent.ɵcmp = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_3_
   },
   decls: 82,
   vars: 58,
-  consts: [[3, "breadcrumb"], [1, "register-page", "section-b-space"], [1, "container"], [1, "row"], [1, "col-lg-12"], [1, "theme-card"], ["class", "alert alert-danger", "role", "alert", 4, "ngIf"], ["novalidate", "", 1, "register-form-theme", "needs-validation", 3, "formGroup", "ngSubmit"], ["signUpNgForm", "ngForm"], [1, "col-md-6", "mb-4"], ["for", "name"], ["id", "name", "placeholder", "Nombre completo", 1, "form-control", 3, "ngClass", "formControlName"], ["class", "error-login-form", 4, "ngIf"], ["for", "email"], ["id", "email", "placeholder", "Correo electronico", 1, "form-control", 3, "ngClass", "formControlName"], ["for", "password"], [1, "input-group"], ["type", "password", "id", "password", "placeholder", "Ingresa tu contrase\u00F1a", "autocomplete", "on", "aria-label", "password", "aria-describedby", "basic-addon1", 1, "form-control", 3, "ngClass", "formControlName"], ["passwordField", ""], ["id", "basic-addon1", 1, "input-group-text", 3, "click"], ["class", "fa fa-eye", "aria-hidden", "true", 4, "ngIf"], ["class", "fa fa-eye-slash", "aria-hidden", "true", 4, "ngIf"], [1, "border-bottom-login-form"], ["for", "direccion"], ["id", "direccion", "placeholder", "Direccion", 1, "form-control", 3, "ngClass", "formControlName"], ["for", "telefono"], ["type", "text", "prefix", "(+52) ", "mask", "000-000-0000", "id", "telefono", "placeholder", "Telefono", 1, "form-control", 3, "ngClass", "formControlName"], ["for", "documento"], ["id", "documento", "placeholder", "Documento", 1, "form-control", 3, "ngClass", "formControlName"], ["for", "fdn"], ["placeholder", "dd-mm-yyy", "name", "fdn", "id", "fdn", "readonly", "", "ngbDatepicker", "", 1, "form-control", 3, "formControlName", "ngClass", "maxDate"], ["d", "ngbDatepicker"], ["type", "button", 1, "btn", "btn-outline-dark", 3, "click"], ["aria-hidden", "true", 1, "fa", "fa-calendar"], [1, "col-md-6", "mb-4", "taller-logo"], ["for", "logoTaller"], ["id", "logoTaller", "type", "file", 1, "form-control", 3, "formControlName", "change"], [1, "form-check"], ["type", "checkbox", "value", "", "id", "flexCheckDefault", 1, "form-check-input"], ["for", "flexCheckDefault", 1, "form-check-label"], ["type", "submit", 1, "btn", "btn-solid", 3, "disabled"], [4, "ngIf"], ["class", "spinner-border", "role", "status", 4, "ngIf"], [1, "already-account"], [3, "routerLink"], ["role", "alert", 1, "alert", "alert-danger"], [1, "error-login-form"], ["aria-hidden", "true", 1, "fa", "fa-eye"], ["aria-hidden", "true", 1, "fa", "fa-eye-slash"], ["role", "status", 1, "spinner-border"], [1, "visually-hidden"]],
+  consts: [[3, "breadcrumb"], [1, "register-page", "section-b-space"], [1, "container"], [1, "row"], [1, "col-lg-12"], [2, "font-size", "12px"], [1, "theme-card"], ["class", "alert alert-danger", "role", "alert", 4, "ngIf"], ["novalidate", "", 1, "register-form-theme", "needs-validation", 3, "formGroup", "ngSubmit"], ["signUpNgForm", "ngForm"], [1, "col-md-6", "mb-4"], ["for", "name"], ["id", "name", "placeholder", "Nombre completo", 1, "form-control", 3, "ngClass", "formControlName"], ["class", "error-login-form", 4, "ngIf"], ["for", "email"], ["id", "email", "placeholder", "Correo electronico", 1, "form-control", 3, "ngClass", "formControlName"], ["for", "password"], [1, "input-group"], ["type", "password", "id", "password", "placeholder", "Ingresa tu contrase\u00F1a", "autocomplete", "on", "aria-label", "password", "aria-describedby", "basic-addon1", 1, "form-control", 3, "ngClass", "formControlName"], ["passwordField", ""], ["id", "basic-addon1", 1, "input-group-text", 3, "click"], ["class", "fa fa-eye", "aria-hidden", "true", 4, "ngIf"], ["class", "fa fa-eye-slash", "aria-hidden", "true", 4, "ngIf"], [1, "border-bottom-login-form"], ["for", "direccion"], ["id", "direccion", "placeholder", "Direccion", 1, "form-control", 3, "ngClass", "formControlName"], ["for", "telefono"], ["type", "text", "prefix", "(+52) ", "mask", "000-000-0000", "id", "telefono", "placeholder", "Telefono", 1, "form-control", 3, "ngClass", "formControlName"], ["for", "documento"], ["id", "documento", "placeholder", "Documento", 1, "form-control", 3, "ngClass", "formControlName"], ["for", "fdn"], ["placeholder", "dd-mm-yyy", "name", "fdn", "id", "fdn", "readonly", "", "ngbDatepicker", "", 1, "form-control", 3, "formControlName", "ngClass", "maxDate"], ["d", "ngbDatepicker"], ["type", "button", 1, "btn", "btn-outline-dark", 3, "click"], ["aria-hidden", "true", 1, "fa", "fa-calendar"], [1, "col-md-6", "mb-4", "taller-logo"], ["for", "logoTaller"], ["id", "logoTaller", "type", "file", 1, "form-control", 3, "formControlName", "change"], ["type", "submit", 1, "btn", "btn-solid", 3, "disabled"], [4, "ngIf"], ["class", "spinner-border", "role", "status", 4, "ngIf"], [1, "already-account"], [3, "routerLink"], ["role", "alert", 1, "alert", "alert-danger"], [1, "error-login-form"], ["aria-hidden", "true", 1, "fa", "fa-eye"], ["aria-hidden", "true", 1, "fa", "fa-eye-slash"], ["role", "status", 1, "spinner-border"], [1, "visually-hidden"]],
   template: function RegisterComponent_Template(rf, ctx) {
     if (rf & 1) {
       const _r22 = _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵgetCurrentView"]();
@@ -1609,109 +1611,107 @@ RegisterComponent.ɵcmp = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_3_
       _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](1, "section", 1)(2, "div", 2)(3, "div", 3)(4, "div", 4)(5, "h3");
       _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtext"](6, "Crear cuenta");
       _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementEnd"]();
-      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](7, "div", 5);
-      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtemplate"](8, RegisterComponent_div_8_Template, 2, 1, "div", 6);
-      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](9, "form", 7, 8);
-      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵlistener"]("ngSubmit", function RegisterComponent_Template_form_ngSubmit_9_listener() {
+      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelement"](7, "br")(8, "br");
+      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](9, "p", 5);
+      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtext"](10, "Los campos marcados con * son obligatorios");
+      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementEnd"]();
+      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](11, "div", 6);
+      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtemplate"](12, RegisterComponent_div_12_Template, 2, 1, "div", 7);
+      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](13, "form", 8, 9);
+      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵlistener"]("ngSubmit", function RegisterComponent_Template_form_ngSubmit_13_listener() {
         return ctx.onSubmit();
       });
-      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](11, "div", 3)(12, "div", 9)(13, "label", 10);
-      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtext"](14, "Nombre");
+      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](15, "div", 3)(16, "div", 10)(17, "label", 11);
+      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtext"](18, "Nombre *");
       _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementEnd"]();
-      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelement"](15, "input", 11);
-      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtemplate"](16, RegisterComponent_div_16_Template, 2, 0, "div", 12);
+      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelement"](19, "input", 12);
+      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtemplate"](20, RegisterComponent_div_20_Template, 2, 0, "div", 13);
       _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementEnd"]();
-      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](17, "div", 9)(18, "label", 13);
-      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtext"](19, "Correo electronico");
+      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](21, "div", 10)(22, "label", 14);
+      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtext"](23, "Correo electronico *");
       _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementEnd"]();
-      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelement"](20, "input", 14);
-      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtemplate"](21, RegisterComponent_div_21_Template, 2, 0, "div", 12);
-      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtemplate"](22, RegisterComponent_div_22_Template, 2, 0, "div", 12);
+      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelement"](24, "input", 15);
+      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtemplate"](25, RegisterComponent_div_25_Template, 2, 0, "div", 13);
+      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtemplate"](26, RegisterComponent_div_26_Template, 2, 0, "div", 13);
       _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementEnd"]();
-      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](23, "div", 9)(24, "label", 15);
-      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtext"](25, "Contrase\u00F1a");
+      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](27, "div", 10)(28, "label", 16);
+      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtext"](29, "Contrase\u00F1a *");
       _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementEnd"]();
-      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](26, "div", 16);
-      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelement"](27, "input", 17, 18);
-      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](29, "span", 19);
-      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵlistener"]("click", function RegisterComponent_Template_span_click_29_listener() {
+      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](30, "div", 17);
+      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelement"](31, "input", 18, 19);
+      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](33, "span", 20);
+      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵlistener"]("click", function RegisterComponent_Template_span_click_33_listener() {
         _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵrestoreView"](_r22);
-        const _r5 = _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵreference"](28);
+        const _r5 = _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵreference"](32);
         return _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵresetView"](_r5.type === "password" ? _r5.type = "text" : _r5.type = "password");
       });
-      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtemplate"](30, RegisterComponent_i_30_Template, 1, 0, "i", 20);
-      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtemplate"](31, RegisterComponent_i_31_Template, 1, 0, "i", 21);
+      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtemplate"](34, RegisterComponent_i_34_Template, 1, 0, "i", 21);
+      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtemplate"](35, RegisterComponent_i_35_Template, 1, 0, "i", 22);
       _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementEnd"]()();
-      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](32, "div", 22);
-      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtemplate"](33, RegisterComponent_div_33_Template, 2, 0, "div", 12);
-      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtemplate"](34, RegisterComponent_div_34_Template, 2, 0, "div", 12);
-      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtemplate"](35, RegisterComponent_div_35_Template, 2, 0, "div", 12);
-      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtemplate"](36, RegisterComponent_div_36_Template, 2, 0, "div", 12);
-      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtemplate"](37, RegisterComponent_div_37_Template, 2, 0, "div", 12);
-      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtemplate"](38, RegisterComponent_div_38_Template, 2, 0, "div", 12);
+      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](36, "div", 23);
+      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtemplate"](37, RegisterComponent_div_37_Template, 2, 0, "div", 13);
+      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtemplate"](38, RegisterComponent_div_38_Template, 2, 0, "div", 13);
+      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtemplate"](39, RegisterComponent_div_39_Template, 2, 0, "div", 13);
+      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtemplate"](40, RegisterComponent_div_40_Template, 2, 0, "div", 13);
+      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtemplate"](41, RegisterComponent_div_41_Template, 2, 0, "div", 13);
+      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtemplate"](42, RegisterComponent_div_42_Template, 2, 0, "div", 13);
       _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementEnd"]()();
-      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](39, "div", 9)(40, "label", 23);
-      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtext"](41, "Direccion");
+      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](43, "div", 10)(44, "label", 24);
+      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtext"](45, "Direccion *");
       _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementEnd"]();
-      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelement"](42, "input", 24);
-      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtemplate"](43, RegisterComponent_div_43_Template, 2, 0, "div", 12);
+      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelement"](46, "input", 25);
+      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtemplate"](47, RegisterComponent_div_47_Template, 2, 0, "div", 13);
       _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementEnd"]();
-      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](44, "div", 9)(45, "label", 25);
-      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtext"](46, "Telefono");
+      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](48, "div", 10)(49, "label", 26);
+      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtext"](50, "Telefono *");
       _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementEnd"]();
-      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelement"](47, "input", 26);
-      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtemplate"](48, RegisterComponent_div_48_Template, 2, 0, "div", 12);
-      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtemplate"](49, RegisterComponent_div_49_Template, 2, 0, "div", 12);
+      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelement"](51, "input", 27);
+      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtemplate"](52, RegisterComponent_div_52_Template, 2, 0, "div", 13);
+      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtemplate"](53, RegisterComponent_div_53_Template, 2, 0, "div", 13);
       _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementEnd"]();
-      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](50, "div", 9)(51, "label", 27);
-      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtext"](52, "Documento");
+      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](54, "div", 10)(55, "label", 28);
+      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtext"](56, "Documento *");
       _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementEnd"]();
-      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelement"](53, "input", 28);
-      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtemplate"](54, RegisterComponent_div_54_Template, 2, 0, "div", 12);
+      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelement"](57, "input", 29);
+      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtemplate"](58, RegisterComponent_div_58_Template, 2, 0, "div", 13);
       _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementEnd"]();
-      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](55, "div", 9)(56, "label", 29);
-      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtext"](57, "Fecha de nacimiento");
+      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](59, "div", 10)(60, "label", 30);
+      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtext"](61, "Fecha de nacimiento *");
       _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementEnd"]();
-      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](58, "div", 16);
-      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelement"](59, "input", 30, 31);
-      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](61, "button", 32);
-      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵlistener"]("click", function RegisterComponent_Template_button_click_61_listener() {
+      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](62, "div", 17);
+      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelement"](63, "input", 31, 32);
+      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](65, "button", 33);
+      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵlistener"]("click", function RegisterComponent_Template_button_click_65_listener() {
         _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵrestoreView"](_r22);
-        const _r18 = _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵreference"](60);
+        const _r18 = _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵreference"](64);
         return _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵresetView"](_r18.toggle());
       });
-      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelement"](62, "i", 33);
+      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelement"](66, "i", 34);
       _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementEnd"]()();
-      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtemplate"](63, RegisterComponent_div_63_Template, 2, 0, "div", 12);
+      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtemplate"](67, RegisterComponent_div_67_Template, 2, 0, "div", 13);
       _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementEnd"]();
-      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](64, "div", 34)(65, "label", 35);
-      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtext"](66, "Foto de perfil :");
+      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](68, "div", 35)(69, "label", 36);
+      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtext"](70, "Foto de perfil");
       _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementEnd"]();
-      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](67, "input", 36);
-      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵlistener"]("change", function RegisterComponent_Template_input_change_67_listener($event) {
+      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](71, "input", 37);
+      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵlistener"]("change", function RegisterComponent_Template_input_change_71_listener($event) {
         return ctx.onFileSelected($event);
       });
       _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementEnd"]()()();
-      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelement"](68, "br");
-      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](69, "div", 37);
-      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelement"](70, "input", 38);
-      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](71, "label", 39);
-      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtext"](72, " Al crear mi cuenta acepto los terminos y condiciones de Eyedmx ");
-      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementEnd"]()();
-      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelement"](73, "br");
-      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](74, "button", 40);
-      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtemplate"](75, RegisterComponent_span_75_Template, 2, 0, "span", 41);
-      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtemplate"](76, RegisterComponent_div_76_Template, 3, 0, "div", 42);
+      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelement"](72, "br")(73, "br");
+      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](74, "button", 38);
+      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtemplate"](75, RegisterComponent_span_75_Template, 2, 0, "span", 39);
+      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtemplate"](76, RegisterComponent_div_76_Template, 3, 0, "div", 40);
       _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementEnd"]();
       _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelement"](77, "br")(78, "br");
-      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](79, "div", 43)(80, "a", 44);
+      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](79, "div", 41)(80, "a", 42);
       _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtext"](81, "\u00BFYa tienes una cuenta? Inicia ses\u00EDon");
       _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementEnd"]()()()()()()()();
     }
     if (rf & 2) {
-      const _r5 = _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵreference"](28);
+      const _r5 = _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵreference"](32);
       _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵproperty"]("breadcrumb", "Registrarse");
-      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵadvance"](8);
+      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵadvance"](12);
       _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵproperty"]("ngIf", ctx.showAlert);
       _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵadvance"](1);
       _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵproperty"]("formGroup", ctx.signUpForm);
@@ -1763,7 +1763,7 @@ RegisterComponent.ɵcmp = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_3_
       _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵproperty"]("ngIf", ctx.signUpForm.get("fecha_nacimiento").hasError("required") && ctx.signUpForm.get("fecha_nacimiento").touched);
       _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵadvance"](4);
       _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵproperty"]("formControlName", "fotoBase");
-      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵadvance"](7);
+      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵadvance"](3);
       _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵproperty"]("disabled", ctx.signUpForm.disabled);
       _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵadvance"](1);
       _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵproperty"]("ngIf", !ctx.signUpForm.disabled);
