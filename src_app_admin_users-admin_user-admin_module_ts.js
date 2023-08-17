@@ -708,7 +708,7 @@ function UsersAdminListComponent_tr_45_Template(rf, ctx) {
     _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵproperty"]("ngIf", !usuario_r4.aceptado);
   }
 }
-function UsersAdminListComponent_div_48_Template(rf, ctx) {
+function UsersAdminListComponent_div_46_Template(rf, ctx) {
   if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](0, "div", 36)(1, "p");
     _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](2, "\u00A1No hay usuarios para mostrar!");
@@ -815,7 +815,7 @@ UsersAdminListComponent.ɵcmp = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MOD
   },
   decls: 51,
   vars: 16,
-  consts: [[1, "dashboard-right"], [1, "dashboard"], [1, "welcome-msg", "count-manillas"], [1, "nombre-msg"], [4, "ngIf"], [1, "container-fluid"], [1, "row"], [1, "col-sm-12"], [1, "card"], [1, "card-body"], [1, "row", "user-form-busqueda", "mb-4"], [1, "col-md-6"], ["for", "filtro-nombre", 1, "mb-2"], ["type", "text", "id", "filtro-nombre", "aria-label", "Filtro por nombre", 1, "form-control", 3, "formControl"], [1, "col-md-3"], ["for", "estado", 1, "mb-2"], ["type", "button", 1, "btn", "btn-secondary", "form-control", 3, "click"], [1, "col-md-2"], ["aria-hidden", "true", 1, "fa", "fa-refresh"], ["id", "batchDelete", 1, "category-table", "custom-datatable"], [1, "table-responsive"], [1, "table", "table-striped"], ["scope", "col"], [4, "ngFor", "ngForOf"], [1, "d-flex", "justify-content-center", "p-2"], [3, "collectionSize", "rotate", "maxSize", "page", "pageSize", "boundaryLinks", "pageChange"], ["class", "d-flex justify-content-center mb-4 mt-4", 4, "ngIf"], [3, "tipo"], ["verUserModal", ""], ["scope", "row"], ["class", "fa fa-circle font-success f-12", 4, "ngIf"], ["class", "fa fa-circle font-warning f-12", 4, "ngIf"], ["href", "javascript:void(0)", 3, "click"], [1, "fa", "fa-eye", "f-12"], [1, "fa", "fa-circle", "font-success", "f-12"], [1, "fa", "fa-circle", "font-warning", "f-12"], [1, "d-flex", "justify-content-center", "mb-4", "mt-4"]],
+  consts: [[1, "dashboard-right"], [1, "dashboard"], [1, "welcome-msg", "count-manillas"], [1, "nombre-msg"], [4, "ngIf"], [1, "container-fluid"], [1, "row"], [1, "col-sm-12"], [1, "card"], [1, "card-body"], [1, "row", "user-form-busqueda", "mb-4"], [1, "col-md-6"], ["for", "filtro-nombre", 1, "mb-2"], ["type", "text", "id", "filtro-nombre", "aria-label", "Filtro por nombre", 1, "form-control", 3, "formControl"], [1, "col-md-3"], ["for", "estado", 1, "mb-2"], ["type", "button", 1, "btn", "btn-secondary", "form-control", 3, "click"], [1, "col-md-2"], ["aria-hidden", "true", 1, "fa", "fa-refresh"], ["id", "batchDelete", 1, "category-table", "custom-datatable"], [1, "table-responsive"], [1, "table", "table-striped"], ["scope", "col"], [4, "ngFor", "ngForOf"], ["class", "d-flex justify-content-center mb-4 mt-4", 4, "ngIf"], [1, "d-flex", "justify-content-center", "p-2"], [3, "collectionSize", "rotate", "maxSize", "page", "pageSize", "boundaryLinks", "pageChange"], [3, "tipo"], ["verUserModal", ""], ["scope", "row"], ["class", "fa fa-circle font-success f-12", 4, "ngIf"], ["class", "fa fa-circle font-warning f-12", 4, "ngIf"], ["href", "javascript:void(0)", 3, "click"], [1, "fa", "fa-eye", "f-12"], [1, "fa", "fa-circle", "font-success", "f-12"], [1, "fa", "fa-circle", "font-warning", "f-12"], [1, "d-flex", "justify-content-center", "mb-4", "mt-4"]],
   template: function UsersAdminListComponent_Template(rf, ctx) {
     if (rf & 1) {
       _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](0, "div", 0)(1, "div", 1)(2, "div", 2)(3, "p", 3);
@@ -867,15 +867,14 @@ UsersAdminListComponent.ɵcmp = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MOD
       _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](44, "tbody");
       _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtemplate"](45, UsersAdminListComponent_tr_45_Template, 16, 6, "tr", 23);
       _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]()();
-      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](46, "div", 24)(47, "ngb-pagination", 25);
-      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵlistener"]("pageChange", function UsersAdminListComponent_Template_ngb_pagination_pageChange_47_listener($event) {
+      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtemplate"](46, UsersAdminListComponent_div_46_Template, 3, 0, "div", 24);
+      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](47, "div", 25)(48, "ngb-pagination", 26);
+      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵlistener"]("pageChange", function UsersAdminListComponent_Template_ngb_pagination_pageChange_48_listener($event) {
         return ctx.onPageChange($event);
-      })("pageChange", function UsersAdminListComponent_Template_ngb_pagination_pageChange_47_listener($event) {
+      })("pageChange", function UsersAdminListComponent_Template_ngb_pagination_pageChange_48_listener($event) {
         return ctx.page = $event;
       });
-      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]()()()();
-      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtemplate"](48, UsersAdminListComponent_div_48_Template, 3, 0, "div", 26);
-      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]()()()()()()();
+      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]()()()()()()()()()()();
       _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelement"](49, "app-ver-user-admin", 27, 28);
     }
     if (rf & 2) {
@@ -887,10 +886,10 @@ UsersAdminListComponent.ɵcmp = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MOD
       _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵproperty"]("formControl", ctx.searchInputControl);
       _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵadvance"](29);
       _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵproperty"]("ngForOf", ctx.usuariosList);
-      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵadvance"](2);
-      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵproperty"]("collectionSize", ctx.usuariosCount)("rotate", true)("maxSize", 5)("page", ctx.page)("pageSize", ctx.limit)("boundaryLinks", true);
       _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵadvance"](1);
       _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵproperty"]("ngIf", ctx.usuariosCount <= 0);
+      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵadvance"](2);
+      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵproperty"]("collectionSize", ctx.usuariosCount)("rotate", true)("maxSize", 5)("page", ctx.page)("pageSize", ctx.limit)("boundaryLinks", true);
       _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵadvance"](1);
       _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵproperty"]("tipo", "list");
     }

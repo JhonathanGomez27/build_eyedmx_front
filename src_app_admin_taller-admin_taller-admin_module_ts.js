@@ -976,18 +976,18 @@ function TallerAdminListComponent_ng_container_4_Template(rf, ctx) {
 }
 function TallerAdminListComponent_tr_50_i_10_Template(rf, ctx) {
   if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelement"](0, "i", 35);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelement"](0, "i", 36);
   }
 }
 function TallerAdminListComponent_tr_50_i_11_Template(rf, ctx) {
   if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelement"](0, "i", 36);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelement"](0, "i", 37);
   }
 }
 function TallerAdminListComponent_tr_50_Template(rf, ctx) {
   if (rf & 1) {
-    const _r9 = _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵgetCurrentView"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](0, "tr")(1, "th", 30);
+    const _r10 = _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵgetCurrentView"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](0, "tr")(1, "th", 31);
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](2);
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](3, "td");
@@ -1000,36 +1000,43 @@ function TallerAdminListComponent_tr_50_Template(rf, ctx) {
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](8);
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](9, "td");
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtemplate"](10, TallerAdminListComponent_tr_50_i_10_Template, 1, 0, "i", 31);
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtemplate"](11, TallerAdminListComponent_tr_50_i_11_Template, 1, 0, "i", 32);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtemplate"](10, TallerAdminListComponent_tr_50_i_10_Template, 1, 0, "i", 32);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtemplate"](11, TallerAdminListComponent_tr_50_i_11_Template, 1, 0, "i", 33);
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](12, "td")(13, "a", 33);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](12, "td")(13, "a", 34);
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵlistener"]("click", function TallerAdminListComponent_tr_50_Template_a_click_13_listener() {
-      const restoredCtx = _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵrestoreView"](_r9);
-      const taller_r4 = restoredCtx.$implicit;
-      const ctx_r8 = _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵnextContext"]();
-      return _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵresetView"](ctx_r8.abrirModalVerTaller(taller_r4));
+      const restoredCtx = _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵrestoreView"](_r10);
+      const taller_r5 = restoredCtx.$implicit;
+      const ctx_r9 = _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵnextContext"]();
+      return _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵresetView"](ctx_r9.abrirModalVerTaller(taller_r5));
     });
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelement"](14, "i", 34);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelement"](14, "i", 35);
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](15, "\u00A0 ");
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]()();
   }
   if (rf & 2) {
-    const taller_r4 = ctx.$implicit;
-    const i_r5 = ctx.index;
+    const taller_r5 = ctx.$implicit;
+    const i_r6 = ctx.index;
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵadvance"](2);
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtextInterpolate"](i_r5 + 1);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtextInterpolate"](i_r6 + 1);
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵadvance"](2);
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtextInterpolate"](taller_r4.name);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtextInterpolate"](taller_r5.name);
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵadvance"](2);
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtextInterpolate"](taller_r4.email);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtextInterpolate"](taller_r5.email);
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵadvance"](2);
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtextInterpolate"](taller_r4.telefono);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtextInterpolate"](taller_r5.telefono);
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵadvance"](2);
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵproperty"]("ngIf", taller_r4.aceptado);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵproperty"]("ngIf", taller_r5.aceptado);
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵadvance"](1);
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵproperty"]("ngIf", !taller_r4.aceptado);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵproperty"]("ngIf", !taller_r5.aceptado);
+  }
+}
+function TallerAdminListComponent_div_51_Template(rf, ctx) {
+  if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](0, "div", 38)(1, "p");
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](2, "\u00A1No hay talleres para mostrar!");
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]()();
   }
 }
 const _c2 = function () {
@@ -1135,9 +1142,9 @@ TallerAdminListComponent.ɵcmp = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MO
       _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵqueryRefresh"](_t = _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵloadQuery"]()) && (ctx.CrearTallerModal = _t.first);
     }
   },
-  decls: 57,
-  vars: 16,
-  consts: [[1, "dashboard-right"], [1, "dashboard"], [1, "welcome-msg", "count-manillas"], [1, "nombre-msg"], [4, "ngIf"], [1, "container-fluid"], [1, "row"], [1, "col-sm-12"], [1, "card"], [1, "card-body"], [1, "row", "user-form-busqueda", "mb-4"], [1, "col-md-6"], ["for", "filtro-nombre", 1, "mb-2"], ["type", "text", "id", "filtro-nombre", "aria-label", "Filtro por nombre", 1, "form-control", 3, "formControl"], [1, "col-md-2"], [1, "mb-2"], ["type", "button", 1, "btn", "btn-secondary", "form-control", 3, "click"], ["aria-hidden", "true", 1, "fa", "fa-search"], ["aria-hidden", "true", 1, "fa", "fa-refresh"], ["aria-hidden", "true", 1, "fa", "fa-plus"], ["id", "batchDelete", 1, "category-table", "custom-datatable"], [1, "table-responsive"], [1, "table", "table-striped"], ["scope", "col"], [4, "ngFor", "ngForOf"], [1, "d-flex", "justify-content-center", "p-2"], [3, "collectionSize", "rotate", "maxSize", "page", "pageSize", "boundaryLinks", "pageChange"], [3, "tipo"], ["verTallerModal", ""], ["crearTallerModal", ""], ["scope", "row"], ["class", "fa fa-circle font-success f-12", 4, "ngIf"], ["class", "fa fa-circle font-warning f-12", 4, "ngIf"], ["href", "javascript:void(0)", 3, "click"], [1, "fa", "fa-eye", "f-12"], [1, "fa", "fa-circle", "font-success", "f-12"], [1, "fa", "fa-circle", "font-warning", "f-12"]],
+  decls: 58,
+  vars: 17,
+  consts: [[1, "dashboard-right"], [1, "dashboard"], [1, "welcome-msg", "count-manillas"], [1, "nombre-msg"], [4, "ngIf"], [1, "container-fluid"], [1, "row"], [1, "col-sm-12"], [1, "card"], [1, "card-body"], [1, "row", "user-form-busqueda", "mb-4"], [1, "col-md-6"], ["for", "filtro-nombre", 1, "mb-2"], ["type", "text", "id", "filtro-nombre", "aria-label", "Filtro por nombre", 1, "form-control", 3, "formControl"], [1, "col-md-2"], [1, "mb-2"], ["type", "button", 1, "btn", "btn-secondary", "form-control", 3, "click"], ["aria-hidden", "true", 1, "fa", "fa-search"], ["aria-hidden", "true", 1, "fa", "fa-refresh"], ["aria-hidden", "true", 1, "fa", "fa-plus"], ["id", "batchDelete", 1, "category-table", "custom-datatable"], [1, "table-responsive"], [1, "table", "table-striped"], ["scope", "col"], [4, "ngFor", "ngForOf"], ["class", "d-flex justify-content-center mb-4 mt-4", 4, "ngIf"], [1, "d-flex", "justify-content-center", "p-2"], [3, "collectionSize", "rotate", "maxSize", "page", "pageSize", "boundaryLinks", "pageChange"], [3, "tipo"], ["verTallerModal", ""], ["crearTallerModal", ""], ["scope", "row"], ["class", "fa fa-circle font-success f-12", 4, "ngIf"], ["class", "fa fa-circle font-warning f-12", 4, "ngIf"], ["href", "javascript:void(0)", 3, "click"], [1, "fa", "fa-eye", "f-12"], [1, "fa", "fa-circle", "font-success", "f-12"], [1, "fa", "fa-circle", "font-warning", "f-12"], [1, "d-flex", "justify-content-center", "mb-4", "mt-4"]],
   template: function TallerAdminListComponent_Template(rf, ctx) {
     if (rf & 1) {
       _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](0, "div", 0)(1, "div", 1)(2, "div", 2)(3, "p", 3);
@@ -1198,24 +1205,27 @@ TallerAdminListComponent.ɵcmp = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MO
       _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](49, "tbody");
       _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtemplate"](50, TallerAdminListComponent_tr_50_Template, 16, 6, "tr", 24);
       _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]()();
-      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](51, "div", 25)(52, "ngb-pagination", 26);
-      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵlistener"]("pageChange", function TallerAdminListComponent_Template_ngb_pagination_pageChange_52_listener($event) {
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtemplate"](51, TallerAdminListComponent_div_51_Template, 3, 0, "div", 25);
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](52, "div", 26)(53, "ngb-pagination", 27);
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵlistener"]("pageChange", function TallerAdminListComponent_Template_ngb_pagination_pageChange_53_listener($event) {
         return ctx.onPageChange($event);
-      })("pageChange", function TallerAdminListComponent_Template_ngb_pagination_pageChange_52_listener($event) {
+      })("pageChange", function TallerAdminListComponent_Template_ngb_pagination_pageChange_53_listener($event) {
         return ctx.page = $event;
       });
       _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]()()()()()()()()()()();
-      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelement"](53, "app-ver-taller-admin", 27, 28)(55, "app-crear-taller-admin", 27, 29);
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelement"](54, "app-ver-taller-admin", 28, 29)(56, "app-crear-taller-admin", 28, 30);
     }
     if (rf & 2) {
       _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵadvance"](4);
       _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵproperty"]("ngIf", ctx.talleresCount > 0);
       _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵadvance"](1);
-      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtextInterpolate1"](" ", _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵpipeBind2"](6, 12, ctx.talleresCount, _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵpureFunction0"](15, _c2)), " ");
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtextInterpolate1"](" ", _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵpipeBind2"](6, 13, ctx.talleresCount, _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵpureFunction0"](16, _c2)), " ");
       _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵadvance"](11);
       _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵproperty"]("formControl", ctx.searchInputControl);
       _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵadvance"](34);
       _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵproperty"]("ngForOf", ctx.talleresList);
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵadvance"](1);
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵproperty"]("ngIf", ctx.talleresCount <= 0);
       _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵadvance"](2);
       _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵproperty"]("collectionSize", ctx.talleresCount)("rotate", true)("maxSize", 5)("page", ctx.page)("pageSize", ctx.limit)("boundaryLinks", true);
       _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵadvance"](1);
@@ -1350,18 +1360,18 @@ function TallerAdminSolicitudesComponent_ng_container_4_Template(rf, ctx) {
 }
 function TallerAdminSolicitudesComponent_tr_30_i_10_Template(rf, ctx) {
   if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelement"](0, "i", 24);
+    _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelement"](0, "i", 25);
   }
 }
 function TallerAdminSolicitudesComponent_tr_30_i_11_Template(rf, ctx) {
   if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelement"](0, "i", 25);
+    _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelement"](0, "i", 26);
   }
 }
 function TallerAdminSolicitudesComponent_tr_30_Template(rf, ctx) {
   if (rf & 1) {
-    const _r8 = _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵgetCurrentView"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](0, "tr")(1, "th", 19);
+    const _r9 = _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵgetCurrentView"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](0, "tr")(1, "th", 20);
     _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtext"](2);
     _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](3, "td");
@@ -1374,36 +1384,43 @@ function TallerAdminSolicitudesComponent_tr_30_Template(rf, ctx) {
     _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtext"](8);
     _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](9, "td");
-    _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtemplate"](10, TallerAdminSolicitudesComponent_tr_30_i_10_Template, 1, 0, "i", 20);
-    _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtemplate"](11, TallerAdminSolicitudesComponent_tr_30_i_11_Template, 1, 0, "i", 21);
+    _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtemplate"](10, TallerAdminSolicitudesComponent_tr_30_i_10_Template, 1, 0, "i", 21);
+    _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtemplate"](11, TallerAdminSolicitudesComponent_tr_30_i_11_Template, 1, 0, "i", 22);
     _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](12, "td")(13, "a", 22);
+    _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](12, "td")(13, "a", 23);
     _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵlistener"]("click", function TallerAdminSolicitudesComponent_tr_30_Template_a_click_13_listener() {
-      const restoredCtx = _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵrestoreView"](_r8);
-      const taller_r3 = restoredCtx.$implicit;
-      const ctx_r7 = _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵnextContext"]();
-      return _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵresetView"](ctx_r7.abrirModalVerTaller(taller_r3));
+      const restoredCtx = _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵrestoreView"](_r9);
+      const taller_r4 = restoredCtx.$implicit;
+      const ctx_r8 = _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵnextContext"]();
+      return _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵresetView"](ctx_r8.abrirModalVerTaller(taller_r4));
     });
-    _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelement"](14, "i", 23);
+    _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelement"](14, "i", 24);
     _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtext"](15, "\u00A0 ");
     _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementEnd"]()();
   }
   if (rf & 2) {
-    const taller_r3 = ctx.$implicit;
-    const i_r4 = ctx.index;
+    const taller_r4 = ctx.$implicit;
+    const i_r5 = ctx.index;
     _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵadvance"](2);
-    _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtextInterpolate"](i_r4 + 1);
+    _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtextInterpolate"](i_r5 + 1);
     _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵadvance"](2);
-    _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtextInterpolate"](taller_r3.name);
+    _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtextInterpolate"](taller_r4.name);
     _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵadvance"](2);
-    _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtextInterpolate"](taller_r3.email);
+    _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtextInterpolate"](taller_r4.email);
     _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵadvance"](2);
-    _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtextInterpolate"](taller_r3.telefono);
+    _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtextInterpolate"](taller_r4.telefono);
     _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵadvance"](2);
-    _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵproperty"]("ngIf", taller_r3.aceptado);
+    _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵproperty"]("ngIf", taller_r4.aceptado);
     _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵadvance"](1);
-    _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵproperty"]("ngIf", !taller_r3.aceptado);
+    _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵproperty"]("ngIf", !taller_r4.aceptado);
+  }
+}
+function TallerAdminSolicitudesComponent_div_31_Template(rf, ctx) {
+  if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](0, "div", 27)(1, "p");
+    _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtext"](2, "\u00A1No hay talleres para mostrar!");
+    _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementEnd"]()();
   }
 }
 const _c1 = function () {
@@ -1486,9 +1503,9 @@ TallerAdminSolicitudesComponent.ɵcmp = /*@__PURE__*/_angular_core__WEBPACK_IMPO
       _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵqueryRefresh"](_t = _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵloadQuery"]()) && (ctx.VerTallerModal = _t.first);
     }
   },
-  decls: 35,
-  vars: 14,
-  consts: [[1, "dashboard-right"], [1, "dashboard"], [1, "welcome-msg", "count-manillas"], [1, "nombre-msg"], [4, "ngIf"], [1, "container-fluid"], [1, "row"], [1, "col-sm-12"], [1, "card"], [1, "card-body"], ["id", "batchDelete", 1, "category-table", "custom-datatable"], [1, "table-responsive"], [1, "table", "table-striped"], ["scope", "col"], [4, "ngFor", "ngForOf"], [1, "d-flex", "justify-content-center", "p-2"], [3, "collectionSize", "rotate", "maxSize", "page", "pageSize", "boundaryLinks", "pageChange"], [3, "tipo"], ["verTallerModal", ""], ["scope", "row"], ["class", "fa fa-circle font-success f-12", 4, "ngIf"], ["class", "fa fa-circle font-warning f-12", 4, "ngIf"], ["href", "javascript:void(0)", 3, "click"], [1, "fa", "fa-eye", "f-12"], [1, "fa", "fa-circle", "font-success", "f-12"], [1, "fa", "fa-circle", "font-warning", "f-12"]],
+  decls: 36,
+  vars: 15,
+  consts: [[1, "dashboard-right"], [1, "dashboard"], [1, "welcome-msg", "count-manillas"], [1, "nombre-msg"], [4, "ngIf"], [1, "container-fluid"], [1, "row"], [1, "col-sm-12"], [1, "card"], [1, "card-body"], ["id", "batchDelete", 1, "category-table", "custom-datatable"], [1, "table-responsive"], [1, "table", "table-striped"], ["scope", "col"], [4, "ngFor", "ngForOf"], ["class", "d-flex justify-content-center mb-4 mt-4", 4, "ngIf"], [1, "d-flex", "justify-content-center", "p-2"], [3, "collectionSize", "rotate", "maxSize", "page", "pageSize", "boundaryLinks", "pageChange"], [3, "tipo"], ["verTallerModal", ""], ["scope", "row"], ["class", "fa fa-circle font-success f-12", 4, "ngIf"], ["class", "fa fa-circle font-warning f-12", 4, "ngIf"], ["href", "javascript:void(0)", 3, "click"], [1, "fa", "fa-eye", "f-12"], [1, "fa", "fa-circle", "font-success", "f-12"], [1, "fa", "fa-circle", "font-warning", "f-12"], [1, "d-flex", "justify-content-center", "mb-4", "mt-4"]],
   template: function TallerAdminSolicitudesComponent_Template(rf, ctx) {
     if (rf & 1) {
       _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](0, "div", 0)(1, "div", 1)(2, "div", 2)(3, "p", 3);
@@ -1517,22 +1534,25 @@ TallerAdminSolicitudesComponent.ɵcmp = /*@__PURE__*/_angular_core__WEBPACK_IMPO
       _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](29, "tbody");
       _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtemplate"](30, TallerAdminSolicitudesComponent_tr_30_Template, 16, 6, "tr", 14);
       _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementEnd"]()();
-      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](31, "div", 15)(32, "ngb-pagination", 16);
-      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵlistener"]("pageChange", function TallerAdminSolicitudesComponent_Template_ngb_pagination_pageChange_32_listener($event) {
+      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtemplate"](31, TallerAdminSolicitudesComponent_div_31_Template, 3, 0, "div", 15);
+      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](32, "div", 16)(33, "ngb-pagination", 17);
+      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵlistener"]("pageChange", function TallerAdminSolicitudesComponent_Template_ngb_pagination_pageChange_33_listener($event) {
         return ctx.onPageChange($event);
-      })("pageChange", function TallerAdminSolicitudesComponent_Template_ngb_pagination_pageChange_32_listener($event) {
+      })("pageChange", function TallerAdminSolicitudesComponent_Template_ngb_pagination_pageChange_33_listener($event) {
         return ctx.page = $event;
       });
       _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementEnd"]()()()()()()()()()()();
-      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelement"](33, "app-ver-taller-admin", 17, 18);
+      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelement"](34, "app-ver-taller-admin", 18, 19);
     }
     if (rf & 2) {
       _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵadvance"](4);
       _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵproperty"]("ngIf", ctx.talleresCount > 0);
       _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵadvance"](1);
-      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtextInterpolate1"](" ", _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵpipeBind2"](6, 10, ctx.talleresCount, _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵpureFunction0"](13, _c1)), " ");
+      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtextInterpolate1"](" ", _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵpipeBind2"](6, 11, ctx.talleresCount, _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵpureFunction0"](14, _c1)), " ");
       _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵadvance"](25);
       _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵproperty"]("ngForOf", ctx.talleresList);
+      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵadvance"](1);
+      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵproperty"]("ngIf", ctx.talleresCount <= 0);
       _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵadvance"](2);
       _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵproperty"]("collectionSize", ctx.talleresCount)("rotate", true)("maxSize", 5)("page", ctx.page)("pageSize", ctx.limit)("boundaryLinks", true);
       _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵadvance"](1);

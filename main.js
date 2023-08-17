@@ -1778,13 +1778,13 @@ ImagenFondoComponent.ɵcmp = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE
   selectors: [["image-fondo-app"]],
   decls: 1,
   vars: 0,
-  consts: [[1, "image-fondo"]],
   template: function ImagenFondoComponent_Template(rf, ctx) {
     if (rf & 1) {
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](0, "div", 0);
+      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](0, "router-outlet");
     }
   },
-  styles: ["*[_ngcontent-%COMP%] {\n  width: 100vw;\n  height: 100vh;\n  background: url(\"https://eyedmx-bucket.s3.amazonaws.com/demo/demo1.jpeg\") no-repeat center;\n  background-size: contain;\n}\n\n.image-fondo[_ngcontent-%COMP%] {\n  background-color: black;\n}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8uL3NyYy9hcHAvaW1hZ2VuLWZvbmRvL2ltYWdlbi1mb25kby5jb21wb25lbnQuc2NzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUNJLFlBQUE7RUFDQSxhQUFBO0VBQ0EsMEZBQUE7RUFDQSx3QkFBQTtBQUNKOztBQUVBO0VBQ0ksdUJBQUE7QUFDSiIsInNvdXJjZXNDb250ZW50IjpbIip7XHJcbiAgICB3aWR0aDogMTAwdnc7XHJcbiAgICBoZWlnaHQ6IDEwMHZoO1xyXG4gICAgYmFja2dyb3VuZDogdXJsKFwiaHR0cHM6Ly9leWVkbXgtYnVja2V0LnMzLmFtYXpvbmF3cy5jb20vZGVtby9kZW1vMS5qcGVnXCIpIG5vLXJlcGVhdCBjZW50ZXI7XHJcbiAgICBiYWNrZ3JvdW5kLXNpemU6IGNvbnRhaW47XHJcbn1cclxuXHJcbi5pbWFnZS1mb25kb3tcclxuICAgIGJhY2tncm91bmQtY29sb3I6IGJsYWNrO1xyXG59Il0sInNvdXJjZVJvb3QiOiIifQ== */"]
+  dependencies: [_angular_router__WEBPACK_IMPORTED_MODULE_0__.RouterOutlet],
+  styles: ["/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsInNvdXJjZVJvb3QiOiIifQ== */"]
 });
 
 

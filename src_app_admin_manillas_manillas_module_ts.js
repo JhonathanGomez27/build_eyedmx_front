@@ -123,7 +123,7 @@ function EnviadasListComponent_tr_32_Template(rf, ctx) {
 function EnviadasListComponent_div_33_Template(rf, ctx) {
   if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](0, "div", 30)(1, "p");
-    _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtext"](2, "\u00A1No hay solicitudes de pulseras para mostrar!");
+    _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtext"](2, "\u00A1No hay pulseras para mostrar!");
     _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementEnd"]()();
   }
 }
