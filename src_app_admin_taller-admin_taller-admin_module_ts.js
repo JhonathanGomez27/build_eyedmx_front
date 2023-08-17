@@ -875,12 +875,13 @@ class VerTallerAdminComponent {
           icon: "error",
           title: error.error.message
         });
+        this.modalService.dismissAll();
       });
     }
   }
   updateTalleresList() {
     this._adminService.getTalleresListUpdate(0, this.limit, null).pipe((0,rxjs__WEBPACK_IMPORTED_MODULE_5__.takeUntil)(this._unsubscribeAll)).subscribe(response => {
-      this._adminService.updateTalleresList(response);
+      this._adminService.updateTalleresSolicitudesList(response);
       this.modalService.dismissAll();
     }, error => {
       this.Toast.fire({

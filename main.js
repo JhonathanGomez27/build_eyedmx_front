@@ -11,7 +11,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   AppRoutingModule: () => (/* binding */ AppRoutingModule)
 /* harmony export */ });
-/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! @angular/router */ 7947);
+/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! @angular/router */ 7947);
 /* harmony import */ var _shared_layout_content_layout_content_layout_component__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./shared/layout/content-layout/content-layout.component */ 4588);
 /* harmony import */ var _shared_routes_content_routes__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./shared/routes/content-routes */ 8497);
 /* harmony import */ var _auth_auth_component__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./auth/auth.component */ 7422);
@@ -24,7 +24,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _core_auth_guards_taller_guard__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./core/auth/guards/taller.guard */ 4493);
 /* harmony import */ var _taller_taller_component__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./taller/taller.component */ 3995);
 /* harmony import */ var _landing_landing_component__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./landing/landing.component */ 5065);
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! @angular/core */ 1699);
+/* harmony import */ var _imagen_fondo_imagen_fondo_component__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./imagen-fondo/imagen-fondo.component */ 1168);
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! @angular/core */ 1699);
+
 
 
 
@@ -78,6 +80,10 @@ const routes = [{
   path: '',
   component: _landing_landing_component__WEBPACK_IMPORTED_MODULE_11__.LandingComponent,
   loadChildren: () => Promise.all(/*! import() */[__webpack_require__.e("default-node_modules_ng-gallery_fesm2020_ng-gallery-lightbox_mjs"), __webpack_require__.e("default-node_modules_ngx-mask_fesm2022_ngx-mask_mjs"), __webpack_require__.e("common"), __webpack_require__.e("src_app_landing_landing_module_ts")]).then(__webpack_require__.bind(__webpack_require__, /*! ./landing/landing.module */ 7325)).then(m => m.LandingModule)
+}, {
+  path: '',
+  component: _imagen_fondo_imagen_fondo_component__WEBPACK_IMPORTED_MODULE_12__.ImagenFondoComponent,
+  loadChildren: () => __webpack_require__.e(/*! import() */ "src_app_imagen-fondo_imagen-fondo_module_ts").then(__webpack_require__.bind(__webpack_require__, /*! ./imagen-fondo/imagen-fondo.module */ 1614)).then(m => m.ImagenFondoModule)
 },
 // {
 //   path: 'home',
@@ -95,21 +101,21 @@ class AppRoutingModule {}
 AppRoutingModule.ɵfac = function AppRoutingModule_Factory(t) {
   return new (t || AppRoutingModule)();
 };
-AppRoutingModule.ɵmod = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵdefineNgModule"]({
+AppRoutingModule.ɵmod = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵdefineNgModule"]({
   type: AppRoutingModule
 });
-AppRoutingModule.ɵinj = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵdefineInjector"]({
-  imports: [_angular_router__WEBPACK_IMPORTED_MODULE_13__.RouterModule.forRoot(routes, {
+AppRoutingModule.ɵinj = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵdefineInjector"]({
+  imports: [_angular_router__WEBPACK_IMPORTED_MODULE_14__.RouterModule.forRoot(routes, {
     useHash: false,
     anchorScrolling: 'enabled',
     scrollPositionRestoration: 'enabled'
-  }), _angular_router__WEBPACK_IMPORTED_MODULE_13__.RouterModule]
+  }), _angular_router__WEBPACK_IMPORTED_MODULE_14__.RouterModule]
 });
 
 (function () {
-  (typeof ngJitMode === "undefined" || ngJitMode) && _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵsetNgModuleScope"](AppRoutingModule, {
-    imports: [_angular_router__WEBPACK_IMPORTED_MODULE_13__.RouterModule],
-    exports: [_angular_router__WEBPACK_IMPORTED_MODULE_13__.RouterModule]
+  (typeof ngJitMode === "undefined" || ngJitMode) && _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵsetNgModuleScope"](AppRoutingModule, {
+    imports: [_angular_router__WEBPACK_IMPORTED_MODULE_14__.RouterModule],
+    exports: [_angular_router__WEBPACK_IMPORTED_MODULE_14__.RouterModule]
   });
 })();
 
@@ -1733,6 +1739,52 @@ ElementsComponent.ɵcmp = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_2_
   },
   dependencies: [_angular_router__WEBPACK_IMPORTED_MODULE_3__.RouterOutlet, _shared_header_header_one_header_one_component__WEBPACK_IMPORTED_MODULE_0__.HeaderOneComponent, _shared_footer_footer_one_footer_one_component__WEBPACK_IMPORTED_MODULE_1__.FooterOneComponent],
   styles: ["/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsInNvdXJjZVJvb3QiOiIifQ== */"]
+});
+
+
+/***/ }),
+
+/***/ 1168:
+/*!********************************************************!*\
+  !*** ./src/app/imagen-fondo/imagen-fondo.component.ts ***!
+  \********************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   ImagenFondoComponent: () => (/* binding */ ImagenFondoComponent)
+/* harmony export */ });
+/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/router */ 7947);
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ 1699);
+
+
+
+class ImagenFondoComponent {
+  constructor(router) {
+    this.router = router;
+    this.router.events.subscribe(event => {
+      if (event instanceof _angular_router__WEBPACK_IMPORTED_MODULE_0__.NavigationEnd) {
+        this.url = event.url;
+      }
+    });
+  }
+}
+ImagenFondoComponent.ɵfac = function ImagenFondoComponent_Factory(t) {
+  return new (t || ImagenFondoComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdirectiveInject"](_angular_router__WEBPACK_IMPORTED_MODULE_0__.Router));
+};
+ImagenFondoComponent.ɵcmp = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineComponent"]({
+  type: ImagenFondoComponent,
+  selectors: [["image-fondo-app"]],
+  decls: 1,
+  vars: 0,
+  consts: [[1, "image-fondo"]],
+  template: function ImagenFondoComponent_Template(rf, ctx) {
+    if (rf & 1) {
+      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](0, "div", 0);
+    }
+  },
+  styles: ["*[_ngcontent-%COMP%] {\n  width: 100vw;\n  height: 100vh;\n  background: url(\"https://eyedmx-bucket.s3.amazonaws.com/demo/demo1.jpeg\") no-repeat center;\n  background-size: contain;\n}\n\n.image-fondo[_ngcontent-%COMP%] {\n  background-color: black;\n}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8uL3NyYy9hcHAvaW1hZ2VuLWZvbmRvL2ltYWdlbi1mb25kby5jb21wb25lbnQuc2NzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUNJLFlBQUE7RUFDQSxhQUFBO0VBQ0EsMEZBQUE7RUFDQSx3QkFBQTtBQUNKOztBQUVBO0VBQ0ksdUJBQUE7QUFDSiIsInNvdXJjZXNDb250ZW50IjpbIip7XHJcbiAgICB3aWR0aDogMTAwdnc7XHJcbiAgICBoZWlnaHQ6IDEwMHZoO1xyXG4gICAgYmFja2dyb3VuZDogdXJsKFwiaHR0cHM6Ly9leWVkbXgtYnVja2V0LnMzLmFtYXpvbmF3cy5jb20vZGVtby9kZW1vMS5qcGVnXCIpIG5vLXJlcGVhdCBjZW50ZXI7XHJcbiAgICBiYWNrZ3JvdW5kLXNpemU6IGNvbnRhaW47XHJcbn1cclxuXHJcbi5pbWFnZS1mb25kb3tcclxuICAgIGJhY2tncm91bmQtY29sb3I6IGJsYWNrO1xyXG59Il0sInNvdXJjZVJvb3QiOiIifQ== */"]
 });
 
 
@@ -8195,7 +8247,7 @@ __webpack_require__.r(__webpack_exports__);
 class FooterOneComponent {
   constructor() {
     this.class = 'footer-light'; // Default class 
-    this.themeLogo = 'assets/images/icon/logo-admin.png'; // Default Logo
+    this.themeLogo = 'https://eyedmx-bucket.s3.amazonaws.com/resources/logo-admin.png'; // Default Logo
     this.newsletter = true; // Default True
     this.today = Date.now();
   }
@@ -8346,7 +8398,7 @@ HeaderAdminComponent.ɵcmp = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE
   },
   decls: 33,
   vars: 12,
-  consts: [[1, "page-main-header"], [1, "main-header-right", "row"], [1, "main-header-left", "d-lg-none", "col"], [1, "logo-wrapper"], [3, "routerLink"], ["src", "assets/images/icon/logo-admin.png", "alt", "", 1, "blur-up", "lazyloaded"], [1, "mobile-sidebar", "col"], [1, "media-body", "switch-sm"], [1, "switch"], ["id", "sidebar-toggle", 3, "icon", "click"], [1, "nav-right", "col"], [1, "nav-menus", 3, "ngClass"], ["href", "javascript:void(0)", "toggleFullscreen", "", 1, "text-dark"], [3, "icon"], [1, "onhover-dropdown"], [1, "media", "align-items-center"], ["src", "assets/images/dashboard/man.png", "alt", "header-user", 1, "align-self-center", "pull-right", "img-50", "rounded-circle"], [1, "dotted-animation"], [1, "animate-circle"], [1, "main-circle"], [1, "profile-dropdown", "onhover-show-div", "p-20", "profile-dropdown-hover"], ["href", "javascript:void(0)"], [1, "d-lg-none", "mobile-toggle", "pull-right", 3, "click"]],
+  consts: [[1, "page-main-header"], [1, "main-header-right", "row"], [1, "main-header-left", "d-lg-none", "col"], [1, "logo-wrapper"], [3, "routerLink"], ["src", "https://eyedmx-bucket.s3.amazonaws.com/resources/logo-admin.png", "alt", "", 1, "blur-up", "lazyloaded"], [1, "mobile-sidebar", "col"], [1, "media-body", "switch-sm"], [1, "switch"], ["id", "sidebar-toggle", 3, "icon", "click"], [1, "nav-right", "col"], [1, "nav-menus", 3, "ngClass"], ["href", "javascript:void(0)", "toggleFullscreen", "", 1, "text-dark"], [3, "icon"], [1, "onhover-dropdown"], [1, "media", "align-items-center"], ["src", "assets/images/dashboard/man.png", "alt", "header-user", 1, "align-self-center", "pull-right", "img-50", "rounded-circle"], [1, "dotted-animation"], [1, "animate-circle"], [1, "main-circle"], [1, "profile-dropdown", "onhover-show-div", "p-20", "profile-dropdown-hover"], ["href", "javascript:void(0)"], [1, "d-lg-none", "mobile-toggle", "pull-right", 3, "click"]],
   template: function HeaderAdminComponent_Template(rf, ctx) {
     if (rf & 1) {
       _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](0, "div", 0)(1, "div", 1)(2, "div", 2)(3, "div", 3)(4, "a", 4);
@@ -8502,7 +8554,7 @@ class HeaderOneComponent {
   constructor(_userService, _changeDetectorRef) {
     this._userService = _userService;
     this._changeDetectorRef = _changeDetectorRef;
-    this.themeLogo = 'assets/images/icon/logo.png'; // Default Logo
+    this.themeLogo = 'https://eyedmx-bucket.s3.amazonaws.com/resources/logo.png'; // Default Logo
     this.topbar = true; // Default True
     this.sticky = false; // Default false
     this.stick = false;
@@ -8559,7 +8611,7 @@ HeaderOneComponent.ɵcmp = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_2
   },
   decls: 14,
   vars: 3,
-  consts: [[1, "sticky", 3, "ngClass"], [1, "mobile-fix-option"], ["class", "top-header", 4, "ngIf"], [1, "container"], [1, "row"], [1, "col-sm-12"], [1, "main-menu"], [1, "menu-left"], [1, "brand-logo"], ["routerLink", "/home/fashion", "id", "headerlogo"], ["alt", "logo", 1, "img-fluid", 3, "src"], [1, "menu-right", "pull-right"], [1, "top-header"], [1, "col-lg-6"], [1, "header-contact"], ["aria-hidden", "true", 1, "fa", "fa-phone"], [1, "col-lg-6", "text-end"], [1, "header-dropdown"], [1, "onhover-dropdown", "mobile-account"], ["aria-hidden", "true", 1, "fa", "fa-user"], ["class", "onhover-show-div", 4, "ngIf"], [1, "onhover-show-div"], ["data-lng", "es", 3, "routerLink"]],
+  consts: [[1, "sticky", 3, "ngClass"], [1, "mobile-fix-option"], ["class", "top-header", 4, "ngIf"], [1, "container"], [1, "row"], [1, "col-sm-12"], [1, "main-menu"], [1, "menu-left"], [1, "brand-logo"], ["routerLink", "/login", "id", "headerlogo"], ["alt", "logo", 1, "img-fluid", 3, "src"], [1, "menu-right", "pull-right"], [1, "top-header"], [1, "col-lg-6"], [1, "header-contact"], ["aria-hidden", "true", 1, "fa", "fa-phone"], [1, "col-lg-6", "text-end"], [1, "header-dropdown"], [1, "onhover-dropdown", "mobile-account"], ["aria-hidden", "true", 1, "fa", "fa-user"], ["class", "onhover-show-div", 4, "ngIf"], [1, "onhover-show-div"], ["data-lng", "es", 3, "routerLink"]],
   template: function HeaderOneComponent_Template(rf, ctx) {
     if (rf & 1) {
       _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](0, "header", 0);

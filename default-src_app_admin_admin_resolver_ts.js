@@ -648,7 +648,7 @@ class AdminService {
     return this._httpClient.get(`${this.url}users/taller/${id}`);
   }
   aceptarTallerById(id) {
-    return this._httpClient.get(`${this.url}users/taller/aceptar`);
+    return this._httpClient.patch(`${this.url}users/taller/aceptar/${id}`, {});
   }
   updateTallerSelected(taller) {
     this._tallerSelected.next(taller);
