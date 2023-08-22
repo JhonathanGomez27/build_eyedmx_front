@@ -1133,12 +1133,13 @@ function VerManillaAdminComponent_ng_template_0_div_7_ng_container_9_Template(rf
   }
   if (rf & 2) {
     const field_r18 = ctx.$implicit;
+    const ctx_r11 = _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵnextContext"](3);
     _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵadvance"](1);
-    _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵproperty"]("ngIf", field_r18.type !== "telefono" && field_r18.type !== "file" && field_r18.type !== "Date");
+    _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵproperty"]("ngIf", field_r18.type !== "telefono" && field_r18.type !== "file" && field_r18.type !== "Date" && ctx_r11.manilla[field_r18.name] !== "");
     _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵadvance"](1);
-    _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵproperty"]("ngIf", field_r18.type === "telefono");
+    _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵproperty"]("ngIf", field_r18.type === "telefono && manilla[field.name] !== ");
     _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵadvance"](1);
-    _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵproperty"]("ngIf", field_r18.type === "Date");
+    _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵproperty"]("ngIf", field_r18.type === "Date" && ctx_r11.manilla[field_r18.name] !== "");
   }
 }
 function VerManillaAdminComponent_ng_template_0_div_7_div_10_Template(rf, ctx) {
