@@ -1,15 +1,15 @@
 "use strict";
 (self["webpackChunkmultikart"] = self["webpackChunkmultikart"] || []).push([["polyfills"],{
 
-/***/ 5321:
+/***/ 55321:
 /*!**************************!*\
   !*** ./src/polyfills.ts ***!
   \**************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _angular_localize_init__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/localize/init */ 4686);
-/* harmony import */ var zone_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! zone.js */ 6657);
+/* harmony import */ var _angular_localize_init__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/localize/init */ 74686);
+/* harmony import */ var zone_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! zone.js */ 76657);
 /* harmony import */ var zone_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(zone_js__WEBPACK_IMPORTED_MODULE_1__);
 /***************************************************************************************************
  * Load `$localize` onto the global scope - used if i18n tags appear in Angular templates.
@@ -66,7 +66,7 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ 6657:
+/***/ 76657:
 /*!***********************************************!*\
   !*** ./node_modules/zone.js/fesm2015/zone.js ***!
   \***********************************************/
@@ -2730,7 +2730,7 @@ Zone.__load_patch('queueMicrotask', (global, Zone, api) => {
 
 /***/ }),
 
-/***/ 4686:
+/***/ 74686:
 /*!**********************************************************!*\
   !*** ./node_modules/@angular/localize/fesm2022/init.mjs ***!
   \**********************************************************/
@@ -2740,7 +2740,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   $localize: () => (/* reexport safe */ _angular_localize__WEBPACK_IMPORTED_MODULE_0__["ɵ$localize"])
 /* harmony export */ });
-/* harmony import */ var _angular_localize__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/localize */ 2337);
+/* harmony import */ var _angular_localize__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/localize */ 22337);
 /**
  * @license Angular v16.1.8
  * (c) 2010-2022 Google LLC. https://angular.io/
@@ -2755,7 +2755,7 @@ _angular_localize__WEBPACK_IMPORTED_MODULE_0__["ɵ_global"].$localize = _angular
 
 /***/ }),
 
-/***/ 2337:
+/***/ 22337:
 /*!**************************************************************!*\
   !*** ./node_modules/@angular/localize/fesm2022/localize.mjs ***!
   \**************************************************************/
@@ -3891,7 +3891,7 @@ function stripBlock(messagePart, rawMessagePart) {
 },
 /******/ __webpack_require__ => { // webpackRuntimeModules
 /******/ var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-/******/ var __webpack_exports__ = (__webpack_exec__(5321));
+/******/ var __webpack_exports__ = (__webpack_exec__(55321));
 /******/ }
 ]);
 //# sourceMappingURL=polyfills.js.map

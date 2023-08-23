@@ -11,7 +11,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   AimaComponent: () => (/* binding */ AimaComponent)
 /* harmony export */ });
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ 1699);
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ 61699);
 
 class AimaComponent {}
 AimaComponent.ɵfac = function AimaComponent_Factory(t) {
@@ -45,10 +45,10 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   ImagenFondoRoutingModule: () => (/* binding */ ImagenFondoRoutingModule),
 /* harmony export */   routes: () => (/* binding */ routes)
 /* harmony export */ });
-/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/router */ 7947);
-/* harmony import */ var _mg_mg_component__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./mg/mg.component */ 1838);
+/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/router */ 27947);
+/* harmony import */ var _mg_mg_component__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./mg/mg.component */ 71838);
 /* harmony import */ var _aima_aima_component__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./aima/aima.component */ 1266);
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/core */ 1699);
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/core */ 61699);
 
 
 
@@ -81,7 +81,7 @@ ImagenFondoRoutingModule.ɵinj = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MO
 
 /***/ }),
 
-/***/ 1614:
+/***/ 61614:
 /*!*****************************************************!*\
   !*** ./src/app/imagen-fondo/imagen-fondo.module.ts ***!
   \*****************************************************/
@@ -91,13 +91,13 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   ImagenFondoModule: () => (/* binding */ ImagenFondoModule)
 /* harmony export */ });
-/* harmony import */ var _imagen_fondo_component__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./imagen-fondo.component */ 1168);
-/* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @angular/common */ 6575);
-/* harmony import */ var _shared_shared_module__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../shared/shared.module */ 6208);
+/* harmony import */ var _imagen_fondo_component__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./imagen-fondo.component */ 41168);
+/* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @angular/common */ 26575);
+/* harmony import */ var _shared_shared_module__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../shared/shared.module */ 56208);
 /* harmony import */ var _imagen_fondo_routing_module__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./imagen-fondo-routing.module */ 8749);
 /* harmony import */ var _aima_aima_component__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./aima/aima.component */ 1266);
-/* harmony import */ var _mg_mg_component__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./mg/mg.component */ 1838);
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @angular/core */ 1699);
+/* harmony import */ var _mg_mg_component__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./mg/mg.component */ 71838);
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @angular/core */ 61699);
 
 
 
@@ -125,7 +125,7 @@ ImagenFondoModule.ɵinj = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_5_
 
 /***/ }),
 
-/***/ 1838:
+/***/ 71838:
 /*!*************************************************!*\
   !*** ./src/app/imagen-fondo/mg/mg.component.ts ***!
   \*************************************************/
@@ -135,7 +135,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   MgComponent: () => (/* binding */ MgComponent)
 /* harmony export */ });
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ 1699);
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ 61699);
 
 class MgComponent {}
 MgComponent.ɵfac = function MgComponent_Factory(t) {
