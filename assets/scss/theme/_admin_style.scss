@@ -442,7 +442,7 @@ ng2-smart-table {
 }
 .page-item {
   .page-link {
-    color: $primary-color;
+    color: $secondary-color;
     &:hover {
       text-decoration: none;
     }
@@ -450,8 +450,8 @@ ng2-smart-table {
   &.active {
     .page-link {
       color: $white;
-      background-color: $primary-color;
-      border-color: $primary-color;
+      background-color: $secondary-color;
+      border-color: $secondary-color;
     }
   }
 }

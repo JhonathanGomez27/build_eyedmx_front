@@ -2431,6 +2431,9 @@ background-color: $black;*/
             }
         }
     }
+    .back-list-nav {
+        background: none;
+    }
     .dashboard-left {
         position: fixed;
         height: 100vh;
@@ -2458,6 +2461,9 @@ background-color: $black;*/
             ul {
                 padding: 0 15px;
                 li {
+                    a{
+                        color: black;
+                    }
                     padding: 8px 0;
                     &:hover {
                         padding-left: 0;

@@ -1297,6 +1297,7 @@ header {
 }
 
 .main-menu {
+    height: 80px;
     position: relative;
     display: flex;
     justify-content: space-between;
@@ -1307,8 +1308,8 @@ header {
     }
     .brand-logo {
         display: inline-block;
-        padding-top: 35px;
-        padding-bottom: 35px;
+        // padding-top: 35px;
+        // padding-bottom: 35px;
     }
     .menu-left {
         display: flex;
@@ -8230,11 +8231,22 @@ ngx-loading-bar {
     margin-top: 25px;
 }
 
+
+.back-list-nav {
+    background: var(--theme-deafult);
+    background: -webkit-linear-gradient(to right, var(--theme-gradient1), var(--theme-deafult));
+    background: linear-gradient(to right, var(--theme-gradient1), var(--theme-deafult));
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0 0;
+    border-radius: 10px;
+}
+
 // Dashboard page
 .dashboard-left {
     a {
         text-decoration: none;
-        color: #000;
+        color: #ffffff;
         outline: none;
     }
     .block-title h2 {
@@ -8244,7 +8256,6 @@ ngx-loading-bar {
     .block-content {
         border: none;
         padding: 12px 0;
-        background-color: #fafafa;
         border-radius: 5px;
         overflow: hidden;
         ul li {
@@ -8255,6 +8266,7 @@ ngx-loading-bar {
             &.active {
                 color: var(--theme-deafult);
                 border-right: 2px solid var(--theme-deafult);
+                background-color: white;
                 a {
                     color: var(--theme-deafult);
                 }

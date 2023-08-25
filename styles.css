@@ -15311,8 +15311,8 @@ textarea.form-control-lg {
 
 @font-face {
   font-family: "themify";
-  src: url('themify.eot?-fvbane');
-  src: url('themify.eot?#iefix-fvbane') format("embedded-opentype"), url('themify.woff?-fvbane') format("woff"), url('themify.ttf?-fvbane') format("truetype"), url('themify.svg?-fvbane#themify') format("svg");
+  src: url('_-fonts-themify.eot?-fvbane');
+  src: url('_-fonts-themify.eot?#iefix-fvbane') format("embedded-opentype"), url('_-fonts-themify.woff?-fvbane') format("woff"), url('_-fonts-themify.ttf?-fvbane') format("truetype"), url('_-fonts-themify.svg?-fvbane#themify') format("svg");
   font-weight: normal;
   font-style: normal;
 }
@@ -17839,6 +17839,7 @@ header {
 }
 
 .main-menu {
+  height: 80px;
   position: relative;
   display: flex;
   justify-content: space-between;
@@ -17850,8 +17851,6 @@ header {
 }
 .main-menu .brand-logo {
   display: inline-block;
-  padding-top: 35px;
-  padding-bottom: 35px;
 }
 .main-menu .menu-left {
   display: flex;
@@ -24242,9 +24241,18 @@ ngx-loading-bar {
   margin-top: 25px;
 }
 
+.back-list-nav {
+  background: var(--theme-deafult);
+  background: linear-gradient(to right, var(--theme-gradient1), var(--theme-deafult));
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 0 0;
+  border-radius: 10px;
+}
+
 .dashboard-left a {
   text-decoration: none;
-  color: #000;
+  color: #ffffff;
   outline: none;
 }
 .dashboard-left .block-title h2, .dashboard-left .block-title .h2 {
@@ -24254,7 +24262,6 @@ ngx-loading-bar {
 .dashboard-left .block-content {
   border: none;
   padding: 12px 0;
-  background-color: #fafafa;
   border-radius: 5px;
   overflow: hidden;
 }
@@ -24267,6 +24274,7 @@ ngx-loading-bar {
 .dashboard-left .block-content ul li.active {
   color: var(--theme-deafult);
   border-right: 2px solid var(--theme-deafult);
+  background-color: white;
 }
 .dashboard-left .block-content ul li.active a {
   color: var(--theme-deafult);
@@ -30744,7 +30752,7 @@ header .main-navbar .nav-menu > li {
 }
 header .main-navbar .nav-menu > li > a {
   display: block;
-  padding-right: 45px;
+  padding-right: 90px;
   color: #ffffff;
   font-size: 16px;
   font-weight: 400;
@@ -33322,6 +33330,9 @@ header .layout3-menu .main-navbar .nav-menu > li.mega-menu {
   .tab-product .nav-material .nav-tabs {
     justify-content: center;
   }
+  .back-list-nav {
+    background: none;
+  }
   .dashboard-left {
     position: fixed;
     height: 100vh;
@@ -33351,6 +33362,9 @@ header .layout3-menu .main-navbar .nav-menu > li.mega-menu {
   }
   .dashboard-left .block-content ul li {
     padding: 8px 0;
+  }
+  .dashboard-left .block-content ul li a {
+    color: black;
   }
   .dashboard-left .block-content ul li:hover {
     padding-left: 0;
@@ -60577,15 +60591,15 @@ ng2-smart-table .ng2-smart-pagination .page-link-next, ng2-smart-table .ng2-smar
 }
 
 .page-item .page-link {
-  color: #55B99D;
+  color: #3A55A2;
 }
 .page-item .page-link:hover {
   text-decoration: none;
 }
 .page-item.active .page-link {
   color: #ffffff;
-  background-color: #55B99D;
-  border-color: #55B99D;
+  background-color: #3A55A2;
+  border-color: #3A55A2;
 }
 
 .single-item .owl-theme .owl-dots .owl-dot.active span, .single-item .owl-theme .owl-dots .owl-dot:hover span {
@@ -76809,8 +76823,8 @@ table.dataTable.display tbody tr.odd > .sorting_1 {
  * -------------------------- */
 @font-face {
   font-family: "themify";
-  src: url('_-fonts-themify-themify.eot?-fvbane');
-  src: url('_-fonts-themify-themify.eot?#iefix-fvbane') format("embedded-opentype"), url('_-fonts-themify-themify.woff?-fvbane') format("woff"), url('_-fonts-themify-themify.ttf?-fvbane') format("truetype"), url('_-fonts-themify-themify.svg?-fvbane#themify') format("svg");
+  src: url('themify.eot?-fvbane');
+  src: url('themify.eot?#iefix-fvbane') format("embedded-opentype"), url('themify.woff?-fvbane') format("woff"), url('themify.ttf?-fvbane') format("truetype"), url('themify.svg?-fvbane#themify') format("svg");
   font-weight: normal;
   font-style: normal;
 }
