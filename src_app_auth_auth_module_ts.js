@@ -556,8 +556,6 @@ class LoginComponent {
       image: 'assets/images/logos/6.png'
     }, {
       image: 'assets/images/logos/7.png'
-    }, {
-      image: 'assets/images/logos/8.png'
     }];
   }
   ngOnInit() {
@@ -836,8 +834,6 @@ class RegisterTallerComponent {
       image: 'assets/images/logos/6.png'
     }, {
       image: 'assets/images/logos/7.png'
-    }, {
-      image: 'assets/images/logos/8.png'
     }];
     let today = new Date();
     this.maxDate.year = today.getFullYear();
@@ -1218,8 +1214,6 @@ class RegisterComponent {
       image: "assets/images/logos/6.png"
     }, {
       image: "assets/images/logos/7.png"
-    }, {
-      image: "assets/images/logos/8.png"
     }];
     let today = new Date();
     this.maxDate.year = today.getFullYear();
@@ -1772,8 +1766,6 @@ class ResetPasswordComponent {
       image: 'assets/images/logos/6.png'
     }, {
       image: 'assets/images/logos/7.png'
-    }, {
-      image: 'assets/images/logos/8.png'
     }];
     this.Toast = sweetalert2__WEBPACK_IMPORTED_MODULE_0___default().mixin({
       toast: true,
@@ -2079,8 +2071,6 @@ class FashionOneComponent {
       image: 'assets/images/logos/6.png'
     }, {
       image: 'assets/images/logos/7.png'
-    }, {
-      image: 'assets/images/logos/8.png'
     }];
     this.productService.getProducts.subscribe(response => {
       this.products = response.filter(item => item.type == 'fashion');

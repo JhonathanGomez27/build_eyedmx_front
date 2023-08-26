@@ -8274,9 +8274,9 @@ FooterOneComponent.ɵcmp = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_0
     themeLogo: "themeLogo",
     newsletter: "newsletter"
   },
-  decls: 77,
+  decls: 74,
   vars: 7,
-  consts: [[1, "section-b-space", "light-layout"], [1, "container"], [1, "row", "footer-theme", "partition-f"], [1, "col-lg-4", "col-md-6"], [1, "footer-title", "footer-mobile-title"], [1, "footer-contant"], [1, "footer-logo"], ["alt", "logo", 3, "src"], [1, "footer-social"], ["href", "javascript:void(0)"], ["aria-hidden", "true", 1, "fa", "fa-facebook"], ["aria-hidden", "true", 1, "fa", "fa-google-plus"], ["aria-hidden", "true", 1, "fa", "fa-twitter"], ["aria-hidden", "true", 1, "fa", "fa-instagram"], ["aria-hidden", "true", 1, "fa", "fa-rss"], [1, "col", "offset-xl-1"], [1, "col"], [1, "sub-title"], [1, "footer-title"], [1, "contact-list"], [1, "fa", "fa-map-marker"], [1, "fa", "fa-phone"], [1, "fa", "fa-envelope-o"], [1, "fa", "fa-fax"], [1, "sub-footer"], [1, "row"], [1, "col-xl-6", "col-md-6", "col-sm-12"], [1, "footer-end"], ["aria-hidden", "true", 1, "fa", "fa-copyright"]],
+  consts: [[1, "section-b-space", "light-layout"], [1, "container"], [1, "row", "footer-theme", "partition-f"], [1, "col-lg-4", "col-md-6"], [1, "footer-title", "footer-mobile-title"], [1, "footer-contant"], [1, "footer-logo"], ["alt", "logo", 3, "src"], [1, "footer-social"], ["href", "javascript:void(0)"], ["aria-hidden", "true", 1, "fa", "fa-facebook"], ["aria-hidden", "true", 1, "fa", "fa-google-plus"], ["aria-hidden", "true", 1, "fa", "fa-twitter"], ["aria-hidden", "true", 1, "fa", "fa-instagram"], ["aria-hidden", "true", 1, "fa", "fa-rss"], [1, "col", "offset-xl-1"], [1, "col"], [1, "sub-title"], [1, "footer-title"], [1, "contact-list"], [1, "fa", "fa-map-marker"], [1, "fa", "fa-phone"], [1, "fa", "fa-envelope-o"], [1, "sub-footer"], [1, "row"], [1, "col-xl-6", "col-md-6", "col-sm-12"], [1, "footer-end"], ["aria-hidden", "true", 1, "fa", "fa-copyright"]],
   template: function FooterOneComponent_Template(rf, ctx) {
     if (rf & 1) {
       _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "footer")(1, "section", 0)(2, "div", 1)(3, "div", 2)(4, "div", 3);
@@ -8320,36 +8320,32 @@ FooterOneComponent.ɵcmp = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_0
       _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]()();
       _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](50, "div", 5)(51, "ul", 19)(52, "li");
       _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](53, "i", 20);
-      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](54, "Multikart Demo Store, Demo store India 345-659");
+      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](54, "Camino real a Cholula 44-05 Villa Zavaleta plaza Santa Fe Local\u00A01C ");
       _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
       _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](55, "li");
       _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](56, "i", 21);
-      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](57, "Call Us: 123-456-7898");
+      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](57, "Llamanos: 123-456-7898");
       _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
       _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](58, "li");
       _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](59, "i", 22);
-      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](60, "Email Us: ");
+      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](60, "Contactanos: ");
       _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](61, "a");
-      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](62, "Support@Fiot.com");
-      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]()();
-      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](63, "li");
-      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](64, "i", 23);
-      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](65, "Fax: 123456");
-      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]()()()()()()()();
-      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](66, "div", 24)(67, "div", 1)(68, "div", 25)(69, "div", 26)(70, "div", 27)(71, "p");
-      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](72, "i", 28);
-      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](73);
-      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpipe"](74, "date");
+      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](62, "eyedmx1@gmail.com");
+      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]()()()()()()()()();
+      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](63, "div", 23)(64, "div", 1)(65, "div", 24)(66, "div", 25)(67, "div", 26)(68, "p");
+      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](69, "i", 27);
+      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](70);
+      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpipe"](71, "date");
       _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]()()()()()();
-      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](75, "br")(76, "br");
+      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](72, "br")(73, "br");
       _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
     }
     if (rf & 2) {
       _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵclassMap"](ctx.class);
       _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](8);
       _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("src", ctx.themeLogo, _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵsanitizeUrl"]);
-      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](65);
-      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate1"](" ", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpipeBind2"](74, 4, ctx.today, "y"), " EyeDmx");
+      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](62);
+      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate1"](" ", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpipeBind2"](71, 4, ctx.today, "y"), " EyeDmx");
     }
   },
   dependencies: [_angular_common__WEBPACK_IMPORTED_MODULE_1__.DatePipe],
@@ -10339,7 +10335,7 @@ const environment = {
   stripe_token: 'STRIPE_TOKEN',
   paypal_token: 'PAYPAL_TOKEN',
   // urlWeb: 'http://localhost:4000/eyedmx/',
-  urlWeb: 'http://3.140.44.227:4000/eyedmx/',
+  urlWeb: 'https://api.eyedmxapp.com/eyedmx/',
   secrectKey: 'secret',
   pagination_limit: 15
 };
