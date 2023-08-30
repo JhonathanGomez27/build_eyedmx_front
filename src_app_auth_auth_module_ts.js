@@ -1171,14 +1171,21 @@ const _c1 = function (a0) {
     "error-required-input": a0
   };
 };
-const _c2 = function (a0, a1, a2) {
+const _c2 = function () {
+  return {
+    year: 1920,
+    month: 1,
+    day: 1
+  };
+};
+const _c3 = function (a0, a1, a2) {
   return {
     year: a0,
     month: a1,
     day: a2
   };
 };
-const _c3 = function () {
+const _c4 = function () {
   return ["/login"];
 };
 class RegisterComponent {
@@ -1440,8 +1447,8 @@ RegisterComponent.ɵcmp = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_4_
     }
   },
   decls: 50,
-  vars: 42,
-  consts: [[3, "breadcrumb"], [1, "contenedor-form"], [1, "formulario-side"], ["novalidate", "", 1, "needs-validation", 3, "formGroup", "ngSubmit"], ["signInNgForm", "ngForm"], ["class", "alert alert-danger", "role", "alert", 4, "ngIf"], [1, "divider-inputs"], ["id", "name", "placeholder", "Nombre completo", 1, "form-control", 3, "ngClass", "formControlName"], ["id", "email", "placeholder", "Correo electronico", 1, "form-control", 3, "ngClass", "formControlName"], [1, "input-group"], ["type", "password", "id", "password", "placeholder", "Ingresa tu contrase\u00F1a", "autocomplete", "on", "aria-label", "password", "aria-describedby", "basic-addon1", 1, "form-control", 3, "ngClass", "formControlName"], ["passwordField", ""], ["id", "basic-addon1", 1, "input-group-text", 3, "click"], ["class", "fa fa-eye", "aria-hidden", "true", 4, "ngIf"], ["class", "fa fa-eye-slash", "aria-hidden", "true", 4, "ngIf"], [1, "border-bottom-login-form"], ["class", "error-login-form", 4, "ngIf"], ["id", "direccion", "placeholder", "Direccion", 1, "form-control", 3, "ngClass", "formControlName"], ["type", "text", "prefix", "(+52) ", "mask", "000-000-0000", "id", "telefono", "placeholder", "Telefono", 1, "form-control", 3, "ngClass", "formControlName"], ["id", "documento", "placeholder", "Documento", 1, "form-control", 3, "ngClass", "formControlName"], ["placeholder", "Fecha de nacimiento", "name", "fdn", "id", "fdn", "readonly", "", "ngbDatepicker", "", 1, "form-control", 3, "formControlName", "ngClass", "maxDate"], ["d", "ngbDatepicker"], ["type", "button", 1, "btn", "btn-outline-dark", 3, "click"], ["aria-hidden", "true", 1, "fa", "fa-calendar"], ["type", "submit"], [1, "overlay-side"], ["id", "signUp", 1, "ghost", 3, "routerLink"], [1, "section-b-space"], [1, "container"], [1, "row"], [1, "col-md-12"], [3, "logos"], ["role", "alert", 1, "alert", "alert-danger"], ["aria-hidden", "true", 1, "fa", "fa-eye"], ["aria-hidden", "true", 1, "fa", "fa-eye-slash"], [1, "error-login-form"]],
+  vars: 44,
+  consts: [[3, "breadcrumb"], [1, "contenedor-form"], [1, "formulario-side"], ["novalidate", "", 1, "needs-validation", 3, "formGroup", "ngSubmit"], ["signInNgForm", "ngForm"], ["class", "alert alert-danger", "role", "alert", 4, "ngIf"], [1, "divider-inputs"], ["id", "name", "placeholder", "Nombre completo", 1, "form-control", 3, "ngClass", "formControlName"], ["id", "email", "placeholder", "Correo electronico", 1, "form-control", 3, "ngClass", "formControlName"], [1, "input-group"], ["type", "password", "id", "password", "placeholder", "Ingresa tu contrase\u00F1a", "autocomplete", "on", "aria-label", "password", "aria-describedby", "basic-addon1", 1, "form-control", 3, "ngClass", "formControlName"], ["passwordField", ""], ["id", "basic-addon1", 1, "input-group-text", 3, "click"], ["class", "fa fa-eye", "aria-hidden", "true", 4, "ngIf"], ["class", "fa fa-eye-slash", "aria-hidden", "true", 4, "ngIf"], [1, "border-bottom-login-form"], ["class", "error-login-form", 4, "ngIf"], ["id", "direccion", "placeholder", "Direccion", 1, "form-control", 3, "ngClass", "formControlName"], ["type", "text", "prefix", "(+52) ", "mask", "000-000-0000", "id", "telefono", "placeholder", "Telefono", 1, "form-control", 3, "ngClass", "formControlName"], ["id", "documento", "placeholder", "INE", 1, "form-control", 3, "ngClass", "formControlName"], ["placeholder", "Fecha de nacimiento", "name", "fdn", "id", "fdn", "readonly", "", "ngbDatepicker", "", 1, "form-control", 3, "formControlName", "ngClass", "minDate", "maxDate"], ["d", "ngbDatepicker"], ["type", "button", 1, "btn", "btn-outline-dark", 3, "click"], ["aria-hidden", "true", 1, "fa", "fa-calendar"], ["type", "submit"], [1, "overlay-side"], ["id", "signUp", 1, "ghost", 3, "routerLink"], [1, "section-b-space"], [1, "container"], [1, "row"], [1, "col-md-12"], [3, "logos"], ["role", "alert", 1, "alert", "alert-danger"], ["aria-hidden", "true", 1, "fa", "fa-eye"], ["aria-hidden", "true", 1, "fa", "fa-eye-slash"], [1, "error-login-form"]],
   template: function RegisterComponent_Template(rf, ctx) {
     if (rf & 1) {
       const _r7 = _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵgetCurrentView"]();
@@ -1520,11 +1527,11 @@ RegisterComponent.ɵcmp = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_4_
       _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵadvance"](5);
       _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵproperty"]("ngIf", ctx.showAlert);
       _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵadvance"](3);
-      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵproperty"]("ngClass", _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵpureFunction1"](23, _c1, ctx.signUpForm.get("name").hasError("required") && ctx.activarClases))("formControlName", "name");
+      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵproperty"]("ngClass", _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵpureFunction1"](24, _c1, ctx.signUpForm.get("name").hasError("required") && ctx.activarClases))("formControlName", "name");
       _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵadvance"](2);
-      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵproperty"]("ngClass", _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵpureFunction1"](25, _c1, ctx.signUpForm.get("email").hasError("required") && ctx.activarClases || ctx.signUpForm.get("email").hasError("email") && ctx.activarClases))("formControlName", "email");
+      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵproperty"]("ngClass", _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵpureFunction1"](26, _c1, ctx.signUpForm.get("email").hasError("required") && ctx.activarClases || ctx.signUpForm.get("email").hasError("email") && ctx.activarClases))("formControlName", "email");
       _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵadvance"](3);
-      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵproperty"]("ngClass", _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵpureFunction1"](27, _c1, ctx.signUpForm.get("password").hasError("required") && ctx.activarClases || ctx.signUpForm.get("password").hasError("minlength") || ctx.signUpForm.get("password").hasError("hasNumber") || ctx.signUpForm.get("password").hasError("hasCapitalCase") || ctx.signUpForm.get("password").hasError("hasSmallCase") || ctx.signUpForm.get("password").hasError("hasSpecialCharacters")))("formControlName", "password");
+      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵproperty"]("ngClass", _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵpureFunction1"](28, _c1, ctx.signUpForm.get("password").hasError("required") && ctx.activarClases || ctx.signUpForm.get("password").hasError("minlength") || ctx.signUpForm.get("password").hasError("hasNumber") || ctx.signUpForm.get("password").hasError("hasCapitalCase") || ctx.signUpForm.get("password").hasError("hasSmallCase") || ctx.signUpForm.get("password").hasError("hasSpecialCharacters")))("formControlName", "password");
       _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵadvance"](3);
       _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵproperty"]("ngIf", _r2.type === "password");
       _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵadvance"](1);
@@ -1532,15 +1539,15 @@ RegisterComponent.ɵcmp = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_4_
       _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵadvance"](2);
       _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵproperty"]("ngIf", ctx.signUpForm.get("password").invalid && ctx.signUpForm.get("password").touched);
       _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵadvance"](2);
-      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵproperty"]("ngClass", _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵpureFunction1"](29, _c1, ctx.signUpForm.get("direccion").hasError("required") && ctx.activarClases))("formControlName", "direccion");
+      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵproperty"]("ngClass", _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵpureFunction1"](30, _c1, ctx.signUpForm.get("direccion").hasError("required") && ctx.activarClases))("formControlName", "direccion");
       _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵadvance"](2);
-      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵproperty"]("ngClass", _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵpureFunction1"](31, _c1, ctx.signUpForm.get("telefono").hasError("required") && ctx.activarClases || ctx.signUpForm.get("telefono").invalid && ctx.activarClases))("formControlName", "telefono");
+      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵproperty"]("ngClass", _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵpureFunction1"](32, _c1, ctx.signUpForm.get("telefono").hasError("required") && ctx.activarClases || ctx.signUpForm.get("telefono").invalid && ctx.activarClases))("formControlName", "telefono");
       _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵadvance"](2);
-      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵproperty"]("ngClass", _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵpureFunction1"](33, _c1, ctx.signUpForm.get("documento").hasError("required") && ctx.activarClases))("formControlName", "documento");
+      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵproperty"]("ngClass", _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵpureFunction1"](34, _c1, ctx.signUpForm.get("documento").hasError("required") && ctx.activarClases))("formControlName", "documento");
       _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵadvance"](3);
-      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵproperty"]("formControlName", "fecha_nacimiento")("ngClass", _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵpureFunction1"](35, _c1, ctx.signUpForm.get("fecha_nacimiento").hasError("required") && ctx.activarClases))("maxDate", _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵpureFunction3"](37, _c2, ctx.maxDate.year, ctx.maxDate.month, ctx.maxDate.day));
+      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵproperty"]("formControlName", "fecha_nacimiento")("ngClass", _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵpureFunction1"](36, _c1, ctx.signUpForm.get("fecha_nacimiento").hasError("required") && ctx.activarClases))("minDate", _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵpureFunction0"](38, _c2))("maxDate", _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵpureFunction3"](39, _c3, ctx.maxDate.year, ctx.maxDate.month, ctx.maxDate.day));
       _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵadvance"](12);
-      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵproperty"]("routerLink", _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵpureFunction0"](41, _c3));
+      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵproperty"]("routerLink", _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵpureFunction0"](43, _c4));
       _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵadvance"](6);
       _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵproperty"]("logos", ctx.logo);
     }

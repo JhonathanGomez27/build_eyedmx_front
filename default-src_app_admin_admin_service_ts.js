@@ -414,6 +414,9 @@ class AdminService {
       params
     });
   }
+  obtenerReporteTotal() {
+    return this._httpClient.get(`${this.url}manillas/ObtenerReporteTotal`);
+  }
 }
 AdminService.ɵfac = function AdminService_Factory(t) {
   return new (t || AdminService)(_angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵinject"](_angular_common_http__WEBPACK_IMPORTED_MODULE_2__.HttpClient));

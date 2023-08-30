@@ -2427,7 +2427,14 @@ function ManillasUserComponent_ng_template_18_ng_container_25_ng_container_1_div
     _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtextInterpolate1"](" El campo: ", ctx_r53.fieldsList[i_r23].description, " es requerido ");
   }
 }
-const _c4 = function (a0, a1, a2) {
+const _c4 = function () {
+  return {
+    year: 1920,
+    month: 1,
+    day: 1
+  };
+};
+const _c5 = function (a0, a1, a2) {
   return {
     year: a0,
     month: a1,
@@ -2469,7 +2476,7 @@ function ManillasUserComponent_ng_template_18_ng_container_25_ng_container_1_div
     _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵadvance"](2);
     _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵproperty"]("ngIf", ctx_r29.fieldsList[i_r23].private);
     _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵadvance"](1);
-    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵproperty"]("ngClass", _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵpureFunction1"](9, _c3, field_r22.get(ctx_r29.fieldsList[i_r23].name).invalid && field_r22.get(ctx_r29.fieldsList[i_r23].name).touched))("id", ctx_r29.fieldsList[i_r23].name)("formControl", field_r22.get(ctx_r29.fieldsList[i_r23].name))("maxDate", _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵpureFunction3"](11, _c4, ctx_r29.maxDate.year, ctx_r29.maxDate.month, ctx_r29.maxDate.day));
+    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵproperty"]("ngClass", _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵpureFunction1"](10, _c3, field_r22.get(ctx_r29.fieldsList[i_r23].name).invalid && field_r22.get(ctx_r29.fieldsList[i_r23].name).touched))("id", ctx_r29.fieldsList[i_r23].name)("formControl", field_r22.get(ctx_r29.fieldsList[i_r23].name))("minDate", _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵpureFunction0"](12, _c4))("maxDate", _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵpureFunction3"](13, _c5, ctx_r29.maxDate.year, ctx_r29.maxDate.month, ctx_r29.maxDate.day));
     _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵadvance"](4);
     _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵproperty"]("ngIf", field_r22.get(ctx_r29.fieldsList[i_r23].name).hasError("required") && field_r22.get(ctx_r29.fieldsList[i_r23].name).touched);
   }
@@ -2750,7 +2757,7 @@ function ManillasUserComponent_ng_template_18_ng_container_25_ng_container_1_Tem
     _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtemplate"](1, ManillasUserComponent_ng_template_18_ng_container_25_ng_container_1_div_1_Template, 9, 12, "div", 53);
     _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtemplate"](2, ManillasUserComponent_ng_template_18_ng_container_25_ng_container_1_div_2_Template, 8, 11, "div", 53);
     _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtemplate"](3, ManillasUserComponent_ng_template_18_ng_container_25_ng_container_1_div_3_Template, 8, 11, "div", 53);
-    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtemplate"](4, ManillasUserComponent_ng_template_18_ng_container_25_ng_container_1_div_4_Template, 11, 15, "div", 53);
+    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtemplate"](4, ManillasUserComponent_ng_template_18_ng_container_25_ng_container_1_div_4_Template, 11, 17, "div", 53);
     _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtemplate"](5, ManillasUserComponent_ng_template_18_ng_container_25_ng_container_1_div_5_Template, 10, 10, "div", 53);
     _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtemplate"](6, ManillasUserComponent_ng_template_18_ng_container_25_ng_container_1_div_6_Template, 8, 12, "div", 53);
     _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtemplate"](7, ManillasUserComponent_ng_template_18_ng_container_25_ng_container_1_div_7_Template, 9, 12, "div", 53);
@@ -3012,7 +3019,7 @@ function ManillasUserComponent_tr_36_div_11_Template(rf, ctx) {
     _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtextInterpolate1"](" ", manilla_r93.nombre_portador, " ");
   }
 }
-const _c5 = function (a0, a1, a2, a3, a4) {
+const _c6 = function (a0, a1, a2, a3, a4) {
   return {
     "manilla-solicitado": a0,
     "manilla-entregado": a1,
@@ -3078,7 +3085,7 @@ function ManillasUserComponent_tr_36_Template(rf, ctx) {
     _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵadvance"](1);
     _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵproperty"]("ngIf", manilla_r93.nombre_portador);
     _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵadvance"](1);
-    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵproperty"]("ngClass", _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵpureFunction5"](9, _c5, manilla_r93.estado === "Solicitada", manilla_r93.estado === "Entregada", manilla_r93.estado === "Rechazada", manilla_r93.estado === "Aceptada", manilla_r93.estado === "Enviada"));
+    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵproperty"]("ngClass", _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵpureFunction5"](9, _c6, manilla_r93.estado === "Solicitada", manilla_r93.estado === "Entregada", manilla_r93.estado === "Rechazada", manilla_r93.estado === "Aceptada", manilla_r93.estado === "Enviada"));
     _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵadvance"](2);
     _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtextInterpolate"](manilla_r93.estado);
   }
@@ -3090,7 +3097,7 @@ function ManillasUserComponent_div_37_Template(rf, ctx) {
     _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]()();
   }
 }
-const _c6 = function () {
+const _c7 = function () {
   return {
     "=0": "No tienes pulseras",
     "=1": "pulsera",
@@ -3398,7 +3405,7 @@ ManillasUserComponent.ɵcmp = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODUL
   },
   decls: 44,
   vars: 12,
-  consts: [[1, "dashboard-right"], [1, "dashboard"], [1, "page-title"], [1, "welcome-msg"], [1, "nombre-msg"], [4, "ngIf"], [1, "container-fluid"], [1, "row"], [1, "col-sm-12"], [1, "card"], [1, "card-body"], [1, "btn-popup", "pull-right"], ["type", "button", "data-toggle", "modal", "data-original-title", "Solicitar puslera", "data-target", "#modalSolicitarManilla", 1, "btn", "btn-outline-secondary", 3, "click"], ["content", ""], ["id", "manillas-user", 1, "category-table", "custom-datatable"], [1, "table-responsive"], [1, "table", "table-striped"], ["scope", "col"], [4, "ngFor", "ngForOf"], ["class", "d-flex justify-content-center mb-4 mt-4", 4, "ngIf"], [1, "d-flex", "justify-content-center", "p-2"], [3, "collectionSize", "page", "pageSize", "boundaryLinks", "pageChange"], ["verManillaModal", ""], ["editarManillaModal", ""], [1, "modal-header"], ["id", "modalSolicitarManillaTitulo", 1, "modal-title", "f-w-600"], ["type", "button", "class", "close", "aria-label", "Close", 3, "click", 4, "ngIf"], [1, "modal-body"], ["class", "alert alert-danger", "role", "alert", 4, "ngIf"], ["novalidate", "", 1, "manillas-form-theme", 3, "formGroup"], ["manillaNgForm", "ngForm"], [1, "col-md-12", "mb-4"], ["for", "name"], ["aria-label", "Seleccionar tipo cliente", 1, "form-select", 3, "formControlName", "change"], ["value", ""], [3, "value", 4, "ngFor", "ngForOf"], ["class", "error-manilla-form", 4, "ngIf"], [2, "font-size", "12px"], ["aria-hidden", "true", 1, "fa", "fa-lock"], ["class", "col-md-12", 4, "ngIf"], [1, "modal-footer"], ["class", "btn btn-primary", 3, "click", 4, "ngIf"], ["class", "btn btn-secondary", "type", "button", "data-dismiss", "modal", 3, "click", 4, "ngIf"], ["type", "button", "aria-label", "Close", 1, "close", 3, "click"], ["aria-hidden", "true"], ["role", "alert", 1, "alert", "alert-danger"], [3, "value"], [1, "error-manilla-form"], [1, "col-md-12"], [1, "d-flex", "justify-content-center"], ["role", "status", 1, "spinner-border"], [1, "visually-hidden"], [4, "ngFor", "ngForOf", "ngForTrackBy"], ["class", "col-md-6 mb-4", 4, "ngIf"], [1, "col-md-6", "mb-4"], [1, "form-label", 3, "for"], [1, "input-group"], ["class", "input-group-text", 4, "ngIf"], [1, "form-control", 3, "ngClass", "formControl", "id", "placeholder"], [1, "input-group-text"], ["prefix", "(+52) ", "mask", "000-000-0000", 1, "form-control", 3, "ngClass", "formControl", "id", "placeholder"], ["class", "input-group-text", "id", "basic-addon3", 4, "ngIf"], ["placeholder", "dd-mm-yyy", "name", "fdn", "readonly", "", "ngbDatepicker", "", 1, "form-control", 3, "ngClass", "id", "formControl", "maxDate"], ["d", "ngbDatepicker"], ["type", "button", 1, "btn", "btn-outline-dark", 3, "click"], ["aria-hidden", "true", 1, "fa", "fa-calendar"], ["class", "error-login-form", 4, "ngIf"], ["id", "basic-addon3", 1, "input-group-text"], [1, "error-login-form"], [1, "form-select", 3, "ngClass", "formControl"], ["rows", "2", 1, "form-control", 3, "ngClass", "autosize", "formControl", "id", "placeholder"], ["type", "number", 1, "form-control", 3, "ngClass", "formControl", "id", "placeholder"], ["type", "file", 1, "form-control", 3, "ngClass", "formControl", "id", "placeholder", "change"], [1, "btn", "btn-primary", 3, "click"], ["class", "spinner-border", "role", "status", 4, "ngIf"], ["type", "button", "data-dismiss", "modal", 1, "btn", "btn-secondary", 3, "click"], ["scope", "row"], [1, "contenedor-imagen"], ["class", "contenedor-perfil-image", 4, "ngIf"], ["class", "contendor-nombre", 4, "ngIf"], [3, "ngClass"], ["href", "javascript:void(0)", 1, "icon-ver", 3, "click"], [1, "fa", "fa-eye", "f-12"], ["href", "javascript:void(0)", 3, "click"], [1, "fa", "fa-edit"], [1, "contenedor-perfil-image"], ["class", "image-perfil", "alt", "", 3, "src", 4, "ngIf"], ["class", "no-image-perfil", 4, "ngIf"], ["alt", "", 1, "image-perfil", 3, "src"], [1, "no-image-perfil"], [1, "contendor-nombre"], [1, "d-flex", "justify-content-center", "mb-4", "mt-4"]],
+  consts: [[1, "dashboard-right"], [1, "dashboard"], [1, "page-title"], [1, "welcome-msg"], [1, "nombre-msg"], [4, "ngIf"], [1, "container-fluid"], [1, "row"], [1, "col-sm-12"], [1, "card"], [1, "card-body"], [1, "btn-popup", "pull-right"], ["type", "button", "data-toggle", "modal", "data-original-title", "Solicitar puslera", "data-target", "#modalSolicitarManilla", 1, "btn", "btn-outline-secondary", 3, "click"], ["content", ""], ["id", "manillas-user", 1, "category-table", "custom-datatable"], [1, "table-responsive"], [1, "table", "table-striped"], ["scope", "col"], [4, "ngFor", "ngForOf"], ["class", "d-flex justify-content-center mb-4 mt-4", 4, "ngIf"], [1, "d-flex", "justify-content-center", "p-2"], [3, "collectionSize", "page", "pageSize", "boundaryLinks", "pageChange"], ["verManillaModal", ""], ["editarManillaModal", ""], [1, "modal-header"], ["id", "modalSolicitarManillaTitulo", 1, "modal-title", "f-w-600"], ["type", "button", "class", "close", "aria-label", "Close", 3, "click", 4, "ngIf"], [1, "modal-body"], ["class", "alert alert-danger", "role", "alert", 4, "ngIf"], ["novalidate", "", 1, "manillas-form-theme", 3, "formGroup"], ["manillaNgForm", "ngForm"], [1, "col-md-12", "mb-4"], ["for", "name"], ["aria-label", "Seleccionar tipo cliente", 1, "form-select", 3, "formControlName", "change"], ["value", ""], [3, "value", 4, "ngFor", "ngForOf"], ["class", "error-manilla-form", 4, "ngIf"], [2, "font-size", "12px"], ["aria-hidden", "true", 1, "fa", "fa-lock"], ["class", "col-md-12", 4, "ngIf"], [1, "modal-footer"], ["class", "btn btn-primary", 3, "click", 4, "ngIf"], ["class", "btn btn-secondary", "type", "button", "data-dismiss", "modal", 3, "click", 4, "ngIf"], ["type", "button", "aria-label", "Close", 1, "close", 3, "click"], ["aria-hidden", "true"], ["role", "alert", 1, "alert", "alert-danger"], [3, "value"], [1, "error-manilla-form"], [1, "col-md-12"], [1, "d-flex", "justify-content-center"], ["role", "status", 1, "spinner-border"], [1, "visually-hidden"], [4, "ngFor", "ngForOf", "ngForTrackBy"], ["class", "col-md-6 mb-4", 4, "ngIf"], [1, "col-md-6", "mb-4"], [1, "form-label", 3, "for"], [1, "input-group"], ["class", "input-group-text", 4, "ngIf"], [1, "form-control", 3, "ngClass", "formControl", "id", "placeholder"], [1, "input-group-text"], ["prefix", "(+52) ", "mask", "000-000-0000", 1, "form-control", 3, "ngClass", "formControl", "id", "placeholder"], ["class", "input-group-text", "id", "basic-addon3", 4, "ngIf"], ["placeholder", "dd-mm-yyy", "name", "fdn", "readonly", "", "ngbDatepicker", "", 1, "form-control", 3, "ngClass", "id", "formControl", "minDate", "maxDate"], ["d", "ngbDatepicker"], ["type", "button", 1, "btn", "btn-outline-dark", 3, "click"], ["aria-hidden", "true", 1, "fa", "fa-calendar"], ["class", "error-login-form", 4, "ngIf"], ["id", "basic-addon3", 1, "input-group-text"], [1, "error-login-form"], [1, "form-select", 3, "ngClass", "formControl"], ["rows", "2", 1, "form-control", 3, "ngClass", "autosize", "formControl", "id", "placeholder"], ["type", "number", 1, "form-control", 3, "ngClass", "formControl", "id", "placeholder"], ["type", "file", 1, "form-control", 3, "ngClass", "formControl", "id", "placeholder", "change"], [1, "btn", "btn-primary", 3, "click"], ["class", "spinner-border", "role", "status", 4, "ngIf"], ["type", "button", "data-dismiss", "modal", 1, "btn", "btn-secondary", 3, "click"], ["scope", "row"], [1, "contenedor-imagen"], ["class", "contenedor-perfil-image", 4, "ngIf"], ["class", "contendor-nombre", 4, "ngIf"], [3, "ngClass"], ["href", "javascript:void(0)", 1, "icon-ver", 3, "click"], [1, "fa", "fa-eye", "f-12"], ["href", "javascript:void(0)", 3, "click"], [1, "fa", "fa-edit"], [1, "contenedor-perfil-image"], ["class", "image-perfil", "alt", "", 3, "src", 4, "ngIf"], ["class", "no-image-perfil", 4, "ngIf"], ["alt", "", 1, "image-perfil", 3, "src"], [1, "no-image-perfil"], [1, "contendor-nombre"], [1, "d-flex", "justify-content-center", "mb-4", "mt-4"]],
   template: function ManillasUserComponent_Template(rf, ctx) {
     if (rf & 1) {
       const _r116 = _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵgetCurrentView"]();
@@ -3452,7 +3459,7 @@ ManillasUserComponent.ɵcmp = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODUL
       _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵadvance"](7);
       _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵproperty"]("ngIf", ctx.manillasCount > 0);
       _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵadvance"](1);
-      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtextInterpolate1"](" ", _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵpipeBind2"](9, 8, ctx.manillasCount, _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵpureFunction0"](11, _c6)), " ");
+      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtextInterpolate1"](" ", _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵpipeBind2"](9, 8, ctx.manillasCount, _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵpureFunction0"](11, _c7)), " ");
       _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵadvance"](28);
       _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵproperty"]("ngForOf", ctx.manillasList);
       _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵadvance"](1);
