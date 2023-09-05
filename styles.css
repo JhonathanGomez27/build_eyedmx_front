@@ -15311,8 +15311,8 @@ textarea.form-control-lg {
 
 @font-face {
   font-family: "themify";
-  src: url('_-fonts-themify.eot?-fvbane');
-  src: url('_-fonts-themify.eot?#iefix-fvbane') format("embedded-opentype"), url('_-fonts-themify.woff?-fvbane') format("woff"), url('_-fonts-themify.ttf?-fvbane') format("truetype"), url('_-fonts-themify.svg?-fvbane#themify') format("svg");
+  src: url('themify.eot?-fvbane');
+  src: url('themify.eot?#iefix-fvbane') format("embedded-opentype"), url('themify.woff?-fvbane') format("woff"), url('themify.ttf?-fvbane') format("truetype"), url('themify.svg?-fvbane#themify') format("svg");
   font-weight: normal;
   font-style: normal;
 }
@@ -16889,7 +16889,7 @@ button:focus {
 
 section,
 .section-t-space {
-  padding-top: 70px;
+  padding-top: 0;
 }
 
 :focus {
@@ -32146,7 +32146,7 @@ header .layout3-menu .main-navbar .nav-menu > li.mega-menu {
 @media (max-width: 1199px) {
   section,
   .section-t-space {
-    padding-top: 60px;
+    padding-top: 0;
   }
   .form_search {
     display: none;
@@ -32822,7 +32822,7 @@ header .layout3-menu .main-navbar .nav-menu > li.mega-menu {
   }
   section,
   .section-t-space {
-    padding-top: 50px;
+    padding-top: 0;
   }
   .section-b-space {
     padding-bottom: 50px;
@@ -33667,7 +33667,7 @@ header .layout3-menu .main-navbar .nav-menu > li.mega-menu {
   }
   section,
   .section-t-space {
-    padding-top: 40px;
+    padding-top: 0;
   }
   .section-b-space {
     padding-bottom: 40px;
@@ -76823,8 +76823,8 @@ table.dataTable.display tbody tr.odd > .sorting_1 {
  * -------------------------- */
 @font-face {
   font-family: "themify";
-  src: url('themify.eot?-fvbane');
-  src: url('themify.eot?#iefix-fvbane') format("embedded-opentype"), url('themify.woff?-fvbane') format("woff"), url('themify.ttf?-fvbane') format("truetype"), url('themify.svg?-fvbane#themify') format("svg");
+  src: url('_-fonts-themify-themify.eot?-fvbane');
+  src: url('_-fonts-themify-themify.eot?#iefix-fvbane') format("embedded-opentype"), url('_-fonts-themify-themify.woff?-fvbane') format("woff"), url('_-fonts-themify-themify.ttf?-fvbane') format("truetype"), url('_-fonts-themify-themify.svg?-fvbane#themify') format("svg");
   font-weight: normal;
   font-style: normal;
 }

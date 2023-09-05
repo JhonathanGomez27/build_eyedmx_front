@@ -390,9 +390,9 @@ class CrearTallerAdminComponent {
       reader.readAsDataURL(this.uploadedFiles);
       reader.onload = () => {
         let dataN = reader.result.toString();
-        let dataD = '';
-        dataD = dataN.replace(/^data:image\/\w+;base64,/, '');
-        this.imageBase64 = dataD;
+        // let dataD = '';
+        // dataD = dataN.replace(/^data:image\/\w+;base64,/,'');
+        this.imageBase64 = dataN;
       };
     } else {
       this.Toast.fire({

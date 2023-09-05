@@ -68,6 +68,12 @@ class AdminService {
     return this._manillaSelected.asObservable();
   }
   /**
+     * Getter for manilla pendiente
+     */
+  get pulserasPendites$() {
+    return this._pulserasPendiente.asObservable();
+  }
+  /**
      * Getter for taller selected
      */
   get talleresList$() {
@@ -98,6 +104,18 @@ class AdminService {
     return this._usuarioSelected.asObservable();
   }
   /**
+     * Getter for usuario selected
+     */
+  get types$() {
+    return this._types.asObservable();
+  }
+  /**
+     * Getter for usuario selected
+     */
+  get typeSelected$() {
+    return this._typeSelected.asObservable();
+  }
+  /**
    * Constructor
    */
   constructor(_httpClient) {
@@ -110,6 +128,7 @@ class AdminService {
     this._manillasEnviadas = new rxjs__WEBPACK_IMPORTED_MODULE_1__.BehaviorSubject(null);
     this._userTypes = new rxjs__WEBPACK_IMPORTED_MODULE_1__.BehaviorSubject(null);
     this._manillaSelected = new rxjs__WEBPACK_IMPORTED_MODULE_1__.BehaviorSubject(null);
+    this._pulserasPendiente = new rxjs__WEBPACK_IMPORTED_MODULE_1__.BehaviorSubject(null);
     // Talleres
     this._talleresList = new rxjs__WEBPACK_IMPORTED_MODULE_1__.BehaviorSubject(null);
     this._talleresSolicitudesList = new rxjs__WEBPACK_IMPORTED_MODULE_1__.BehaviorSubject(null);
@@ -117,6 +136,9 @@ class AdminService {
     // Usuarios
     this._usuariosList = new rxjs__WEBPACK_IMPORTED_MODULE_1__.BehaviorSubject(null);
     this._usuarioSelected = new rxjs__WEBPACK_IMPORTED_MODULE_1__.BehaviorSubject(null);
+    //tipos
+    this._types = new rxjs__WEBPACK_IMPORTED_MODULE_1__.BehaviorSubject(null);
+    this._typeSelected = new rxjs__WEBPACK_IMPORTED_MODULE_1__.BehaviorSubject(null);
   }
   // -----------------------------------------------------------------------------------------------------
   // @ metodos manillas list
@@ -416,6 +438,59 @@ class AdminService {
   }
   obtenerReporteTotal() {
     return this._httpClient.get(`${this.url}manillas/ObtenerReporteTotal`);
+  }
+  // -----------------------------------------------------------------------------------------------------
+  // @ Manillas pendiente pago efectivo
+  // -----------------------------------------------------------------------------------------------------
+  getPulserasEfectivo(offset, limit) {
+    let params = new _angular_common_http__WEBPACK_IMPORTED_MODULE_2__.HttpParams();
+    params = params.set("metodo", 'Efectivo');
+    params = params.set("estado", 'wait');
+    params = params.set("offset", offset);
+    params = params.set("limit", limit);
+    return this._httpClient.get(`${this.url}pagos/filter`, {
+      params
+    }).pipe((0,rxjs__WEBPACK_IMPORTED_MODULE_3__.tap)(response => {
+      this._pulserasPendiente.next(response);
+    }));
+  }
+  getPulserasEfectivoPaginated(offset, limit) {
+    let params = new _angular_common_http__WEBPACK_IMPORTED_MODULE_2__.HttpParams();
+    params = params.set("metodo", 'Efectivo');
+    params = params.set("estado", 'wait');
+    params = params.set("offset", offset);
+    params = params.set("limit", limit);
+    return this._httpClient.get(`${this.url}pagos/filter`, {
+      params
+    });
+  }
+  updatePulserasPendienteList(list) {
+    this._pulserasPendiente.next(list);
+  }
+  actualizarPagoPulsera(id, estado) {
+    return this._httpClient.patch(`${this.url}pagos/actualizarPagoEfectivo/${id}`, {
+      estado: estado
+    });
+  }
+  // -----------------------------------------------------------------------------------------------------
+  // @ Tipos pulsera
+  // -----------------------------------------------------------------------------------------------------
+  getTypesPulseras() {
+    return this._httpClient.get(`${this.url}tipos`).pipe((0,rxjs__WEBPACK_IMPORTED_MODULE_3__.tap)(response => {
+      this._types.next(response);
+    }));
+  }
+  getTypesPulserasUpdated() {
+    return this._httpClient.get(`${this.url}tipos`);
+  }
+  updateTypesPulserasList(list) {
+    this._types.next(list);
+  }
+  updateTypePulsera(id, data) {
+    return this._httpClient.patch(`${this.url}tipos/${id}`, data);
+  }
+  setTypeSelected(type) {
+    this._typeSelected.next(type);
   }
 }
 AdminService.ɵfac = function AdminService_Factory(t) {
