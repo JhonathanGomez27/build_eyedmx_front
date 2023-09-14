@@ -769,9 +769,9 @@ class UsersAdminListComponent {
   }
   onPageChange(event) {
     if (this.searchInputControl.value !== '') {
-      this.getUsuariosPaginated((event - 1) * this.limit, this.searchInputControl.value);
+      this.getUsuariosPaginated(event - 1, this.searchInputControl.value);
     } else {
-      this.getUsuariosPaginated((event - 1) * this.limit, null);
+      this.getUsuariosPaginated(event - 1, null);
     }
   }
   getUsuariosPaginated(page, name) {

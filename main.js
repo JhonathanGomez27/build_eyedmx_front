@@ -79,7 +79,7 @@ const routes = [{
 }, {
   path: '',
   component: _landing_landing_component__WEBPACK_IMPORTED_MODULE_11__.LandingComponent,
-  loadChildren: () => Promise.all(/*! import() */[__webpack_require__.e("default-node_modules_rxjs_dist_esm_internal_scheduler_asap_js-node_modules_angular_cdk_fesm20-751caf"), __webpack_require__.e("default-node_modules_ng-gallery_fesm2020_ng-gallery-lightbox_mjs"), __webpack_require__.e("default-node_modules_ngx-mask_fesm2022_ngx-mask_mjs"), __webpack_require__.e("default-src_app_home_home_module_ts"), __webpack_require__.e("common"), __webpack_require__.e("src_app_landing_landing_module_ts")]).then(__webpack_require__.bind(__webpack_require__, /*! ./landing/landing.module */ 47325)).then(m => m.LandingModule)
+  loadChildren: () => Promise.all(/*! import() */[__webpack_require__.e("default-node_modules_rxjs_dist_esm_internal_scheduler_asap_js-node_modules_angular_cdk_fesm20-751caf"), __webpack_require__.e("default-node_modules_ng-gallery_fesm2020_ng-gallery-lightbox_mjs"), __webpack_require__.e("default-node_modules_sweetalert2_dist_sweetalert2_all_js"), __webpack_require__.e("default-node_modules_ngx-mask_fesm2022_ngx-mask_mjs"), __webpack_require__.e("default-src_app_home_home_module_ts"), __webpack_require__.e("common"), __webpack_require__.e("src_app_landing_landing_module_ts")]).then(__webpack_require__.bind(__webpack_require__, /*! ./landing/landing.module */ 47325)).then(m => m.LandingModule)
 }, {
   path: '',
   component: _imagen_fondo_imagen_fondo_component__WEBPACK_IMPORTED_MODULE_12__.ImagenFondoComponent,
@@ -529,7 +529,9 @@ class AuthInterceptor {
         // Sign out
         this._authService.signOut();
         // Reload the app
-        location.reload();
+        setTimeout(() => {
+          location.reload();
+        }, 1000);
       }
       return (0,rxjs__WEBPACK_IMPORTED_MODULE_3__.throwError)(error);
     }));
@@ -762,6 +764,15 @@ class AuthService {
     return (0,rxjs__WEBPACK_IMPORTED_MODULE_8__.of)(true);
   }
   /**
+   * Sign out
+   */
+  signOutCheckOut() {
+    // Remove the access token from the local storage
+    localStorage.removeItem('accessToken');
+    localStorage.removeItem('accessTokenRefresh');
+    localStorage.removeItem('eyed-role');
+  }
+  /**
    * Sign up
    *
    * @param user
@@ -805,6 +816,13 @@ class AuthService {
     let params = new _angular_common_http__WEBPACK_IMPORTED_MODULE_5__.HttpParams();
     params = params.set('type', type);
     return this._httpClient.get(`${this.url}authentication/fields`, {
+      params
+    });
+  }
+  existUser(email) {
+    let params = new _angular_common_http__WEBPACK_IMPORTED_MODULE_5__.HttpParams();
+    params = params.set('email', email);
+    return this._httpClient.get(`${this.url}authentication/existUser`, {
       params
     });
   }
@@ -1683,6 +1701,9 @@ class UserService {
   // Manillas
   crearSolicitudManilla(data) {
     return this._httpClient.post(`${this.url}manillas/solicitar`, data);
+  }
+  crearVariasManilla(data) {
+    return this._httpClient.post(`${this.url}manillas/solicitarVarias`, data);
   }
   updateUserById(data, id) {
     return this._httpClient.patch(`${this.url}users/editarUsuario/${id}`, data);
@@ -8944,6 +8965,9 @@ const content = [{
   path: 'pulseras',
   loadChildren: () => Promise.all(/*! import() */[__webpack_require__.e("default-node_modules_rxjs_dist_esm_internal_scheduler_asap_js-node_modules_angular_cdk_fesm20-751caf"), __webpack_require__.e("default-node_modules_ng-gallery_fesm2020_ng-gallery-lightbox_mjs"), __webpack_require__.e("default-node_modules_sweetalert2_dist_sweetalert2_all_js"), __webpack_require__.e("default-node_modules_ngx-mask_fesm2022_ngx-mask_mjs"), __webpack_require__.e("default-src_app_admin_admin_service_ts"), __webpack_require__.e("default-src_app_admin_admin_resolver_ts"), __webpack_require__.e("src_app_admin_manillas_manillas_module_ts")]).then(__webpack_require__.bind(__webpack_require__, /*! ../../admin/manillas/manillas.module */ 80564)).then(m => m.ManillasModule)
 }, {
+  path: 'ordenes',
+  loadChildren: () => Promise.all(/*! import() */[__webpack_require__.e("default-node_modules_rxjs_dist_esm_internal_scheduler_asap_js-node_modules_angular_cdk_fesm20-751caf"), __webpack_require__.e("default-node_modules_ng-gallery_fesm2020_ng-gallery-lightbox_mjs"), __webpack_require__.e("default-node_modules_sweetalert2_dist_sweetalert2_all_js"), __webpack_require__.e("default-node_modules_ngx-mask_fesm2022_ngx-mask_mjs"), __webpack_require__.e("default-src_app_admin_admin_service_ts"), __webpack_require__.e("default-src_app_admin_admin_resolver_ts"), __webpack_require__.e("src_app_admin_orders_orders_module_ts")]).then(__webpack_require__.bind(__webpack_require__, /*! ../../admin/orders/orders.module */ 62993)).then(m => m.OrdersModule)
+}, {
   path: 'talleres',
   loadChildren: () => Promise.all(/*! import() */[__webpack_require__.e("default-node_modules_rxjs_dist_esm_internal_scheduler_asap_js-node_modules_angular_cdk_fesm20-751caf"), __webpack_require__.e("default-node_modules_ng-gallery_fesm2020_ng-gallery-lightbox_mjs"), __webpack_require__.e("default-node_modules_sweetalert2_dist_sweetalert2_all_js"), __webpack_require__.e("default-src_app_admin_admin_service_ts"), __webpack_require__.e("default-src_app_admin_admin_resolver_ts"), __webpack_require__.e("src_app_admin_taller-admin_taller-admin_module_ts")]).then(__webpack_require__.bind(__webpack_require__, /*! ../../admin/taller-admin/taller-admin.module */ 24609)).then(m => m.TallerAdminModule)
 }, {
@@ -9005,11 +9029,25 @@ class NavAdminService {
         path: '/pulseras/solicitudes',
         title: 'Solicitudes',
         type: 'link'
-      }, {
-        path: '/pulseras/pendientes-pago',
-        title: 'Pendiente pago',
+      }
+      // { path: '/pulseras/pendientes-pago', title: 'Pendiente pago', type: 'link' },
+      ]
+    }, {
+      title: 'Ordenes',
+      icon: 'package',
+      type: 'sub',
+      active: false,
+      children: [{
+        path: '/ordenes/list',
+        title: 'Lista',
         type: 'link'
-      }]
+      }, {
+        path: '/ordenes/pendientes-pago',
+        title: 'Pendientes pago',
+        type: 'link'
+      }
+      // { path: '/talleres/solicitudes', title: 'Solicitudes', type: 'link' },
+      ]
     }, {
       title: 'Talleres',
       icon: 'briefcase',

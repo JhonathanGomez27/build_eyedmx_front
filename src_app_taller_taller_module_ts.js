@@ -1745,7 +1745,7 @@ class ObservacionesComponent {
     this.verObservacionModal.openModal();
   }
   onPageChange(event) {
-    this.getObservacionesListUpdated((event - 1) * this.limit, null);
+    this.getObservacionesListUpdated(event - 1, null);
   }
   getObservacionesListUpdated(page, placa) {
     this._tallerService.getObservacionesTallerUpdated(page, this.limit, placa).pipe((0,rxjs__WEBPACK_IMPORTED_MODULE_8__.takeUntil)(this._unsubscribeAll)).subscribe(response => {

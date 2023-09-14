@@ -18,6 +18,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   AdminTallerSolicitudesListResolver: () => (/* binding */ AdminTallerSolicitudesListResolver),
 /* harmony export */   AdminTypesResolver: () => (/* binding */ AdminTypesResolver),
 /* harmony export */   AdminUsuariosListResolver: () => (/* binding */ AdminUsuariosListResolver),
+/* harmony export */   OrdenesListResolver: () => (/* binding */ OrdenesListResolver),
 /* harmony export */   TypesListResolver: () => (/* binding */ TypesListResolver),
 /* harmony export */   pendienteEfectivoListResolver: () => (/* binding */ pendienteEfectivoListResolver)
 /* harmony export */ });
@@ -291,7 +292,7 @@ AdminUsuariosListResolver.ɵprov = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_
   providedIn: 'root'
 });
 
-// Usuarios metodo efectivo resolver
+// Ordenes
 class pendienteEfectivoListResolver {
   /**
    * Constructor
@@ -318,6 +319,35 @@ pendienteEfectivoListResolver.ɵfac = function pendienteEfectivoListResolver_Fac
 pendienteEfectivoListResolver.ɵprov = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵdefineInjectable"]({
   token: pendienteEfectivoListResolver,
   factory: pendienteEfectivoListResolver.ɵfac,
+  providedIn: 'root'
+});
+
+class OrdenesListResolver {
+  /**
+   * Constructor
+   */
+  constructor(_adminService) {
+    this._adminService = _adminService;
+  }
+  // -----------------------------------------------------------------------------------------------------
+  // @ Public methods
+  // -----------------------------------------------------------------------------------------------------
+  /**
+   * Resolver
+   *
+   * @param route
+   * @param state
+   */
+  resolve(route, state) {
+    return this._adminService.getListOrdenes(0, limit);
+  }
+}
+OrdenesListResolver.ɵfac = function OrdenesListResolver_Factory(t) {
+  return new (t || OrdenesListResolver)(_angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵinject"](_admin_service__WEBPACK_IMPORTED_MODULE_1__.AdminService));
+};
+OrdenesListResolver.ɵprov = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵdefineInjectable"]({
+  token: OrdenesListResolver,
+  factory: OrdenesListResolver.ɵfac,
   providedIn: 'root'
 });
 

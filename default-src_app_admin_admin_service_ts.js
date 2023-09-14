@@ -116,6 +116,24 @@ class AdminService {
     return this._typeSelected.asObservable();
   }
   /**
+     * Getter for ordenes
+     */
+  get ordenes$() {
+    return this._ordenes.asObservable();
+  }
+  /**
+     * Getter for ordenSelected
+     */
+  get ordenSelected$() {
+    return this._ordenSelected.asObservable();
+  }
+  /**
+     * Getter for ordenesList
+     */
+  get ordenesList$() {
+    return this._ordenesList.asObservable();
+  }
+  /**
    * Constructor
    */
   constructor(_httpClient) {
@@ -139,6 +157,10 @@ class AdminService {
     //tipos
     this._types = new rxjs__WEBPACK_IMPORTED_MODULE_1__.BehaviorSubject(null);
     this._typeSelected = new rxjs__WEBPACK_IMPORTED_MODULE_1__.BehaviorSubject(null);
+    //ordenes
+    this._ordenes = new rxjs__WEBPACK_IMPORTED_MODULE_1__.BehaviorSubject(null);
+    this._ordenesList = new rxjs__WEBPACK_IMPORTED_MODULE_1__.BehaviorSubject(null);
+    this._ordenSelected = new rxjs__WEBPACK_IMPORTED_MODULE_1__.BehaviorSubject(null);
   }
   // -----------------------------------------------------------------------------------------------------
   // @ metodos manillas list
@@ -464,6 +486,27 @@ class AdminService {
       params
     });
   }
+  getListOrdenes(offset, limit) {
+    let params = new _angular_common_http__WEBPACK_IMPORTED_MODULE_2__.HttpParams();
+    params = params.set("offset", offset);
+    params = params.set("limit", limit);
+    return this._httpClient.get(`${this.url}pagos/filter`, {
+      params
+    }).pipe((0,rxjs__WEBPACK_IMPORTED_MODULE_3__.tap)(response => {
+      this._ordenesList.next(response);
+    }));
+  }
+  getListOrdenesPaginated(offset, limit) {
+    let params = new _angular_common_http__WEBPACK_IMPORTED_MODULE_2__.HttpParams();
+    params = params.set("offset", offset);
+    params = params.set("limit", limit);
+    return this._httpClient.get(`${this.url}pagos/filter`, {
+      params
+    });
+  }
+  updateListOrdenes(list) {
+    this._ordenesList.next(list);
+  }
   updatePulserasPendienteList(list) {
     this._pulserasPendiente.next(list);
   }
@@ -491,6 +534,18 @@ class AdminService {
   }
   setTypeSelected(type) {
     this._typeSelected.next(type);
+  }
+  //ordenes
+  setOrdenSelected(id) {
+    this._ordenSelected.next(id);
+  }
+  getOrdenes(id) {
+    return this._httpClient.get(`${this.url}pagos/obtenerIntento/${id}`).pipe((0,rxjs__WEBPACK_IMPORTED_MODULE_3__.tap)(response => {
+      this._ordenes.next(response);
+    }));
+  }
+  getOrder(id) {
+    return this._httpClient.get(`${this.url}pagos/obtenerIntento/${id}`);
   }
 }
 AdminService.ɵfac = function AdminService_Factory(t) {

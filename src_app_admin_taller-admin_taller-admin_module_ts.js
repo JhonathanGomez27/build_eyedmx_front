@@ -1093,9 +1093,9 @@ class TallerAdminListComponent {
   }
   onPageChange(event) {
     if (this.searchInputControl.value !== '') {
-      this.getTalleresPaginated((event - 1) * this.limit, this.searchInputControl.value);
+      this.getTalleresPaginated(event - 1, this.searchInputControl.value);
     } else {
-      this.getTalleresPaginated((event - 1) * this.limit, null);
+      this.getTalleresPaginated(event - 1, null);
     }
   }
   getTalleresPaginated(page, name) {
@@ -1471,7 +1471,7 @@ class TallerAdminSolicitudesComponent {
     this._unsubscribeAll.complete();
   }
   onPageChange(event) {
-    this.getTalleresPaginated((event - 1) * this.limit, null);
+    this.getTalleresPaginated(event - 1, null);
   }
   getTalleresPaginated(page, name) {
     this._adminService.getTalleresSolicitudesList(page, this.limit, name).pipe((0,rxjs__WEBPACK_IMPORTED_MODULE_6__.takeUntil)(this._unsubscribeAll)).subscribe(response => {
