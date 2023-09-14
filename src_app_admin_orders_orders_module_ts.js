@@ -1048,7 +1048,7 @@ OrdersListComponent.ɵcmp = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_
       _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵadvance"](2);
       _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵproperty"]("collectionSize", ctx.ordenesCount)("rotate", true)("maxSize", 5)("page", ctx.page)("pageSize", ctx.limit)("boundaryLinks", true);
       _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵadvance"](1);
-      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵproperty"]("tipo", "espera");
+      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵproperty"]("tipo", "lista");
     }
   },
   dependencies: [_angular_common__WEBPACK_IMPORTED_MODULE_10__.NgClass, _angular_common__WEBPACK_IMPORTED_MODULE_10__.NgForOf, _angular_common__WEBPACK_IMPORTED_MODULE_10__.NgIf, _ng_bootstrap_ng_bootstrap__WEBPACK_IMPORTED_MODULE_9__.NgbPagination, _modals_ver_orden_ver_orden_component__WEBPACK_IMPORTED_MODULE_4__.VerOrdenComponent, _angular_common__WEBPACK_IMPORTED_MODULE_10__.I18nPluralPipe],
