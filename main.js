@@ -1714,6 +1714,9 @@ class UserService {
   editarManillaById(id, data) {
     return this._httpClient.post(`${this.url}manillas/update/${id}`, data);
   }
+  editarPaymentIntent(id, data) {
+    return this._httpClient.patch(`${this.url}pagos/actualizarIntento/${id}`, data);
+  }
 }
 UserService.ɵfac = function UserService_Factory(t) {
   return new (t || UserService)(_angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵinject"](_angular_common_http__WEBPACK_IMPORTED_MODULE_5__.HttpClient));
