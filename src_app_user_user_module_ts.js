@@ -2652,6 +2652,7 @@ class EditarManillaComponent {
     this.filesTemp = {};
     this.fieldsList = [];
     this.disableFields = false;
+    this.uploadedFiles = {};
     this.modalOpen = true;
     if ((0,_angular_common__WEBPACK_IMPORTED_MODULE_5__.isPlatformBrowser)(this.platformId)) {
       // For SSR 
@@ -2747,7 +2748,7 @@ class EditarManillaComponent {
   }
   //Funciones form group
   addFieldsToFormGroup(fieldsList) {
-    fieldsList.forEach(element => {
+    fieldsList.forEach((element, index) => {
       let campos = {};
       if (element.type === 'number' && element.required) {
         campos[element.name] = [this.manilla[element.name], [_angular_forms__WEBPACK_IMPORTED_MODULE_6__.Validators.required, _angular_forms__WEBPACK_IMPORTED_MODULE_6__.Validators.pattern("[0-9]*")]];
@@ -2777,13 +2778,25 @@ class EditarManillaComponent {
       const clienteFormGroup = this._formBuilder.group(campos);
       // Add the calle form group to the phoneNumbers form array
       this.manillaForm.get("camposManilla").push(clienteFormGroup);
+      if (element.type === 'Date') {
+        this.manillaForm.get('camposManilla')['controls'][index]['controls'][element.name].valueChanges.subscribe(data => {
+          // this.fechasTemp[campo][element.name] = data;
+          if (!data || typeof data === 'string' && data.length === 0) {
+            this.manillaForm.get('camposManilla')['controls'][index].patchValue({
+              [element.name]: null
+            }, {
+              emitEvent: false
+            });
+          }
+        });
+      }
     });
     // Mark for check
     this._changeDetectorRef.markForCheck();
   }
   orderDate(fieldDate) {
-    let date = {};
-    if (fieldDate !== '') {
+    let date = null;
+    if (fieldDate !== '' && this.manilla[fieldDate] !== null) {
       let fecha = this.manilla[fieldDate];
       fecha = fecha.substring(0, 10).split('-');
       fecha = fecha[1] + '-' + fecha[2] + '-' + fecha[0];
@@ -2834,8 +2847,15 @@ class EditarManillaComponent {
     });
     delete manilla.camposManilla;
     this.fieldsList.forEach(field => {
-      if (field.type === 'Date') {
+      if (field.type === 'Date' && manilla[field.name] !== '' && manilla[field.name] !== null) {
         manilla[field.name] = this.fdnToString(manilla[field.name]);
+        // if(this.fechasTemp[campo][field.name]){
+        //   manilla[field.name] = this.fdnToString(this.fechasTemp[campo][field.name]);
+        // }
+      } else {
+        if (field.type === 'Date') {
+          manilla[field.name] = '';
+        }
       }
     });
     return manilla;
@@ -4912,7 +4932,7 @@ function VerManillaComponent_ng_template_0_div_7_ng_container_8_Template(rf, ctx
     const field_r19 = ctx.$implicit;
     const ctx_r7 = _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵnextContext"](3);
     _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵadvance"](1);
-    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵproperty"]("ngIf", field_r19.type !== "telefono" && field_r19.type !== "file" && field_r19.type !== "Date" && ctx_r7.manilla[field_r19.name] !== "");
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵproperty"]("ngIf", field_r19.type !== "telefono" && field_r19.type !== "file" && field_r19.type !== "Date" && ctx_r7.manilla[field_r19.name] !== "" && ctx_r7.manilla[field_r19.name] !== null);
     _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵadvance"](1);
     _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵproperty"]("ngIf", field_r19.type === "telefono" && ctx_r7.manilla[field_r19.name] !== "");
     _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵadvance"](1);
