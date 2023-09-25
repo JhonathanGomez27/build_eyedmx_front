@@ -585,6 +585,17 @@ class AdminService {
       this._parametersList.next(response);
     }));
   }
+  getParametersList(offset, limit) {
+    let params = new _angular_common_http__WEBPACK_IMPORTED_MODULE_2__.HttpParams();
+    params = params.set("offset", offset);
+    params = params.set("limit", limit);
+    return this._httpClient.get(`${this.url}parametros`, {
+      params
+    });
+  }
+  updateParametersList(list) {
+    this._parametersList.next(list);
+  }
   createParameter(id, data) {
     return this._httpClient.post(`${this.url}parametros`, data);
   }

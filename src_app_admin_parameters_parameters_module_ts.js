@@ -154,6 +154,7 @@ class EditarParametroComponent {
     }, [_angular_forms__WEBPACK_IMPORTED_MODULE_5__.Validators.required]);
     this.valueControl = new _angular_forms__WEBPACK_IMPORTED_MODULE_5__.FormControl('', [_angular_forms__WEBPACK_IMPORTED_MODULE_5__.Validators.required]);
     this.parameter = {};
+    this.apiKey = '';
     this.Toast = sweetalert2__WEBPACK_IMPORTED_MODULE_1___default().mixin({
       toast: true,
       position: 'top-end',
@@ -171,6 +172,7 @@ class EditarParametroComponent {
       this.loading = true;
       this.parameter = parameter;
       this.loading = false;
+      console.log(parameter);
       if (parameter?.nombre) {
         this.descriptionControl.setValue(parameter.nombre);
         this.valueControl.setValue(parameter.valor);
@@ -188,7 +190,46 @@ class EditarParametroComponent {
     this._unsubscribeAll.next(null);
     this._unsubscribeAll.complete();
   }
-  actualizarParametro() {}
+  actualizarParametro() {
+    this.acepting = false;
+    if (this.valueControl.valid) {
+      let data = {
+        valor: this.valueControl.value
+      };
+      this.updateTypePulsera(data);
+    } else {
+      this.acepting = true;
+      this.Toast.fire({
+        icon: 'error',
+        title: 'Debe completar los campos con datos validos para guardar cambios.'
+      });
+    }
+  }
+  updateTypePulsera(data) {
+    this._adminService.updateParameter(this.parameter._id, data).pipe((0,rxjs__WEBPACK_IMPORTED_MODULE_6__.takeUntil)(this._unsubscribeAll)).subscribe(response => {
+      this.Toast.fire({
+        icon: 'success',
+        title: 'Parametro actualizado con exito.'
+      });
+      this.updateTypesPulseraList();
+    }, error => {
+      this.Toast.fire({
+        icon: 'error',
+        title: error.error.message
+      });
+    });
+  }
+  updateTypesPulseraList() {
+    this._adminService.getParametersList(0, this.limit).pipe((0,rxjs__WEBPACK_IMPORTED_MODULE_6__.takeUntil)(this._unsubscribeAll)).subscribe(response => {
+      this._adminService.updateParametersList(response);
+      this.modalService.dismissAll();
+    }, error => {
+      this.Toast.fire({
+        icon: 'error',
+        title: error.error.message
+      });
+    });
+  }
   openModal() {
     this.acepting = true;
     this.modalOpen = true;
