@@ -8966,19 +8966,22 @@ const content = [{
   loadChildren: () => Promise.all(/*! import() */[__webpack_require__.e("default-node_modules_rxjs_dist_esm_internal_scheduler_asap_js-node_modules_angular_cdk_fesm20-751caf"), __webpack_require__.e("default-src_app_admin_admin_service_ts"), __webpack_require__.e("src_app_admin_dashboard_dashboard_module_ts")]).then(__webpack_require__.bind(__webpack_require__, /*! ../../admin/dashboard/dashboard.module */ 35042)).then(m => m.DashboardModule)
 }, {
   path: 'pulseras',
-  loadChildren: () => Promise.all(/*! import() */[__webpack_require__.e("default-node_modules_rxjs_dist_esm_internal_scheduler_asap_js-node_modules_angular_cdk_fesm20-751caf"), __webpack_require__.e("default-node_modules_ng-gallery_fesm2020_ng-gallery-lightbox_mjs"), __webpack_require__.e("default-node_modules_sweetalert2_dist_sweetalert2_all_js"), __webpack_require__.e("default-node_modules_ngx-mask_fesm2022_ngx-mask_mjs"), __webpack_require__.e("default-src_app_admin_admin_service_ts"), __webpack_require__.e("default-src_app_admin_admin_resolver_ts"), __webpack_require__.e("src_app_admin_manillas_manillas_module_ts")]).then(__webpack_require__.bind(__webpack_require__, /*! ../../admin/manillas/manillas.module */ 80564)).then(m => m.ManillasModule)
+  loadChildren: () => Promise.all(/*! import() */[__webpack_require__.e("default-node_modules_rxjs_dist_esm_internal_scheduler_asap_js-node_modules_angular_cdk_fesm20-751caf"), __webpack_require__.e("default-node_modules_ng-gallery_fesm2020_ng-gallery-lightbox_mjs"), __webpack_require__.e("default-node_modules_sweetalert2_dist_sweetalert2_all_js"), __webpack_require__.e("default-src_app_admin_admin_service_ts"), __webpack_require__.e("default-node_modules_ngx-mask_fesm2022_ngx-mask_mjs"), __webpack_require__.e("default-src_app_admin_admin_resolver_ts"), __webpack_require__.e("src_app_admin_manillas_manillas_module_ts")]).then(__webpack_require__.bind(__webpack_require__, /*! ../../admin/manillas/manillas.module */ 80564)).then(m => m.ManillasModule)
 }, {
   path: 'ordenes',
-  loadChildren: () => Promise.all(/*! import() */[__webpack_require__.e("default-node_modules_rxjs_dist_esm_internal_scheduler_asap_js-node_modules_angular_cdk_fesm20-751caf"), __webpack_require__.e("default-node_modules_ng-gallery_fesm2020_ng-gallery-lightbox_mjs"), __webpack_require__.e("default-node_modules_sweetalert2_dist_sweetalert2_all_js"), __webpack_require__.e("default-node_modules_ngx-mask_fesm2022_ngx-mask_mjs"), __webpack_require__.e("default-src_app_admin_admin_service_ts"), __webpack_require__.e("default-src_app_admin_admin_resolver_ts"), __webpack_require__.e("src_app_admin_orders_orders_module_ts")]).then(__webpack_require__.bind(__webpack_require__, /*! ../../admin/orders/orders.module */ 62993)).then(m => m.OrdersModule)
+  loadChildren: () => Promise.all(/*! import() */[__webpack_require__.e("default-node_modules_rxjs_dist_esm_internal_scheduler_asap_js-node_modules_angular_cdk_fesm20-751caf"), __webpack_require__.e("default-node_modules_ng-gallery_fesm2020_ng-gallery-lightbox_mjs"), __webpack_require__.e("default-node_modules_sweetalert2_dist_sweetalert2_all_js"), __webpack_require__.e("default-src_app_admin_admin_service_ts"), __webpack_require__.e("default-node_modules_ngx-mask_fesm2022_ngx-mask_mjs"), __webpack_require__.e("default-src_app_admin_admin_resolver_ts"), __webpack_require__.e("src_app_admin_orders_orders_module_ts")]).then(__webpack_require__.bind(__webpack_require__, /*! ../../admin/orders/orders.module */ 62993)).then(m => m.OrdersModule)
 }, {
   path: 'talleres',
-  loadChildren: () => Promise.all(/*! import() */[__webpack_require__.e("default-node_modules_rxjs_dist_esm_internal_scheduler_asap_js-node_modules_angular_cdk_fesm20-751caf"), __webpack_require__.e("default-node_modules_ng-gallery_fesm2020_ng-gallery-lightbox_mjs"), __webpack_require__.e("default-node_modules_sweetalert2_dist_sweetalert2_all_js"), __webpack_require__.e("default-src_app_admin_admin_service_ts"), __webpack_require__.e("default-src_app_admin_admin_resolver_ts"), __webpack_require__.e("src_app_admin_taller-admin_taller-admin_module_ts")]).then(__webpack_require__.bind(__webpack_require__, /*! ../../admin/taller-admin/taller-admin.module */ 24609)).then(m => m.TallerAdminModule)
+  loadChildren: () => Promise.all(/*! import() */[__webpack_require__.e("default-node_modules_rxjs_dist_esm_internal_scheduler_asap_js-node_modules_angular_cdk_fesm20-751caf"), __webpack_require__.e("default-node_modules_ng-gallery_fesm2020_ng-gallery-lightbox_mjs"), __webpack_require__.e("default-node_modules_sweetalert2_dist_sweetalert2_all_js"), __webpack_require__.e("default-src_app_admin_admin_service_ts"), __webpack_require__.e("default-src_app_admin_admin_resolver_ts"), __webpack_require__.e("default-node_modules_ks89_angular-modal-gallery_fesm2020_ks89-angular-modal-gallery_mjs"), __webpack_require__.e("src_app_admin_taller-admin_taller-admin_module_ts")]).then(__webpack_require__.bind(__webpack_require__, /*! ../../admin/taller-admin/taller-admin.module */ 24609)).then(m => m.TallerAdminModule)
 }, {
   path: 'usuarios',
   loadChildren: () => Promise.all(/*! import() */[__webpack_require__.e("default-node_modules_rxjs_dist_esm_internal_scheduler_asap_js-node_modules_angular_cdk_fesm20-751caf"), __webpack_require__.e("default-node_modules_ng-gallery_fesm2020_ng-gallery-lightbox_mjs"), __webpack_require__.e("default-node_modules_sweetalert2_dist_sweetalert2_all_js"), __webpack_require__.e("default-src_app_admin_admin_service_ts"), __webpack_require__.e("default-src_app_admin_admin_resolver_ts"), __webpack_require__.e("src_app_admin_users-admin_user-admin_module_ts")]).then(__webpack_require__.bind(__webpack_require__, /*! ../../admin/users-admin/user-admin.module */ 52974)).then(m => m.UserAdminModule)
 }, {
   path: 'types',
   loadChildren: () => Promise.all(/*! import() */[__webpack_require__.e("default-node_modules_rxjs_dist_esm_internal_scheduler_asap_js-node_modules_angular_cdk_fesm20-751caf"), __webpack_require__.e("default-node_modules_ng-gallery_fesm2020_ng-gallery-lightbox_mjs"), __webpack_require__.e("default-node_modules_sweetalert2_dist_sweetalert2_all_js"), __webpack_require__.e("default-src_app_admin_admin_service_ts"), __webpack_require__.e("default-src_app_admin_admin_resolver_ts"), __webpack_require__.e("src_app_admin_types-admin_types-admin_module_ts")]).then(__webpack_require__.bind(__webpack_require__, /*! ../../admin/types-admin/types-admin.module */ 7441)).then(m => m.TypesAdminModule)
+}, {
+  path: 'parameters',
+  loadChildren: () => Promise.all(/*! import() */[__webpack_require__.e("default-node_modules_rxjs_dist_esm_internal_scheduler_asap_js-node_modules_angular_cdk_fesm20-751caf"), __webpack_require__.e("default-node_modules_ng-gallery_fesm2020_ng-gallery-lightbox_mjs"), __webpack_require__.e("default-node_modules_sweetalert2_dist_sweetalert2_all_js"), __webpack_require__.e("default-src_app_admin_admin_service_ts"), __webpack_require__.e("default-src_app_admin_admin_resolver_ts"), __webpack_require__.e("default-node_modules_ks89_angular-modal-gallery_fesm2020_ks89-angular-modal-gallery_mjs"), __webpack_require__.e("src_app_admin_parameters_parameters_module_ts")]).then(__webpack_require__.bind(__webpack_require__, /*! ../../admin/parameters/parameters.module */ 86370)).then(m => m.parametersModule)
 }];
 
 /***/ }),
@@ -9089,6 +9092,13 @@ class NavAdminService {
       }
       // { path: '/talleres/solicitudes', title: 'Solicitudes', type: 'link' },
       ]
+    }, {
+      path: 'parameters',
+      title: 'Parametros',
+      icon: 'grid',
+      type: 'link',
+      active: false,
+      badgeType: 'primary'
     }];
     // Array
     this.items = new rxjs__WEBPACK_IMPORTED_MODULE_1__.BehaviorSubject(this.MENUITEMS);

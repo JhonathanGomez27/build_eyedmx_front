@@ -18,7 +18,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   AdminTallerSolicitudesListResolver: () => (/* binding */ AdminTallerSolicitudesListResolver),
 /* harmony export */   AdminTypesResolver: () => (/* binding */ AdminTypesResolver),
 /* harmony export */   AdminUsuariosListResolver: () => (/* binding */ AdminUsuariosListResolver),
+/* harmony export */   ApiKeyConvertResolver: () => (/* binding */ ApiKeyConvertResolver),
 /* harmony export */   OrdenesListResolver: () => (/* binding */ OrdenesListResolver),
+/* harmony export */   ParameterListResolver: () => (/* binding */ ParameterListResolver),
 /* harmony export */   TypesListResolver: () => (/* binding */ TypesListResolver),
 /* harmony export */   pendienteEfectivoListResolver: () => (/* binding */ pendienteEfectivoListResolver)
 /* harmony export */ });
@@ -378,6 +380,65 @@ TypesListResolver.ɵfac = function TypesListResolver_Factory(t) {
 TypesListResolver.ɵprov = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵdefineInjectable"]({
   token: TypesListResolver,
   factory: TypesListResolver.ɵfac,
+  providedIn: 'root'
+});
+
+//parametros
+class ParameterListResolver {
+  /**
+   * Constructor
+   */
+  constructor(_adminService) {
+    this._adminService = _adminService;
+  }
+  // -----------------------------------------------------------------------------------------------------
+  // @ Public methods
+  // -----------------------------------------------------------------------------------------------------
+  /**
+   * Resolver
+   *
+   * @param route
+   * @param state
+   */
+  resolve(route, state) {
+    return this._adminService.getParameters(0, limit);
+  }
+}
+ParameterListResolver.ɵfac = function ParameterListResolver_Factory(t) {
+  return new (t || ParameterListResolver)(_angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵinject"](_admin_service__WEBPACK_IMPORTED_MODULE_1__.AdminService));
+};
+ParameterListResolver.ɵprov = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵdefineInjectable"]({
+  token: ParameterListResolver,
+  factory: ParameterListResolver.ɵfac,
+  providedIn: 'root'
+});
+
+class ApiKeyConvertResolver {
+  /**
+   * Constructor
+   */
+  constructor(_adminService) {
+    this._adminService = _adminService;
+  }
+  // -----------------------------------------------------------------------------------------------------
+  // @ Public methods
+  // -----------------------------------------------------------------------------------------------------
+  /**
+   * Resolver
+   *
+   * @param route
+   * @param state
+   */
+  resolve(route, state) {
+    return this._adminService.getApikey();
+  }
+}
+ApiKeyConvertResolver.ɵfac = function ApiKeyConvertResolver_Factory(t) {
+  return new (t || ApiKeyConvertResolver)(_angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵinject"](_admin_service__WEBPACK_IMPORTED_MODULE_1__.AdminService));
+};
+ApiKeyConvertResolver.ɵprov = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵdefineInjectable"]({
+  token: ApiKeyConvertResolver,
+  factory: ApiKeyConvertResolver.ɵfac,
   providedIn: 'root'
 });
 

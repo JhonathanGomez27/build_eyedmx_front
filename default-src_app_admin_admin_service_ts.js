@@ -134,6 +134,24 @@ class AdminService {
     return this._ordenesList.asObservable();
   }
   /**
+     * Getter for parametersList
+     */
+  get parametersList$() {
+    return this._parametersList.asObservable();
+  }
+  /**
+     * Getter for parameterSelected
+     */
+  get parameterSelected$() {
+    return this._parameterSelected.asObservable();
+  }
+  /**
+     * Getter for apiKeyConvert
+     */
+  get apiKeyConvert$() {
+    return this._apiKeyConvert.asObservable();
+  }
+  /**
    * Constructor
    */
   constructor(_httpClient) {
@@ -161,6 +179,10 @@ class AdminService {
     this._ordenes = new rxjs__WEBPACK_IMPORTED_MODULE_1__.BehaviorSubject(null);
     this._ordenesList = new rxjs__WEBPACK_IMPORTED_MODULE_1__.BehaviorSubject(null);
     this._ordenSelected = new rxjs__WEBPACK_IMPORTED_MODULE_1__.BehaviorSubject(null);
+    //parameters
+    this._parametersList = new rxjs__WEBPACK_IMPORTED_MODULE_1__.BehaviorSubject(null);
+    this._parameterSelected = new rxjs__WEBPACK_IMPORTED_MODULE_1__.BehaviorSubject(null);
+    this._apiKeyConvert = new rxjs__WEBPACK_IMPORTED_MODULE_1__.BehaviorSubject(null);
   }
   // -----------------------------------------------------------------------------------------------------
   // @ metodos manillas list
@@ -535,6 +557,9 @@ class AdminService {
   setTypeSelected(type) {
     this._typeSelected.next(type);
   }
+  setParameterSelected(parameter) {
+    this._parameterSelected.next(parameter);
+  }
   //ordenes
   setOrdenSelected(id) {
     this._ordenSelected.next(id);
@@ -546,6 +571,35 @@ class AdminService {
   }
   getOrder(id) {
     return this._httpClient.get(`${this.url}pagos/obtenerIntento/${id}`);
+  }
+  // -----------------------------------------------------------------------------------------------------
+  // @ Parameters
+  // -----------------------------------------------------------------------------------------------------
+  getParameters(offset, limit) {
+    let params = new _angular_common_http__WEBPACK_IMPORTED_MODULE_2__.HttpParams();
+    params = params.set("offset", offset);
+    params = params.set("limit", limit);
+    return this._httpClient.get(`${this.url}parametros`, {
+      params
+    }).pipe((0,rxjs__WEBPACK_IMPORTED_MODULE_3__.tap)(response => {
+      this._parametersList.next(response);
+    }));
+  }
+  createParameter(id, data) {
+    return this._httpClient.post(`${this.url}parametros`, data);
+  }
+  updateParameter(id, data) {
+    return this._httpClient.patch(`${this.url}parametros/${id}`, data);
+  }
+  getApikey() {
+    return this._httpClient.get(`${this.url}parametros/650e287ec6f9cc9c56b20ba1`).pipe((0,rxjs__WEBPACK_IMPORTED_MODULE_3__.tap)(response => {
+      this._apiKeyConvert.next(response.valor);
+    }));
+  }
+  getTimeLeft(apiKey) {
+    return this._httpClient.post(`https://api.convertio.co/balance`, {
+      apiKey
+    });
   }
 }
 AdminService.ɵfac = function AdminService_Factory(t) {
