@@ -596,9 +596,11 @@ class AdminService {
       this._apiKeyConvert.next(response.valor);
     }));
   }
-  getTimeLeft(apiKey) {
+  getTimeLeft(apikey) {
+    const headers = new _angular_common_http__WEBPACK_IMPORTED_MODULE_2__.HttpHeaders();
+    headers.set('Authorization', '');
     return this._httpClient.post(`https://api.convertio.co/balance`, {
-      apiKey
+      apikey
     });
   }
 }

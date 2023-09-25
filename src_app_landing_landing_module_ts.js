@@ -3459,7 +3459,7 @@ function UserInfoComponent_ng_container_26_Template(rf, ctx) {
     const field_r10 = ctx.$implicit;
     const ctx_r7 = _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵnextContext"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵadvance"](1);
-    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵproperty"]("ngIf", field_r10.type !== "telefono" && field_r10.type !== "file" && field_r10.type !== "Date" && ctx_r7.manilla[field_r10.name] !== "" && !field_r10.private);
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵproperty"]("ngIf", field_r10.type !== "telefono" && field_r10.type !== "file" && field_r10.type !== "Date" && ctx_r7.manilla[field_r10.name] !== "" && !field_r10.private && ctx_r7.manilla[field_r10.name]);
     _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵadvance"](1);
     _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵproperty"]("ngIf", field_r10.type === "telefono" && ctx_r7.manilla[field_r10.name] !== "" && !field_r10.private);
     _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵadvance"](1);

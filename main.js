@@ -508,7 +508,7 @@ class AuthInterceptor {
     // for the protected API routes which our response interceptor will
     // catch and delete the access token from the local storage while logging
     // the user out from the app.
-    if (this._authService.accessToken && this._authService.accessTokenRefresh) {
+    if (this._authService.accessToken && this._authService.accessTokenRefresh && newReq.url !== 'https://api.convertio.co/balance') {
       if (newReq.url.includes('refresh')) {
         newReq = req.clone({
           headers: req.headers.set('Authorization', 'Bearer ' + this._authService.accessTokenRefresh)
