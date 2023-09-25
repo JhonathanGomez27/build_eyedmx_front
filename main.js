@@ -10421,7 +10421,7 @@ const environment = {
   urlWeb: 'https://api.eyedmxapp.com/eyedmx/',
   secrectKey: 'secret',
   pagination_limit: 15,
-  stripe_pk: 'pk_test_51NlFnuH6fXdFLzIgOjXImmjhnmMqHYTXpZS0vDDzxz4L2UTYuWbIXFDIimXRlOGyhOwMbXMkglu5lli3Qe8xL5WJ00prHdbCk8'
+  stripe_pk: 'pk_live_51NuNK7FIa4mmi6JqbJkVqwUxR7IrrYJKZqZUAeqDg33BY3olGFDPEQQVQVygD52AJcEUX5ejUpA0dWdbPjpR8hLo00PbbOwQCe'
 };
 /*
  * For easier debugging in development mode, you can import the following file
