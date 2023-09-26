@@ -2715,8 +2715,6 @@ class EditarManillaComponent {
       ...dataManilla,
       ...this.uploadedFiles
     };
-    console.log(dataManilla);
-    return;
     this._userService.editarManillaById(id, dataManilla).pipe((0,rxjs__WEBPACK_IMPORTED_MODULE_4__.takeUntil)(this._unsubscribeAll)).subscribe(response => {
       this.Toast.fire({
         icon: 'success',
@@ -6350,4 +6348,4 @@ UserModule.ɵinj = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵ�
 /***/ })
 
 }]);
-//# sourceMappingURL=src_app_user_user_module_ts.0ab661536566eec8.js.map
+//# sourceMappingURL=src_app_user_user_module_ts.a01a9deb2572f074.js.map
