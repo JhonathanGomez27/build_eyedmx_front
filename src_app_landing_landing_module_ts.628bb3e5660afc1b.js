@@ -2845,7 +2845,7 @@ ContactComponent.ɵcmp = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_2__
       _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](31, "Correo electronico");
       _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]()();
       _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](32, "div", 10)(33, "p");
-      _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](34, "Eyedmx1@gmail.com");
+      _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](34, "info@eyedmx.com");
       _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]()()()()()()()()();
       _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](35, "section", 13)(36, "div", 2)(37, "div", 14)(38, "div", 15);
       _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](39, "app-logo", 16);
@@ -3701,4 +3701,4 @@ SliderComponent.ɵcmp = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_1__[
 /***/ })
 
 }]);
-//# sourceMappingURL=src_app_landing_landing_module_ts.0bccfab3b79e57c0.js.map
+//# sourceMappingURL=src_app_landing_landing_module_ts.628bb3e5660afc1b.js.map

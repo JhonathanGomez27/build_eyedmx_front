@@ -8366,7 +8366,7 @@ FooterOneComponent.ɵcmp = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_0
       _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](58, "i", 28);
       _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](59, "Contactanos: ");
       _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](60, "a");
-      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](61, "eyedmx1@gmail.com");
+      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](61, "info@eyedmx.com");
       _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]()()()()()()()()();
       _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](62, "div", 29)(63, "div", 1)(64, "div", 30)(65, "div", 31)(66, "div", 32)(67, "p");
       _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](68, "i", 33);
@@ -10479,4 +10479,4 @@ document.addEventListener('DOMContentLoaded', () => {
 /******/ var __webpack_exports__ = __webpack_require__.O();
 /******/ }
 ]);
-//# sourceMappingURL=main.d9e9cce5a62ebd7d.js.map
+//# sourceMappingURL=main.4580b63d577139b0.js.map
