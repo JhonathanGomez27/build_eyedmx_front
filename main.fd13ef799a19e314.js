@@ -360,7 +360,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-function SignOutComponent_ng_container_11_Template(rf, ctx) {
+function SignOutComponent_ng_container_12_Template(rf, ctx) {
   if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementContainerStart"](0);
     _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](1, "p");
@@ -377,7 +377,7 @@ function SignOutComponent_ng_container_11_Template(rf, ctx) {
     _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtextInterpolate"](_angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵpipeBind2"](5, 1, ctx_r0.countdown, ctx_r0.countdownMapping));
   }
 }
-function SignOutComponent_ng_container_12_Template(rf, ctx) {
+function SignOutComponent_ng_container_13_Template(rf, ctx) {
   if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementContainerStart"](0);
     _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](1, "p");
@@ -423,9 +423,9 @@ SignOutComponent.ɵfac = function SignOutComponent_Factory(t) {
 SignOutComponent.ɵcmp = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵdefineComponent"]({
   type: SignOutComponent,
   selectors: [["app-sign-out"]],
-  decls: 16,
+  decls: 17,
   vars: 7,
-  consts: [[3, "sticky"], [3, "title", "breadcrumb"], [1, "contenedor-form"], [1, "formulario-side"], [2, "text-align", "center"], [1, "overlay-side"], [4, "ngIf"], ["id", "signUp", 1, "ghost", 3, "routerLink"]],
+  consts: [[3, "sticky"], [3, "title", "breadcrumb"], [1, "contenedor-form"], [1, "formulario-side"], [2, "text-align", "center"], [1, "overlay-side"], ["src", "../../../assets/images/icon/logo-border.png", "width", "100px", "height", "auto", "alt", "", 1, "img-logo-login"], [4, "ngIf"], ["id", "signUp", 1, "ghost", 3, "routerLink"]],
   template: function SignOutComponent_Template(rf, ctx) {
     if (rf & 1) {
       _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelement"](0, "app-header-one", 0)(1, "app-breadcrumb", 1);
@@ -436,20 +436,21 @@ SignOutComponent.ɵcmp = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_4__
       _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtext"](7, "\u00A1Has cerrado sesi\u00F3n!");
       _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementEnd"]()();
       _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](8, "div", 5)(9, "h1");
-      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtext"](10, "Bienvenido a EyeD!");
+      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtext"](10, "Bienvenido a ");
+      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelement"](11, "img", 6);
       _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementEnd"]();
-      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtemplate"](11, SignOutComponent_ng_container_11_Template, 6, 4, "ng-container", 6);
-      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtemplate"](12, SignOutComponent_ng_container_12_Template, 3, 0, "ng-container", 6);
-      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](13, "button", 7);
-      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtext"](14, "Iniciar ses\u00EDon");
+      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtemplate"](12, SignOutComponent_ng_container_12_Template, 6, 4, "ng-container", 7);
+      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtemplate"](13, SignOutComponent_ng_container_13_Template, 3, 0, "ng-container", 7);
+      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](14, "button", 8);
+      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtext"](15, "Iniciar ses\u00EDon");
       _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementEnd"]()()();
-      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelement"](15, "app-footer-one");
+      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelement"](16, "app-footer-one");
     }
     if (rf & 2) {
       _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵproperty"]("sticky", true);
       _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵadvance"](1);
       _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵproperty"]("title", "Ses\u00EDon cerrada")("breadcrumb", "Ses\u00EDon cerrada");
-      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵadvance"](10);
+      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵadvance"](11);
       _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵproperty"]("ngIf", ctx.countdown > 0);
       _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵadvance"](1);
       _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵproperty"]("ngIf", ctx.countdown === 0);
@@ -458,7 +459,7 @@ SignOutComponent.ɵcmp = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_4__
     }
   },
   dependencies: [_angular_common__WEBPACK_IMPORTED_MODULE_13__.NgIf, _shared_header_header_one_header_one_component__WEBPACK_IMPORTED_MODULE_1__.HeaderOneComponent, _shared_footer_footer_one_footer_one_component__WEBPACK_IMPORTED_MODULE_2__.FooterOneComponent, _shared_components_breadcrumb_breadcrumb_component__WEBPACK_IMPORTED_MODULE_3__.BreadcrumbComponent, _angular_router__WEBPACK_IMPORTED_MODULE_12__.RouterLink, _angular_common__WEBPACK_IMPORTED_MODULE_13__.I18nPluralPipe],
-  styles: ["h1[_ngcontent-%COMP%] {\n  font-weight: bold;\n  margin: 0;\n}\n\nh2[_ngcontent-%COMP%] {\n  text-align: center;\n}\n\np[_ngcontent-%COMP%] {\n  font-size: 14px;\n  font-weight: 100;\n  line-height: 20px;\n  letter-spacing: 0.5px;\n  margin: 20px 0 30px;\n  color: white;\n}\n\nspan[_ngcontent-%COMP%] {\n  font-size: 12px;\n}\n\na[_ngcontent-%COMP%] {\n  color: #333;\n  font-size: 14px;\n  text-decoration: none;\n  margin: 15px 0;\n}\n\nbutton[_ngcontent-%COMP%] {\n  border-radius: 20px;\n  border: 1px solid var(--theme-deafult);\n  background-color: var(--theme-deafult);\n  color: #FFFFFF;\n  font-size: 12px;\n  font-weight: bold;\n  padding: 12px 45px;\n  letter-spacing: 1px;\n  text-transform: uppercase;\n  transition: transform 80ms ease-in;\n}\n\nbutton[_ngcontent-%COMP%]:active {\n  transform: scale(0.95);\n}\n\nbutton[_ngcontent-%COMP%]:focus {\n  outline: none;\n}\n\nbutton.ghost[_ngcontent-%COMP%] {\n  background-color: transparent;\n  border-color: #FFFFFF;\n}\n\ninput[_ngcontent-%COMP%] {\n  background-color: #eee;\n  border: solid 1px #eee;\n  width: 100%;\n}\n\n.contenedor-form[_ngcontent-%COMP%] {\n  width: 70%;\n  max-width: 1200px;\n  margin: auto;\n  padding: 40px 0;\n  display: grid;\n  grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));\n}\n.contenedor-form[_ngcontent-%COMP%]   .formulario-side[_ngcontent-%COMP%] {\n  background-color: #FFFFFF;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  flex-direction: column;\n  padding: 50px 50px;\n  height: 100%;\n  text-align: center;\n  border-radius: 10px 0 0 10px;\n}\n.contenedor-form[_ngcontent-%COMP%]   .formulario-side[_ngcontent-%COMP%]   h1[_ngcontent-%COMP%] {\n  color: rgb(30, 30, 30);\n}\n.contenedor-form[_ngcontent-%COMP%]   .formulario-side[_ngcontent-%COMP%]   h2[_ngcontent-%COMP%] {\n  font-size: 30px;\n}\n.contenedor-form[_ngcontent-%COMP%]   .overlay-side[_ngcontent-%COMP%] {\n  background: var(--theme-deafult);\n  background: linear-gradient(to right, var(--theme-gradient1), var(--theme-deafult));\n  background-repeat: no-repeat;\n  background-size: cover;\n  background-position: 0 0;\n  border-radius: 0 10px 10px 0;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  flex-direction: column;\n  padding: 50px 50px;\n  height: 100%;\n  text-align: center;\n}\n.contenedor-form[_ngcontent-%COMP%]   h1[_ngcontent-%COMP%] {\n  color: white;\n}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8uL3NyYy9hcHAvYXV0aC9zaWduLW91dC9zaWduLW91dC5jb21wb25lbnQuc2NzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUNDLGlCQUFBO0VBQ0EsU0FBQTtBQUNEOztBQUVBO0VBQ0Msa0JBQUE7QUFDRDs7QUFFQTtFQUNDLGVBQUE7RUFDQSxnQkFBQTtFQUNBLGlCQUFBO0VBQ0EscUJBQUE7RUFDQSxtQkFBQTtFQUNHLFlBQUE7QUFDSjs7QUFFQTtFQUNDLGVBQUE7QUFDRDs7QUFFQTtFQUNDLFdBQUE7RUFDQSxlQUFBO0VBQ0EscUJBQUE7RUFDQSxjQUFBO0FBQ0Q7O0FBRUE7RUFDQyxtQkFBQTtFQUNBLHNDQUFBO0VBQ0Esc0NBQUE7RUFDQSxjQUFBO0VBQ0EsZUFBQTtFQUNBLGlCQUFBO0VBQ0Esa0JBQUE7RUFDQSxtQkFBQTtFQUNBLHlCQUFBO0VBQ0Esa0NBQUE7QUFDRDs7QUFFQTtFQUNDLHNCQUFBO0FBQ0Q7O0FBRUE7RUFDQyxhQUFBO0FBQ0Q7O0FBRUE7RUFDQyw2QkFBQTtFQUNBLHFCQUFBO0FBQ0Q7O0FBWUE7RUFDQyxzQkFBQTtFQUNBLHNCQUFBO0VBR0EsV0FBQTtBQVhEOztBQWNBO0VBQ0MsVUFBQTtFQUNBLGlCQUFBO0VBQ0EsWUFBQTtFQUNBLGVBQUE7RUFFQSxhQUFBO0VBR0EsMkRBQUE7QUFkRDtBQWdCQztFQUNDLHlCQUFBO0VBQ0EsYUFBQTtFQUNBLG1CQUFBO0VBQ0EsdUJBQUE7RUFDQSxzQkFBQTtFQUNBLGtCQUFBO0VBQ0EsWUFBQTtFQUNBLGtCQUFBO0VBQ0EsNEJBQUE7QUFkRjtBQWdCRTtFQUNDLHNCQUFBO0FBZEg7QUFpQkU7RUFDQyxlQUFBO0FBZkg7QUFtQkM7RUFDQyxnQ0FBQTtFQUVBLG1GQUFBO0VBQ0EsNEJBQUE7RUFDQSxzQkFBQTtFQUNBLHdCQUFBO0VBQ0EsNEJBQUE7RUFFQSxhQUFBO0VBQ0EsbUJBQUE7RUFDQSx1QkFBQTtFQUNBLHNCQUFBO0VBQ0Esa0JBQUE7RUFDQSxZQUFBO0VBQ0Esa0JBQUE7QUFsQkY7QUFxQkU7RUFDQyxZQUFBO0FBbkJIIiwic291cmNlc0NvbnRlbnQiOlsiaDEge1xyXG5cdGZvbnQtd2VpZ2h0OiBib2xkO1xyXG5cdG1hcmdpbjogMDtcclxufVxyXG5cclxuaDIge1xyXG5cdHRleHQtYWxpZ246IGNlbnRlcjtcclxufVxyXG5cclxucCB7XHJcblx0Zm9udC1zaXplOiAxNHB4O1xyXG5cdGZvbnQtd2VpZ2h0OiAxMDA7XHJcblx0bGluZS1oZWlnaHQ6IDIwcHg7XHJcblx0bGV0dGVyLXNwYWNpbmc6IDAuNXB4O1xyXG5cdG1hcmdpbjogMjBweCAwIDMwcHg7XHJcbiAgICBjb2xvcjogd2hpdGU7XHJcbn1cclxuXHJcbnNwYW4ge1xyXG5cdGZvbnQtc2l6ZTogMTJweDtcclxufVxyXG5cclxuYSB7XHJcblx0Y29sb3I6ICMzMzM7XHJcblx0Zm9udC1zaXplOiAxNHB4O1xyXG5cdHRleHQtZGVjb3JhdGlvbjogbm9uZTtcclxuXHRtYXJnaW46IDE1cHggMDtcclxufVxyXG5cclxuYnV0dG9uIHtcclxuXHRib3JkZXItcmFkaXVzOiAyMHB4O1xyXG5cdGJvcmRlcjogMXB4IHNvbGlkIHZhcigtLXRoZW1lLWRlYWZ1bHQpO1xyXG5cdGJhY2tncm91bmQtY29sb3I6IHZhcigtLXRoZW1lLWRlYWZ1bHQpO1xyXG5cdGNvbG9yOiAjRkZGRkZGO1xyXG5cdGZvbnQtc2l6ZTogMTJweDtcclxuXHRmb250LXdlaWdodDogYm9sZDtcclxuXHRwYWRkaW5nOiAxMnB4IDQ1cHg7XHJcblx0bGV0dGVyLXNwYWNpbmc6IDFweDtcclxuXHR0ZXh0LXRyYW5zZm9ybTogdXBwZXJjYXNlO1xyXG5cdHRyYW5zaXRpb246IHRyYW5zZm9ybSA4MG1zIGVhc2UtaW47XHJcbn1cclxuXHJcbmJ1dHRvbjphY3RpdmUge1xyXG5cdHRyYW5zZm9ybTogc2NhbGUoMC45NSk7XHJcbn1cclxuXHJcbmJ1dHRvbjpmb2N1cyB7XHJcblx0b3V0bGluZTogbm9uZTtcclxufVxyXG5cclxuYnV0dG9uLmdob3N0IHtcclxuXHRiYWNrZ3JvdW5kLWNvbG9yOiB0cmFuc3BhcmVudDtcclxuXHRib3JkZXItY29sb3I6ICNGRkZGRkY7XHJcbn1cclxuXHJcbi8vIGZvcm0ge1xyXG4vLyBcdGJhY2tncm91bmQtY29sb3I6ICNGRkZGRkY7XHJcbi8vIFx0ZGlzcGxheTogZmxleDtcclxuLy8gXHRhbGlnbi1pdGVtczogY2VudGVyO1xyXG4vLyBcdGp1c3RpZnktY29udGVudDogY2VudGVyO1xyXG4vLyBcdGZsZXgtZGlyZWN0aW9uOiBjb2x1bW47XHJcbi8vIFx0aGVpZ2h0OiAxMDAlO1xyXG4vLyBcdHRleHQtYWxpZ246IGNlbnRlcjtcclxuLy8gfVxyXG5cclxuaW5wdXQge1xyXG5cdGJhY2tncm91bmQtY29sb3I6ICNlZWU7XHJcblx0Ym9yZGVyOiBzb2xpZCAxcHggI2VlZTtcclxuXHQvLyBwYWRkaW5nOiAxMnB4IDE1cHg7XHJcblx0Ly8gbWFyZ2luOiA4cHggMDtcclxuXHR3aWR0aDogMTAwJTtcclxufVxyXG5cclxuLmNvbnRlbmVkb3ItZm9ybXtcclxuXHR3aWR0aDogNzAlO1xyXG5cdG1heC13aWR0aDogMTIwMHB4O1xyXG5cdG1hcmdpbjogYXV0bztcclxuXHRwYWRkaW5nOiA0MHB4IDA7XHJcblxyXG5cdGRpc3BsYXk6IGdyaWQ7XHJcblx0Ly8gZ2FwOiAxcmVtO1xyXG5cdC8vIGdyaWQtYXV0by1yb3dzOiAyMnJlbTtcclxuXHRncmlkLXRlbXBsYXRlLWNvbHVtbnM6IHJlcGVhdChhdXRvLWZpdCwgbWlubWF4KDE1cmVtLCAxZnIpKTtcclxuXHJcblx0LmZvcm11bGFyaW8tc2lkZSB7XHJcblx0XHRiYWNrZ3JvdW5kLWNvbG9yOiAjRkZGRkZGO1xyXG5cdFx0ZGlzcGxheTogZmxleDtcclxuXHRcdGFsaWduLWl0ZW1zOiBjZW50ZXI7XHJcblx0XHRqdXN0aWZ5LWNvbnRlbnQ6IGNlbnRlcjtcclxuXHRcdGZsZXgtZGlyZWN0aW9uOiBjb2x1bW47XHJcblx0XHRwYWRkaW5nOiA1MHB4IDUwcHg7XHJcblx0XHRoZWlnaHQ6IDEwMCU7XHJcblx0XHR0ZXh0LWFsaWduOiBjZW50ZXI7XHJcblx0XHRib3JkZXItcmFkaXVzOiAxMHB4IDAgMCAxMHB4O1xyXG5cclxuXHRcdGgxIHtcclxuXHRcdFx0Y29sb3I6IHJnYigzMCwgMzAsIDMwKTtcclxuXHRcdH1cclxuXHJcblx0XHRoMntcclxuXHRcdFx0Zm9udC1zaXplOiAzMHB4O1xyXG5cdFx0fVxyXG5cdH1cclxuXHJcblx0Lm92ZXJsYXktc2lkZXtcclxuXHRcdGJhY2tncm91bmQ6IHZhcigtLXRoZW1lLWRlYWZ1bHQpO1xyXG5cdFx0YmFja2dyb3VuZDogLXdlYmtpdC1saW5lYXItZ3JhZGllbnQodG8gcmlnaHQsIHZhcigtLXRoZW1lLWdyYWRpZW50MSksIHZhcigtLXRoZW1lLWRlYWZ1bHQpKTtcclxuXHRcdGJhY2tncm91bmQ6IGxpbmVhci1ncmFkaWVudCh0byByaWdodCwgdmFyKC0tdGhlbWUtZ3JhZGllbnQxKSwgdmFyKC0tdGhlbWUtZGVhZnVsdCkpO1xyXG5cdFx0YmFja2dyb3VuZC1yZXBlYXQ6IG5vLXJlcGVhdDtcclxuXHRcdGJhY2tncm91bmQtc2l6ZTogY292ZXI7XHJcblx0XHRiYWNrZ3JvdW5kLXBvc2l0aW9uOiAwIDA7XHJcblx0XHRib3JkZXItcmFkaXVzOiAwIDEwcHggMTBweCAwO1xyXG5cclxuXHRcdGRpc3BsYXk6IGZsZXg7XHJcblx0XHRhbGlnbi1pdGVtczogY2VudGVyO1xyXG5cdFx0anVzdGlmeS1jb250ZW50OiBjZW50ZXI7XHJcblx0XHRmbGV4LWRpcmVjdGlvbjogY29sdW1uO1xyXG5cdFx0cGFkZGluZzogNTBweCA1MHB4O1xyXG5cdFx0aGVpZ2h0OiAxMDAlO1xyXG5cdFx0dGV4dC1hbGlnbjogY2VudGVyO1xyXG5cdFx0fVxyXG5cclxuXHRcdGgxe1xyXG5cdFx0XHRjb2xvcjogd2hpdGU7XHJcblx0XHR9XHJcbn0iXSwic291cmNlUm9vdCI6IiJ9 */"]
+  styles: ["h1[_ngcontent-%COMP%] {\n  font-weight: bold;\n  margin: 0;\n}\n\nh2[_ngcontent-%COMP%] {\n  text-align: center;\n}\n\np[_ngcontent-%COMP%] {\n  font-size: 14px;\n  font-weight: 100;\n  line-height: 20px;\n  letter-spacing: 0.5px;\n  margin: 20px 0 30px;\n  color: white;\n}\n\nspan[_ngcontent-%COMP%] {\n  font-size: 12px;\n}\n\na[_ngcontent-%COMP%] {\n  color: #333;\n  font-size: 14px;\n  text-decoration: none;\n  margin: 15px 0;\n}\n\nbutton[_ngcontent-%COMP%] {\n  border-radius: 20px;\n  border: 1px solid var(--theme-deafult);\n  background-color: var(--theme-deafult);\n  color: #FFFFFF;\n  font-size: 12px;\n  font-weight: bold;\n  padding: 12px 45px;\n  letter-spacing: 1px;\n  text-transform: uppercase;\n  transition: transform 80ms ease-in;\n}\n\nbutton[_ngcontent-%COMP%]:active {\n  transform: scale(0.95);\n}\n\nbutton[_ngcontent-%COMP%]:focus {\n  outline: none;\n}\n\nbutton.ghost[_ngcontent-%COMP%] {\n  background-color: transparent;\n  border-color: #FFFFFF;\n}\n\ninput[_ngcontent-%COMP%] {\n  background-color: #eee;\n  border: solid 1px #eee;\n  width: 100%;\n}\n\n.contenedor-form[_ngcontent-%COMP%] {\n  width: 70%;\n  max-width: 1200px;\n  margin: auto;\n  padding: 40px 0;\n  display: grid;\n  grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));\n}\n.contenedor-form[_ngcontent-%COMP%]   .formulario-side[_ngcontent-%COMP%] {\n  background-color: #FFFFFF;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  flex-direction: column;\n  padding: 50px 50px;\n  height: 100%;\n  text-align: center;\n  border-radius: 10px 0 0 10px;\n}\n.contenedor-form[_ngcontent-%COMP%]   .formulario-side[_ngcontent-%COMP%]   h1[_ngcontent-%COMP%] {\n  color: rgb(30, 30, 30);\n}\n.contenedor-form[_ngcontent-%COMP%]   .formulario-side[_ngcontent-%COMP%]   h2[_ngcontent-%COMP%] {\n  font-size: 30px;\n}\n.contenedor-form[_ngcontent-%COMP%]   .overlay-side[_ngcontent-%COMP%] {\n  background: var(--theme-deafult);\n  background: linear-gradient(to right, var(--theme-gradient1), var(--theme-deafult));\n  background-repeat: no-repeat;\n  background-size: cover;\n  background-position: 0 0;\n  border-radius: 0 10px 10px 0;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  flex-direction: column;\n  padding: 50px 50px;\n  height: 100%;\n  text-align: center;\n}\n.contenedor-form[_ngcontent-%COMP%]   .overlay-side[_ngcontent-%COMP%]   .img-logo-login[_ngcontent-%COMP%] {\n  margin-top: -7px;\n}\n.contenedor-form[_ngcontent-%COMP%]   h1[_ngcontent-%COMP%] {\n  color: white;\n}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8uL3NyYy9hcHAvYXV0aC9zaWduLW91dC9zaWduLW91dC5jb21wb25lbnQuc2NzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUNDLGlCQUFBO0VBQ0EsU0FBQTtBQUNEOztBQUVBO0VBQ0Msa0JBQUE7QUFDRDs7QUFFQTtFQUNDLGVBQUE7RUFDQSxnQkFBQTtFQUNBLGlCQUFBO0VBQ0EscUJBQUE7RUFDQSxtQkFBQTtFQUNHLFlBQUE7QUFDSjs7QUFFQTtFQUNDLGVBQUE7QUFDRDs7QUFFQTtFQUNDLFdBQUE7RUFDQSxlQUFBO0VBQ0EscUJBQUE7RUFDQSxjQUFBO0FBQ0Q7O0FBRUE7RUFDQyxtQkFBQTtFQUNBLHNDQUFBO0VBQ0Esc0NBQUE7RUFDQSxjQUFBO0VBQ0EsZUFBQTtFQUNBLGlCQUFBO0VBQ0Esa0JBQUE7RUFDQSxtQkFBQTtFQUNBLHlCQUFBO0VBQ0Esa0NBQUE7QUFDRDs7QUFFQTtFQUNDLHNCQUFBO0FBQ0Q7O0FBRUE7RUFDQyxhQUFBO0FBQ0Q7O0FBRUE7RUFDQyw2QkFBQTtFQUNBLHFCQUFBO0FBQ0Q7O0FBWUE7RUFDQyxzQkFBQTtFQUNBLHNCQUFBO0VBR0EsV0FBQTtBQVhEOztBQWNBO0VBQ0MsVUFBQTtFQUNBLGlCQUFBO0VBQ0EsWUFBQTtFQUNBLGVBQUE7RUFFQSxhQUFBO0VBR0EsMkRBQUE7QUFkRDtBQWdCQztFQUNDLHlCQUFBO0VBQ0EsYUFBQTtFQUNBLG1CQUFBO0VBQ0EsdUJBQUE7RUFDQSxzQkFBQTtFQUNBLGtCQUFBO0VBQ0EsWUFBQTtFQUNBLGtCQUFBO0VBQ0EsNEJBQUE7QUFkRjtBQWdCRTtFQUNDLHNCQUFBO0FBZEg7QUFpQkU7RUFDQyxlQUFBO0FBZkg7QUFtQkM7RUFDQyxnQ0FBQTtFQUVBLG1GQUFBO0VBQ0EsNEJBQUE7RUFDQSxzQkFBQTtFQUNBLHdCQUFBO0VBQ0EsNEJBQUE7RUFFQSxhQUFBO0VBQ0EsbUJBQUE7RUFDQSx1QkFBQTtFQUNBLHNCQUFBO0VBQ0Esa0JBQUE7RUFDQSxZQUFBO0VBQ0Esa0JBQUE7QUFsQkY7QUFvQkU7RUFDQyxnQkFBQTtBQWxCSDtBQXNCRTtFQUNDLFlBQUE7QUFwQkgiLCJzb3VyY2VzQ29udGVudCI6WyJoMSB7XHJcblx0Zm9udC13ZWlnaHQ6IGJvbGQ7XHJcblx0bWFyZ2luOiAwO1xyXG59XHJcblxyXG5oMiB7XHJcblx0dGV4dC1hbGlnbjogY2VudGVyO1xyXG59XHJcblxyXG5wIHtcclxuXHRmb250LXNpemU6IDE0cHg7XHJcblx0Zm9udC13ZWlnaHQ6IDEwMDtcclxuXHRsaW5lLWhlaWdodDogMjBweDtcclxuXHRsZXR0ZXItc3BhY2luZzogMC41cHg7XHJcblx0bWFyZ2luOiAyMHB4IDAgMzBweDtcclxuICAgIGNvbG9yOiB3aGl0ZTtcclxufVxyXG5cclxuc3BhbiB7XHJcblx0Zm9udC1zaXplOiAxMnB4O1xyXG59XHJcblxyXG5hIHtcclxuXHRjb2xvcjogIzMzMztcclxuXHRmb250LXNpemU6IDE0cHg7XHJcblx0dGV4dC1kZWNvcmF0aW9uOiBub25lO1xyXG5cdG1hcmdpbjogMTVweCAwO1xyXG59XHJcblxyXG5idXR0b24ge1xyXG5cdGJvcmRlci1yYWRpdXM6IDIwcHg7XHJcblx0Ym9yZGVyOiAxcHggc29saWQgdmFyKC0tdGhlbWUtZGVhZnVsdCk7XHJcblx0YmFja2dyb3VuZC1jb2xvcjogdmFyKC0tdGhlbWUtZGVhZnVsdCk7XHJcblx0Y29sb3I6ICNGRkZGRkY7XHJcblx0Zm9udC1zaXplOiAxMnB4O1xyXG5cdGZvbnQtd2VpZ2h0OiBib2xkO1xyXG5cdHBhZGRpbmc6IDEycHggNDVweDtcclxuXHRsZXR0ZXItc3BhY2luZzogMXB4O1xyXG5cdHRleHQtdHJhbnNmb3JtOiB1cHBlcmNhc2U7XHJcblx0dHJhbnNpdGlvbjogdHJhbnNmb3JtIDgwbXMgZWFzZS1pbjtcclxufVxyXG5cclxuYnV0dG9uOmFjdGl2ZSB7XHJcblx0dHJhbnNmb3JtOiBzY2FsZSgwLjk1KTtcclxufVxyXG5cclxuYnV0dG9uOmZvY3VzIHtcclxuXHRvdXRsaW5lOiBub25lO1xyXG59XHJcblxyXG5idXR0b24uZ2hvc3Qge1xyXG5cdGJhY2tncm91bmQtY29sb3I6IHRyYW5zcGFyZW50O1xyXG5cdGJvcmRlci1jb2xvcjogI0ZGRkZGRjtcclxufVxyXG5cclxuLy8gZm9ybSB7XHJcbi8vIFx0YmFja2dyb3VuZC1jb2xvcjogI0ZGRkZGRjtcclxuLy8gXHRkaXNwbGF5OiBmbGV4O1xyXG4vLyBcdGFsaWduLWl0ZW1zOiBjZW50ZXI7XHJcbi8vIFx0anVzdGlmeS1jb250ZW50OiBjZW50ZXI7XHJcbi8vIFx0ZmxleC1kaXJlY3Rpb246IGNvbHVtbjtcclxuLy8gXHRoZWlnaHQ6IDEwMCU7XHJcbi8vIFx0dGV4dC1hbGlnbjogY2VudGVyO1xyXG4vLyB9XHJcblxyXG5pbnB1dCB7XHJcblx0YmFja2dyb3VuZC1jb2xvcjogI2VlZTtcclxuXHRib3JkZXI6IHNvbGlkIDFweCAjZWVlO1xyXG5cdC8vIHBhZGRpbmc6IDEycHggMTVweDtcclxuXHQvLyBtYXJnaW46IDhweCAwO1xyXG5cdHdpZHRoOiAxMDAlO1xyXG59XHJcblxyXG4uY29udGVuZWRvci1mb3Jte1xyXG5cdHdpZHRoOiA3MCU7XHJcblx0bWF4LXdpZHRoOiAxMjAwcHg7XHJcblx0bWFyZ2luOiBhdXRvO1xyXG5cdHBhZGRpbmc6IDQwcHggMDtcclxuXHJcblx0ZGlzcGxheTogZ3JpZDtcclxuXHQvLyBnYXA6IDFyZW07XHJcblx0Ly8gZ3JpZC1hdXRvLXJvd3M6IDIycmVtO1xyXG5cdGdyaWQtdGVtcGxhdGUtY29sdW1uczogcmVwZWF0KGF1dG8tZml0LCBtaW5tYXgoMTVyZW0sIDFmcikpO1xyXG5cclxuXHQuZm9ybXVsYXJpby1zaWRlIHtcclxuXHRcdGJhY2tncm91bmQtY29sb3I6ICNGRkZGRkY7XHJcblx0XHRkaXNwbGF5OiBmbGV4O1xyXG5cdFx0YWxpZ24taXRlbXM6IGNlbnRlcjtcclxuXHRcdGp1c3RpZnktY29udGVudDogY2VudGVyO1xyXG5cdFx0ZmxleC1kaXJlY3Rpb246IGNvbHVtbjtcclxuXHRcdHBhZGRpbmc6IDUwcHggNTBweDtcclxuXHRcdGhlaWdodDogMTAwJTtcclxuXHRcdHRleHQtYWxpZ246IGNlbnRlcjtcclxuXHRcdGJvcmRlci1yYWRpdXM6IDEwcHggMCAwIDEwcHg7XHJcblxyXG5cdFx0aDEge1xyXG5cdFx0XHRjb2xvcjogcmdiKDMwLCAzMCwgMzApO1xyXG5cdFx0fVxyXG5cclxuXHRcdGgye1xyXG5cdFx0XHRmb250LXNpemU6IDMwcHg7XHJcblx0XHR9XHJcblx0fVxyXG5cclxuXHQub3ZlcmxheS1zaWRle1xyXG5cdFx0YmFja2dyb3VuZDogdmFyKC0tdGhlbWUtZGVhZnVsdCk7XHJcblx0XHRiYWNrZ3JvdW5kOiAtd2Via2l0LWxpbmVhci1ncmFkaWVudCh0byByaWdodCwgdmFyKC0tdGhlbWUtZ3JhZGllbnQxKSwgdmFyKC0tdGhlbWUtZGVhZnVsdCkpO1xyXG5cdFx0YmFja2dyb3VuZDogbGluZWFyLWdyYWRpZW50KHRvIHJpZ2h0LCB2YXIoLS10aGVtZS1ncmFkaWVudDEpLCB2YXIoLS10aGVtZS1kZWFmdWx0KSk7XHJcblx0XHRiYWNrZ3JvdW5kLXJlcGVhdDogbm8tcmVwZWF0O1xyXG5cdFx0YmFja2dyb3VuZC1zaXplOiBjb3ZlcjtcclxuXHRcdGJhY2tncm91bmQtcG9zaXRpb246IDAgMDtcclxuXHRcdGJvcmRlci1yYWRpdXM6IDAgMTBweCAxMHB4IDA7XHJcblxyXG5cdFx0ZGlzcGxheTogZmxleDtcclxuXHRcdGFsaWduLWl0ZW1zOiBjZW50ZXI7XHJcblx0XHRqdXN0aWZ5LWNvbnRlbnQ6IGNlbnRlcjtcclxuXHRcdGZsZXgtZGlyZWN0aW9uOiBjb2x1bW47XHJcblx0XHRwYWRkaW5nOiA1MHB4IDUwcHg7XHJcblx0XHRoZWlnaHQ6IDEwMCU7XHJcblx0XHR0ZXh0LWFsaWduOiBjZW50ZXI7XHJcblxyXG5cdFx0LmltZy1sb2dvLWxvZ2lue1xyXG5cdFx0XHRtYXJnaW4tdG9wOiAtN3B4O1xyXG5cdFx0fVxyXG5cdH1cclxuXHJcblx0XHRoMXtcclxuXHRcdFx0Y29sb3I6IHdoaXRlO1xyXG5cdFx0fVxyXG59Il0sInNvdXJjZVJvb3QiOiIifQ== */"]
 });
 
 
@@ -8343,16 +8344,16 @@ FooterOneComponent.ɵcmp = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_0
       _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](32, "Sobre nosotros");
       _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]()();
       _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](33, "div", 5)(34, "ul")(35, "li")(36, "a", 23);
-      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](37, "Contactanos");
+      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](37, "Cont\u00E1ctanos");
       _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]()();
       _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](38, "li")(39, "a", 24);
-      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](40, "Politicas de privacidad");
+      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](40, "Pol\u00EDticas de privacidad");
       _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]()();
       _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](41, "li")(42, "a", 24);
-      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](43, "Terminos de servicio");
+      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](43, "T\u00E9rminos de servicio");
       _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]()()()()()();
       _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](44, "div", 20)(45, "div", 21)(46, "div", 22)(47, "h4");
-      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](48, "Informacion EyeDmx");
+      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](48, "Informaci\u00F3n EyeDmx");
       _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]()();
       _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](49, "div", 5)(50, "ul", 25)(51, "li");
       _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](52, "i", 26);
@@ -8364,7 +8365,7 @@ FooterOneComponent.ɵcmp = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_0
       _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
       _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](57, "li");
       _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](58, "i", 28);
-      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](59, "Contactanos: ");
+      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](59, "Cont\u00E1ctanos: ");
       _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](60, "a");
       _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](61, "info@eyedmx.com");
       _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]()()()()()()()()();
@@ -9149,16 +9150,14 @@ class NavService {
       type: 'link',
       active: false,
       path: 'login'
-    }, {
-      title: 'Servicios',
-      type: 'link',
-      active: false,
-      path: 'login'
-    }, {
-      title: 'Planes',
-      type: 'link',
-      active: false
-    }, {
+    },
+    // {
+    // 	title: 'Servicios', type: 'link', active: false, path: 'login'
+    // },
+    // {
+    // 	title: 'Planes', type: 'link', active: false,
+    // },
+    {
       title: 'Contacto',
       type: 'link',
       active: false,
@@ -10363,13 +10362,13 @@ UserComponent.ɵcmp = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_3__["�
       _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtext"](14, " Volver ");
       _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementEnd"]()();
       _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](15, "div", 12)(16, "ul")(17, "li", 13)(18, "a", 14);
-      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtext"](19, "Informacion de perfil");
+      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtext"](19, "Informaci\u00F3n de Perfil");
       _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementEnd"]()();
       _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](20, "li", 13)(21, "a", 14);
       _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtext"](22, "Mis pulseras");
       _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementEnd"]()();
       _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](23, "li", 15)(24, "a", 14);
-      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtext"](25, "Cerrar ses\u00EDon");
+      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtext"](25, "Cerrar Sesi\u00F3n");
       _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementEnd"]()()()()()();
       _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](26, "div", 16);
       _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelement"](27, "router-outlet");
@@ -10479,4 +10478,4 @@ document.addEventListener('DOMContentLoaded', () => {
 /******/ var __webpack_exports__ = __webpack_require__.O();
 /******/ }
 ]);
-//# sourceMappingURL=main.b0ac9b4e3b9fbbd0.js.map
+//# sourceMappingURL=main.fd13ef799a19e314.js.map

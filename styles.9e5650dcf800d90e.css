@@ -21197,7 +21197,7 @@ footer p {
   position: relative;
   display: inherit;
   padding-top: 13px;
-  text-transform: capitalize;
+  text-transform: none;
   font-size: 14px;
   color: #777777;
 }
@@ -78656,4 +78656,4 @@ a .icon-rotate-90:before, a .icon-rotate-180:before, a .icon-rotate-270:before, 
   background: #869791;
 }
 
-/*# sourceMappingURL=styles.28f6c3a4becc04d2.css.map*/
+/*# sourceMappingURL=styles.9e5650dcf800d90e.css.map*/

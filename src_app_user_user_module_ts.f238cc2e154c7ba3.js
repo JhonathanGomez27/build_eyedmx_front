@@ -595,7 +595,7 @@ DashboardUserComponent.ɵcmp = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODU
       _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtext"](14);
       _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementEnd"]();
       _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](15, "p");
-      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtext"](16, "Desde tu panel de usuario puedes ver tu actividad, como editar tu perfil y las pulseras que hayas solicitado ademas de las solicitudes y observaciones realizadas sobre cada una de estas.");
+      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtext"](16, "Desde tu panel de usuario puedes ver tu actividad, como editar tu perfil y las pulseras que hayas solicitado,adem\u00E1s, las solicitudes y observaciones realizadas sobre cada una de tus pulseras.");
       _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementEnd"]()();
       _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](17, "div", 12);
       _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtemplate"](18, DashboardUserComponent_div_18_Template, 3, 0, "div", 13);
@@ -636,7 +636,7 @@ DashboardUserComponent.ɵcmp = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODU
       _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵadvance"](1);
       _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵproperty"]("ngIf", !ctx.user.fotoBase64);
       _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵadvance"](5);
-      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtextInterpolate1"]("Hola, ", ctx.user.name, " !");
+      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtextInterpolate1"]("!Hola, ", ctx.user.name, "!");
       _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵadvance"](4);
       _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵproperty"]("ngIf", !ctx.editProfile);
       _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵadvance"](10);
@@ -6348,4 +6348,4 @@ UserModule.ɵinj = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵ�
 /***/ })
 
 }]);
-//# sourceMappingURL=src_app_user_user_module_ts.a01a9deb2572f074.js.map
+//# sourceMappingURL=src_app_user_user_module_ts.f238cc2e154c7ba3.js.map
