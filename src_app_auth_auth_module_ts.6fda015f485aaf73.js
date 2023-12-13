@@ -704,7 +704,7 @@ LoginComponent.ɵcmp = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_3__["
     }
     if (rf & 2) {
       const _r2 = _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵreference"](14);
-      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵproperty"]("title", "Inicio de ses\u00EDon")("breadcrumb", "Inicio de ses\u00EDon");
+      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵproperty"]("title", "Inicio de sesi\u00F3n")("breadcrumb", "Inicio de sesi\u00F3n");
       _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵadvance"](3);
       _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵproperty"]("formGroup", ctx.signInForm);
       _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵadvance"](5);
@@ -1900,4 +1900,4 @@ ResetPasswordComponent.ɵcmp = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODU
 /***/ })
 
 }]);
-//# sourceMappingURL=src_app_auth_auth_module_ts.8298eed88a7c2c44.js.map
+//# sourceMappingURL=src_app_auth_auth_module_ts.6fda015f485aaf73.js.map
