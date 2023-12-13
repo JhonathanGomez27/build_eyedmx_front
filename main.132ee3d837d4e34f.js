@@ -8474,11 +8474,11 @@ HeaderAdminComponent.ɵcmp = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE
       _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementEnd"]()();
       _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](22, "ul", 20)(23, "li")(24, "a", 21);
       _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelement"](25, "app-feather-icons", 13);
-      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtext"](26, "Configuracion ");
+      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtext"](26, "Configuraci\u00F3n ");
       _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementEnd"]()();
       _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](27, "li")(28, "a", 4);
       _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelement"](29, "app-feather-icons", 13);
-      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtext"](30, "Cerrar Ses\u00EDon ");
+      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtext"](30, "Cerrar Sesi\u00F3n ");
       _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementEnd"]()()()()();
       _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](31, "div", 22);
       _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵlistener"]("click", function HeaderAdminComponent_Template_div_click_31_listener() {
@@ -8540,29 +8540,21 @@ __webpack_require__.r(__webpack_exports__);
 const _c0 = function () {
   return ["/login"];
 };
-const _c1 = function () {
-  return ["/register"];
-};
 function HeaderOneComponent_div_2_ul_16_Template(rf, ctx) {
   if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](0, "ul", 21)(1, "li")(2, "a", 22);
-    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](3, " Iniciar sesion ");
-    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]()();
-    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](4, "li")(5, "a", 22);
-    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](6, " Registrarse ");
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](3, " Iniciar sesi\u00F3n ");
     _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]()()();
   }
   if (rf & 2) {
     _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵadvance"](2);
-    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵproperty"]("routerLink", _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵpureFunction0"](2, _c0));
-    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵadvance"](3);
-    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵproperty"]("routerLink", _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵpureFunction0"](3, _c1));
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵproperty"]("routerLink", _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵpureFunction0"](1, _c0));
   }
 }
-const _c2 = function () {
+const _c1 = function () {
   return ["/user/dashboard"];
 };
-const _c3 = function () {
+const _c2 = function () {
   return ["/sign-out"];
 };
 function HeaderOneComponent_div_2_ul_17_Template(rf, ctx) {
@@ -8571,14 +8563,14 @@ function HeaderOneComponent_div_2_ul_17_Template(rf, ctx) {
     _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](3, " Perfil ");
     _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]()();
     _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](4, "li")(5, "a", 22);
-    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](6, " Cerrar ses\u00EDon ");
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](6, " Cerrar sesi\u00F3n ");
     _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]()()();
   }
   if (rf & 2) {
     _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵadvance"](2);
-    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵproperty"]("routerLink", _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵpureFunction0"](2, _c2));
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵproperty"]("routerLink", _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵpureFunction0"](2, _c1));
     _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵadvance"](3);
-    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵproperty"]("routerLink", _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵpureFunction0"](3, _c3));
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵproperty"]("routerLink", _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵpureFunction0"](3, _c2));
   }
 }
 function HeaderOneComponent_div_2_Template(rf, ctx) {
@@ -8593,7 +8585,7 @@ function HeaderOneComponent_div_2_Template(rf, ctx) {
     _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](11, "div", 16)(12, "ul", 17)(13, "li", 18);
     _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](14, "i", 19);
     _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](15, " Mi cuenta ");
-    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtemplate"](16, HeaderOneComponent_div_2_ul_16_Template, 7, 4, "ul", 20);
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtemplate"](16, HeaderOneComponent_div_2_ul_16_Template, 4, 2, "ul", 20);
     _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtemplate"](17, HeaderOneComponent_div_2_ul_17_Template, 7, 4, "ul", 20);
     _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]()()()()()();
   }
@@ -9095,7 +9087,7 @@ class NavAdminService {
       ]
     }, {
       path: 'parameters',
-      title: 'Parametros',
+      title: 'Parámetros',
       icon: 'grid',
       type: 'link',
       active: false,
@@ -10362,7 +10354,7 @@ UserComponent.ɵcmp = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_3__["�
       _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtext"](14, " Volver ");
       _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementEnd"]()();
       _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](15, "div", 12)(16, "ul")(17, "li", 13)(18, "a", 14);
-      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtext"](19, "Informaci\u00F3n de Perfil");
+      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtext"](19, "Informaci\u00F3n del Perfil");
       _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementEnd"]()();
       _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](20, "li", 13)(21, "a", 14);
       _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtext"](22, "Mis pulseras");
@@ -10478,4 +10470,4 @@ document.addEventListener('DOMContentLoaded', () => {
 /******/ var __webpack_exports__ = __webpack_require__.O();
 /******/ }
 ]);
-//# sourceMappingURL=main.fd13ef799a19e314.js.map
+//# sourceMappingURL=main.132ee3d837d4e34f.js.map

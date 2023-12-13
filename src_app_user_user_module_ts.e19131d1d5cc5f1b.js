@@ -1083,14 +1083,14 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-function CheckoutEfectiveComponent_span_19_Template(rf, ctx) {
+function CheckoutEfectiveComponent_span_21_Template(rf, ctx) {
   if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](0, "span")(1, "div", 14)(2, "span", 15);
     _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](3, "Loading...");
     _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]()()();
   }
 }
-function CheckoutEfectiveComponent_span_20_Template(rf, ctx) {
+function CheckoutEfectiveComponent_span_22_Template(rf, ctx) {
   if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](0, "span");
     _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](1, "Continuar");
@@ -1279,39 +1279,41 @@ CheckoutEfectiveComponent.ɵcmp = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_M
     adInfo: "adInfo",
     paymentInfo: "paymentInfo"
   },
-  decls: 21,
+  decls: 23,
   vars: 7,
   consts: [[1, "checkout"], [1, "checkout-in"], [1, "checkout-card"], [1, "checkbox-alert"], [3, "ngClass"], [1, "form-loading", 3, "formGroup", "submit"], [1, "label"], [1, "input-group", "input-amount"], ["type", "text", "readonly", "", "formControlName", "amount", "placeholder", "0.00"], [1, "input-group-text"], [1, "input"], ["id", "email", 1, "input-card"], ["type", "submit", 1, "button", 3, "disabled"], [4, "ngIf"], ["role", "status", 1, "spinner-border"], [1, "visually-hidden"]],
   template: function CheckoutEfectiveComponent_Template(rf, ctx) {
     if (rf & 1) {
       _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](0, "div", 0)(1, "div", 1)(2, "div", 2)(3, "div", 3);
-      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](4, " A continuaci\u00F3n debes de introducir los datos de la direccion de envio de su pulsera. ");
+      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](4, " \u00A1A continuaci\u00F3n debes de introducir los datos de la direccion de envio de su pulsera!");
+      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelement"](5, "br");
+      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](6, " Nos pondremos en contacto contigo para finalizar el pago de la pulsera. ");
       _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]();
-      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](5, "div", 4)(6, "form", 5);
-      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵlistener"]("submit", function CheckoutEfectiveComponent_Template_form_submit_6_listener() {
+      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](7, "div", 4)(8, "form", 5);
+      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵlistener"]("submit", function CheckoutEfectiveComponent_Template_form_submit_8_listener() {
         return ctx.initPay();
       });
-      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](7, "label", 6);
-      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](8, "Monto a pagar");
+      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](9, "label", 6);
+      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](10, "Monto a pagar");
       _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]();
-      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](9, "div", 7);
-      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelement"](10, "input", 8);
-      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](11, "span", 9);
-      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](12, "MXN");
+      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](11, "div", 7);
+      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelement"](12, "input", 8);
+      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](13, "span", 9);
+      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](14, "MXN");
       _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]()();
-      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelement"](13, "hr");
-      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](14, "div", 10)(15, "label", 6);
-      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](16, "Datos de envio");
+      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelement"](15, "hr");
+      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](16, "div", 10)(17, "label", 6);
+      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](18, "Datos de envio");
       _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]();
-      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelement"](17, "div", 11);
+      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelement"](19, "div", 11);
       _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]();
-      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](18, "button", 12);
-      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtemplate"](19, CheckoutEfectiveComponent_span_19_Template, 4, 0, "span", 13);
-      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtemplate"](20, CheckoutEfectiveComponent_span_20_Template, 2, 0, "span", 13);
+      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](20, "button", 12);
+      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtemplate"](21, CheckoutEfectiveComponent_span_21_Template, 4, 0, "span", 13);
+      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtemplate"](22, CheckoutEfectiveComponent_span_22_Template, 2, 0, "span", 13);
       _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]()()()()()();
     }
     if (rf & 2) {
-      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵadvance"](5);
+      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵadvance"](7);
       _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵproperty"]("ngClass", _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵpureFunction1"](5, _c0, ctx.loading));
       _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵadvance"](1);
       _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵproperty"]("formGroup", ctx.form);
@@ -1363,14 +1365,14 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-function CheckoutPageComponent_span_42_Template(rf, ctx) {
+function CheckoutPageComponent_span_45_Template(rf, ctx) {
   if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](0, "span")(1, "div", 25)(2, "span", 26);
     _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](3, "Loading...");
     _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]()()();
   }
 }
-function CheckoutPageComponent_span_43_Template(rf, ctx) {
+function CheckoutPageComponent_span_46_Template(rf, ctx) {
   if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](0, "span");
     _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](1, "Pagar");
@@ -1686,61 +1688,65 @@ CheckoutPageComponent.ɵcmp = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODUL
   inputs: {
     paymentInfo: "paymentInfo"
   },
-  decls: 44,
+  decls: 47,
   vars: 10,
   consts: [[1, "checkout"], [1, "checkout-in"], [1, "checkout-card"], [1, "checkbox-alert"], ["href", "https://stripe.com/", "target", "_blank"], [3, "ngClass"], [1, "form-loading", 3, "formGroup", "submit"], [1, "label"], [1, "input-group", "input-amount"], ["type", "text", "readonly", "", "formControlName", "amount", "placeholder", "0.00"], [1, "input-group-text"], [1, "contenedor-cards"], ["aria-hidden", "true", 1, "fa", "fa-cc-visa", "f-20"], ["aria-hidden", "true", 1, "fa", "fa-cc-amex", "f-20"], ["aria-hidden", "true", 1, "fa", "fa-cc-mastercard", "f-20"], ["aria-hidden", "true", 1, "fa", "fa-cc-diners-club", "f-20"], [1, "input"], ["id", "card", 1, "input-card"], [1, "fecha-ccv"], ["id", "cvc", 1, "input-card"], ["id", "exp", 1, "input-card"], [1, "input", 3, "ngClass"], ["id", "email", 1, "input-card"], ["type", "submit", 1, "button", 3, "disabled"], [4, "ngIf"], ["role", "status", 1, "spinner-border"], [1, "visually-hidden"]],
   template: function CheckoutPageComponent_Template(rf, ctx) {
     if (rf & 1) {
       _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](0, "div", 0)(1, "div", 1)(2, "div", 2)(3, "div", 3);
-      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](4, " A continuaci\u00F3n debes de introducir los datos de tu tarjeta para procesar el pago! El pago se procesara mediante la platforma de ");
-      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](5, "b")(6, "a", 4);
-      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](7, "stripe");
-      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]()()();
-      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](8, "div", 5)(9, "form", 6);
-      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵlistener"]("submit", function CheckoutPageComponent_Template_form_submit_9_listener() {
+      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](4, " \u00A1A continuaci\u00F3n debes introducir los datos de tu tarjeta para procesar tu compra!");
+      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelement"](5, "br");
+      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](6, " El pago se procesar\u00E1 por la platforma de ");
+      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](7, "b")(8, "a", 4);
+      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](9, "stripe");
+      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]()();
+      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](10, ". ");
+      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]();
+      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](11, "div", 5)(12, "form", 6);
+      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵlistener"]("submit", function CheckoutPageComponent_Template_form_submit_12_listener() {
         return ctx.initPay();
       });
-      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](10, "label", 7);
-      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](11, "Monto a pagar");
+      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](13, "label", 7);
+      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](14, "Monto a pagar");
       _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]();
-      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](12, "div", 8);
-      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelement"](13, "input", 9);
-      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](14, "span", 10);
-      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](15, "MXN");
+      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](15, "div", 8);
+      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelement"](16, "input", 9);
+      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](17, "span", 10);
+      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](18, "MXN");
       _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]()();
-      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelement"](16, "hr");
-      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](17, "div", 11);
-      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelement"](18, "i", 12)(19, "i", 13)(20, "i", 14)(21, "i", 15);
+      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelement"](19, "hr");
+      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](20, "div", 11);
+      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelement"](21, "i", 12)(22, "i", 13)(23, "i", 14)(24, "i", 15);
       _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]();
-      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](22, "div", 16)(23, "label", 7);
-      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](24, "N\u00FAmero de tarjeta");
+      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](25, "div", 16)(26, "label", 7);
+      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](27, "N\u00FAmero de tarjeta");
       _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]();
-      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelement"](25, "div", 17);
+      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelement"](28, "div", 17);
       _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]();
-      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelement"](26, "hr");
-      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](27, "div", 18)(28, "div", 16)(29, "label", 7);
-      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](30, "CVC");
+      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelement"](29, "hr");
+      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](30, "div", 18)(31, "div", 16)(32, "label", 7);
+      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](33, "CVC");
       _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]();
-      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelement"](31, "div", 19);
+      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelement"](34, "div", 19);
       _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]();
-      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](32, "div", 16)(33, "label", 7);
-      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](34, "Fecha de vencimiento");
+      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](35, "div", 16)(36, "label", 7);
+      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](37, "Fecha de vencimiento");
       _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]();
-      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelement"](35, "div", 20);
+      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelement"](38, "div", 20);
       _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]()();
-      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelement"](36, "hr");
-      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](37, "div", 21)(38, "label", 7);
-      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](39, "Datos de envio");
+      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelement"](39, "hr");
+      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](40, "div", 21)(41, "label", 7);
+      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](42, "Datos de envio");
       _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]();
-      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelement"](40, "div", 22);
+      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelement"](43, "div", 22);
       _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]();
-      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](41, "button", 23);
-      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtemplate"](42, CheckoutPageComponent_span_42_Template, 4, 0, "span", 24);
-      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtemplate"](43, CheckoutPageComponent_span_43_Template, 2, 0, "span", 24);
+      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](44, "button", 23);
+      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtemplate"](45, CheckoutPageComponent_span_45_Template, 4, 0, "span", 24);
+      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtemplate"](46, CheckoutPageComponent_span_46_Template, 2, 0, "span", 24);
       _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]()()()()()();
     }
     if (rf & 2) {
-      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵadvance"](8);
+      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵadvance"](11);
       _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵproperty"]("ngClass", _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵpureFunction1"](6, _c0, ctx.loading));
       _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵadvance"](1);
       _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵproperty"]("formGroup", ctx.form);
@@ -6348,4 +6354,4 @@ UserModule.ɵinj = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵ�
 /***/ })
 
 }]);
-//# sourceMappingURL=src_app_user_user_module_ts.f238cc2e154c7ba3.js.map
+//# sourceMappingURL=src_app_user_user_module_ts.e19131d1d5cc5f1b.js.map
