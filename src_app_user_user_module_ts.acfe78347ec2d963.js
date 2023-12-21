@@ -1696,7 +1696,7 @@ CheckoutPageComponent.ɵcmp = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODUL
       _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](0, "div", 0)(1, "div", 1)(2, "div", 2)(3, "div", 3);
       _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](4, " \u00A1A continuaci\u00F3n debes introducir los datos de tu tarjeta para procesar tu compra!");
       _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelement"](5, "br");
-      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](6, " El pago se procesar\u00E1 por la platforma de ");
+      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](6, " El pago se procesar\u00E1 por la Plataforma de ");
       _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](7, "b")(8, "a", 4);
       _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](9, "stripe");
       _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]()();
@@ -6354,4 +6354,4 @@ UserModule.ɵinj = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵ�
 /***/ })
 
 }]);
-//# sourceMappingURL=src_app_user_user_module_ts.e19131d1d5cc5f1b.js.map
+//# sourceMappingURL=src_app_user_user_module_ts.acfe78347ec2d963.js.map
