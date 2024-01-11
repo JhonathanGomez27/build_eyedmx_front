@@ -10470,8 +10470,8 @@ const environment = {
   production: false,
   stripe_token: 'STRIPE_TOKEN',
   paypal_token: 'PAYPAL_TOKEN',
-  urlWeb: 'http://localhost:4000/eyedmx/',
-  // urlWeb: 'https://api.eyedmxapp.com/eyedmx/',
+  // urlWeb: 'http://localhost:4000/eyedmx/',
+  urlWeb: 'https://api.eyedmxapp.com/eyedmx/',
   secrectKey: 'secret',
   pagination_limit: 15,
   stripe_pk: 'pk_live_51NuNK7FIa4mmi6JqbJkVqwUxR7IrrYJKZqZUAeqDg33BY3olGFDPEQQVQVygD52AJcEUX5ejUpA0dWdbPjpR8hLo00PbbOwQCe'
@@ -10532,4 +10532,4 @@ document.addEventListener('DOMContentLoaded', () => {
 /******/ var __webpack_exports__ = __webpack_require__.O();
 /******/ }
 ]);
-//# sourceMappingURL=main.be222112bbc161ea.js.map
+//# sourceMappingURL=main.f4d3e1e5cf80ee33.js.map
