@@ -1727,14 +1727,14 @@ function VerManillaAdminComponent_ng_template_0_div_7_ng_template_15_Template(rf
 function VerManillaAdminComponent_ng_template_0_div_7_ng_template_18_Template(rf, ctx) {
   if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](0, "button", 40);
-    _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtext"](1, "Direccion de envio");
+    _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtext"](1, "Direcci\u00F3n de Env\u00EDo");
     _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementEnd"]();
   }
 }
 function VerManillaAdminComponent_ng_template_0_div_7_ng_template_19_Template(rf, ctx) {
   if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](0, "div", 46)(1, "div", 47)(2, "div", 34)(3, "h4");
-    _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtext"](4, "Direccion de envio");
+    _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtext"](4, "Direcci\u00F3n de Env\u00EDo");
     _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](5, "ul", 48)(6, "li");
     _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtext"](7);
@@ -35753,4 +35753,4 @@ const version = XLSX.version;
 /***/ })
 
 }]);
-//# sourceMappingURL=src_app_admin_manillas_manillas_module_ts.cc8022ce4dded9c0.js.map
+//# sourceMappingURL=src_app_admin_manillas_manillas_module_ts.dae15fdebbecb308.js.map

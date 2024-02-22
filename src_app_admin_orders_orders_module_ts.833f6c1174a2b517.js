@@ -52,7 +52,7 @@ function VerOrdenComponent_ng_template_0_div_5_Template(rf, ctx) {
 function VerOrdenComponent_ng_template_0_div_35_Template(rf, ctx) {
   if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](0, "div", 22)(1, "h4");
-    _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtext"](2, "Metodo de pago");
+    _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtext"](2, "M\u00E9todo de pago");
     _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](3, "p");
     _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtext"](4, "Tarjeta credito / debito.");
@@ -62,7 +62,7 @@ function VerOrdenComponent_ng_template_0_div_35_Template(rf, ctx) {
 function VerOrdenComponent_ng_template_0_div_36_Template(rf, ctx) {
   if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](0, "div", 22)(1, "h4");
-    _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtext"](2, "Metodo de pago");
+    _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtext"](2, "M\u00E9todo de pago");
     _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](3, "p");
     _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtext"](4, "Efectivo.");
@@ -286,7 +286,7 @@ function VerOrdenComponent_ng_template_0_Template(rf, ctx) {
     _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵpipe"](20, "number");
     _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementEnd"]()()();
     _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](21, "div", 10)(22, "h4");
-    _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtext"](23, "Direccion de envio");
+    _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtext"](23, "Direcci\u00F3n de Env\u00EDo");
     _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](24, "ul", 11)(25, "li");
     _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtext"](26);
@@ -735,7 +735,7 @@ OrdersCashComponent.ɵcmp = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_
       _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](24, "Estado");
       _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]();
       _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](25, "th", 13);
-      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](26, "Metodo");
+      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](26, "M\u00E9todo");
       _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]();
       _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](27, "th", 13);
       _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](28, "Acciones");
@@ -1229,4 +1229,4 @@ OrdersRoutes.ɵinj = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵ
 /***/ })
 
 }]);
-//# sourceMappingURL=src_app_admin_orders_orders_module_ts.191530ce4dd5dc95.js.map
+//# sourceMappingURL=src_app_admin_orders_orders_module_ts.833f6c1174a2b517.js.map
